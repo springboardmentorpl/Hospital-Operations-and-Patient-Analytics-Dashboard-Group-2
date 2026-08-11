@@ -1,6 +1,6 @@
 # Hospital Operations and Patient Analytics Dashboard - Group 2
 
-## 📌 Project Overview
+##  Project Overview
 
 The **Hospital Operations and Patient Analytics Dashboard** project focuses on analyzing hospital operational and patient-related data to generate meaningful insights and support data-driven decision-making.
 
@@ -8,7 +8,7 @@ The project includes data collection, data preparation, data cleaning, transform
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Collect and prepare hospital operational data
 - Analyze patient admission records
@@ -22,7 +22,7 @@ The project includes data collection, data preparation, data cleaning, transform
 
 ---
 
-# 📊 Milestone 1: Data Collection and Preparation
+#  Milestone 1: Data Collection and Preparation
 
 ## Module 1: Hospital Data Collection
 
@@ -69,7 +69,7 @@ The project includes data collection, data preparation, data cleaning, transform
 
 ---
 
-# 🧹 Data Cleaning Process
+#  Data Cleaning Process
 
 The hospital dataset is processed through the following workflow:
 

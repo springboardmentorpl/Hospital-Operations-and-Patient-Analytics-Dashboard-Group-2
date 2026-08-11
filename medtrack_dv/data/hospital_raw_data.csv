@@ -1,0 +1,985 @@
+Patient_ID,Hospital,Region,Department,Patient_Type,Admission_Date,Discharge_Date,Age,Gender,Condition,Procedure,Cost,Length_of_Stay,Readmission,Outcome,Satisfaction
+1,City Care Hospital,East,Cardiology,Inpatient,2024-07-10,2024-07-15,45,Female,Heart Disease,Angioplasty,15000,5,No,Recovered,4
+2,Metro Health Institute,West,General Medicine,Emergency,2024-06-21,2024-06-24,60,Male,Diabetes,Insulin Therapy,2000,3,Yes,Stable,3
+3,Metro Health Institute,West,Orthopedics,Inpatient,2024-09-21,2024-09-22,32,Female,Fractured Arm,X-Ray and Splint,500,1,No,Recovered,5
+4,Sunrise Medical Center,South,ICU,Inpatient,2024-07-05,2024-07-12,75,Male,Stroke,CT Scan and Medication,10000,7,Yes,Stable,2
+5,Sunrise Medical Center,South,Surgery,Inpatient,2024-07-18,2024-07-28,50,Female,Cancer,Surgery and Chemotherapy,25000,10,No,Recovered,4
+6,HealthPlus Hospital,West,General Medicine,Outpatient,2024-04-24,2024-04-26,68,Male,Hypertension,Medication and Counseling,1000,2,No,Stable,4
+7,City Care Hospital,South,Surgery,Outpatient,2024-12-05,2024-12-09,55,Female,Appendicitis,Appendectomy,8000,4,No,Recovered,3
+8,Metro Health Institute,East,Orthopedics,Outpatient,2024-12-20,2024-12-26,40,Male,Fractured Leg,Cast and Physical Therapy,3000,6,No,Recovered,4
+9,Green Valley Hospital,North,Cardiology,Outpatient,2024-02-17,2024-02-25,70,Female,Heart Attack,Cardiac Catheterization,18000,8,Yes,Stable,2
+10,City Care Hospital,East,Emergency,Inpatient,2024-09-25,2024-09-26,25,Male,Allergic Reaction,Epinephrine Injection,100,1,No,Recovered,5
+11,Sunrise Medical Center,East,General Medicine,Emergency,2024-01-09,2024-01-11,48,Female,Respiratory Infection,Antibiotics and Rest,800,2,No,Stable,4
+12,HealthPlus Hospital,West,Surgery,Inpatient,2024-05-15,2024-05-24,65,Male,Prostate Cancer,Radiation Therapy,20000,9,No,Recovered,3
+13,Metro Health Institute,East,Pediatrics,Outpatient,2024-12-21,2024-12-24,30,Female,Childbirth,Delivery and Postnatal Care,12000,3,No,Recovered,4
+14,Metro Health Institute,South,General Medicine,Inpatient,2024-03-04,2024-03-08,52,Male,Kidney Stones,Lithotripsy,6000,4,No,Recovered,3
+15,Metro Health Institute,Central,Orthopedics,Day Care,2024-05-17,2024-05-22,58,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,5,No,Stable,4
+16,Metro Health Institute,East,Cardiology,Inpatient,2024-03-21,2024-03-27,55,Female,Heart Disease,Angioplasty,15000,6,Yes,Recovered,3
+17,Sunrise Medical Center,Central,General Medicine,Inpatient,2024-09-23,2024-09-27,62,Male,Diabetes,Insulin Therapy,2000,4,No,Stable,4
+18,City Care Hospital,West,Orthopedics,Inpatient,2024-06-18,2024-06-20,35,Female,Fractured Arm,X-Ray and Splint,500,2,Yes,Recovered,5
+19,HealthPlus Hospital,East,ICU,Inpatient,2024-08-05,2024-08-13,78,Male,Stroke,CT Scan and Medication,10000,8,No,Stable,2
+20,Sunrise Medical Center,Central,Surgery,Inpatient,2024-12-10,2024-12-21,53,Female,Cancer,Surgery and Chemotherapy,25000,11,Yes,Recovered,4
+21,Sunrise Medical Center,North,General Medicine,Outpatient,2024-07-09,2024-07-12,72,Male,Hypertension,Medication and Counseling,1000,3,No,Stable,4
+22,Green Valley Hospital,Central,Surgery,Inpatient,2024-09-25,2024-09-30,60,Female,Appendicitis,Appendectomy,8000,5,Yes,Recovered,3
+23,City Care Hospital,Central,Orthopedics,Emergency,2024-02-05,2024-02-12,45,Male,Fractured Leg,Cast and Physical Therapy,3000,7,No,Recovered,4
+24,HealthPlus Hospital,East,Cardiology,Inpatient,2024-03-19,2024-03-28,75,Female,Heart Attack,Cardiac Catheterization,18000,9,Yes,Stable,2
+25,Metro Health Institute,West,Emergency,Outpatient,2024-12-12,2024-12-14,28,Male,Allergic Reaction,Epinephrine Injection,100,2,No,Recovered,5
+26,Metro Health Institute,East,General Medicine,Inpatient,2024-11-10,2024-11-13,52,Female,Respiratory Infection,Antibiotics and Rest,800,3,No,Stable,4
+27,Sunrise Medical Center,South,Surgery,Outpatient,2024-08-28,2024-09-07,67,Male,Prostate Cancer,Radiation Therapy,20000,10,No,Recovered,3
+28,HealthPlus Hospital,West,Pediatrics,Outpatient,2024-05-18,2024-05-22,35,Female,Childbirth,Delivery and Postnatal Care,12000,4,No,Recovered,4
+29,Sunrise Medical Center,South,General Medicine,Inpatient,2024-03-14,2024-03-19,50,Male,Kidney Stones,Lithotripsy,6000,5,No,Recovered,3
+30,Sunrise Medical Center,South,Orthopedics,Emergency,2024-11-07,2024-11-13,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,6,No,Stable,4
+31,Sunrise Medical Center,East,Cardiology,Inpatient,2024-10-14,2024-10-21,48,Female,Heart Disease,Angioplasty,15000,7,Yes,Recovered,4
+32,Green Valley Hospital,Central,General Medicine,Inpatient,2024-03-29,2024-04-03,65,Male,Diabetes,Insulin Therapy,2000,5,No,Stable,3
+33,City Care Hospital,South,Orthopedics,Outpatient,2024-08-03,2024-08-06,30,Female,Fractured Arm,X-Ray and Splint,500,3,No,Recovered,5
+34,Sunrise Medical Center,East,ICU,Outpatient,2024-08-14,2024-08-23,70,Male,Stroke,CT Scan and Medication,10000,9,Yes,Stable,2
+35,HealthPlus Hospital,North,Surgery,Inpatient,2024-06-23,2024-07-05,55,Female,Cancer,Surgery and Chemotherapy,25000,12,No,Recovered,4
+36,City Care Hospital,North,General Medicine,Inpatient,2024-12-05,2024-12-09,68,Male,Hypertension,Medication and Counseling,1000,4,No,Stable,4
+37,HealthPlus Hospital,North,Surgery,Outpatient,2024-02-15,2024-02-21,45,Female,Appendicitis,Appendectomy,8000,6,No,Recovered,3
+38,HealthPlus Hospital,North,Orthopedics,Outpatient,2024-04-04,2024-04-12,40,Male,Fractured Leg,Cast and Physical Therapy,3000,8,No,Recovered,4
+39,Green Valley Hospital,Central,Cardiology,Day Care,2024-02-04,2024-02-14,78,Female,Heart Attack,Cardiac Catheterization,18000,10,Yes,Stable,2
+40,Metro Health Institute,Central,Emergency,Inpatient,2024-09-10,2024-09-13,25,Male,Allergic Reaction,Epinephrine Injection,100,3,No,Recovered,5
+41,City Care Hospital,Central,General Medicine,Outpatient,2024-08-23,2024-08-27,52,Female,Respiratory Infection,Antibiotics and Rest,800,4,No,Stable,4
+42,Metro Health Institute,North,Surgery,Inpatient,2024-12-27,2025-01-07,58,Male,Prostate Cancer,Radiation Therapy,20000,11,No,Recovered,3
+43,Metro Health Institute,North,Pediatrics,Emergency,2024-07-17,2024-07-22,32,Female,Childbirth,Delivery and Postnatal Care,12000,5,No,Recovered,4
+44,Green Valley Hospital,South,General Medicine,Inpatient,2024-02-25,2024-03-02,55,Male,Kidney Stones,Lithotripsy,6000,6,No,Recovered,3
+45,City Care Hospital,East,Orthopedics,Outpatient,2024-06-14,2024-06-21,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,7,No,Stable,4
+46,HealthPlus Hospital,South,Cardiology,Inpatient,2024-02-02,2024-02-10,55,Female,Heart Disease,Angioplasty,15000,8,Yes,Recovered,3
+47,Sunrise Medical Center,East,General Medicine,Inpatient,2024-09-02,2024-09-08,62,Male,Diabetes,Insulin Therapy,2000,6,No,Stable,4
+48,HealthPlus Hospital,North,Orthopedics,Outpatient,2024-09-03,2024-09-07,35,Female,Fractured Arm,X-Ray and Splint,500,4,Yes,Recovered,5
+49,Metro Health Institute,West,ICU,Inpatient,2024-11-09,2024-11-19,78,Male,Stroke,CT Scan and Medication,10000,10,No,Stable,2
+50,Metro Health Institute,South,Surgery,Emergency,2024-05-04,2024-05-17,53,Female,Cancer,Surgery and Chemotherapy,25000,13,Yes,Recovered,4
+51,Metro Health Institute,North,General Medicine,Inpatient,2024-04-23,2024-04-28,72,Male,Hypertension,Medication and Counseling,1000,5,No,Stable,4
+52,City Care Hospital,West,Surgery,Outpatient,2024-01-27,2024-02-03,60,Female,Appendicitis,Appendectomy,8000,7,Yes,Recovered,3
+53,Green Valley Hospital,Central,Orthopedics,Inpatient,2024-05-31,2024-06-09,45,Male,Fractured Leg,Cast and Physical Therapy,3000,9,No,Recovered,4
+54,Sunrise Medical Center,North,Cardiology,Inpatient,2024-06-22,2024-07-03,75,Female,Heart Attack,Cardiac Catheterization,18000,11,Yes,Stable,2
+55,Sunrise Medical Center,East,Emergency,Inpatient,2024-10-03,2024-10-07,28,Male,Allergic Reaction,Epinephrine Injection,100,4,No,Recovered,5
+56,City Care Hospital,Central,General Medicine,Inpatient,2024-10-02,2024-10-07,52,Female,Respiratory Infection,Antibiotics and Rest,800,5,No,Stable,4
+57,Sunrise Medical Center,West,Surgery,Inpatient,2024-02-21,2024-03-04,67,Male,Prostate Cancer,Radiation Therapy,20000,12,No,Recovered,3
+58,City Care Hospital,Central,Pediatrics,Outpatient,2024-04-14,2024-04-20,35,Female,Childbirth,Delivery and Postnatal Care,12000,6,No,Recovered,4
+59,Metro Health Institute,East,General Medicine,Outpatient,2024-07-06,2024-07-13,50,Male,Kidney Stones,Lithotripsy,6000,7,No,Recovered,3
+61,Metro Health Institute,South,Cardiology,Outpatient,2024-05-02,2024-05-11,48,Female,Heart Disease,Angioplasty,15000,9,Yes,Recovered,4
+62,HealthPlus Hospital,West,General Medicine,Inpatient,2024-01-10,2024-01-17,65,Male,Diabetes,Insulin Therapy,2000,7,No,Stable,3
+63,Metro Health Institute,North,Orthopedics,Inpatient,2024-11-05,2024-11-10,30,Female,Fractured Arm,X-Ray and Splint,500,5,No,Recovered,5
+64,Green Valley Hospital,South,ICU,Inpatient,2024-09-24,2024-10-05,70,Male,Stroke,CT Scan and Medication,10000,11,Yes,Stable,2
+65,HealthPlus Hospital,West,Surgery,Outpatient,2024-07-09,2024-07-23,55,Female,Cancer,Surgery and Chemotherapy,25000,14,No,Recovered,4
+66,Sunrise Medical Center,West,General Medicine,Outpatient,2024-04-26,2024-05-02,68,Male,Hypertension,Medication and Counseling,1000,6,No,Stable,4
+67,Green Valley Hospital,North,Surgery,Inpatient,2024-11-04,2024-11-12,45,Female,Appendicitis,Appendectomy,8000,8,No,Recovered,3
+68,HealthPlus Hospital,East,Orthopedics,Outpatient,2024-01-13,2024-01-23,40,Male,Fractured Leg,Cast and Physical Therapy,3000,10,No,Recovered,4
+69,Green Valley Hospital,South,Cardiology,Inpatient,2024-06-12,2024-06-24,78,Female,Heart Attack,Cardiac Catheterization,18000,12,Yes,Stable,2
+70,City Care Hospital,East,Emergency,Inpatient,2024-10-20,2024-10-25,25,Male,Allergic Reaction,Epinephrine Injection,100,5,No,Recovered,5
+71,Sunrise Medical Center,Central,General Medicine,Inpatient,2024-12-14,2024-12-20,52,Female,Respiratory Infection,Antibiotics and Rest,800,6,No,Stable,4
+72,Metro Health Institute,North,Surgery,Inpatient,2024-04-02,2024-04-15,58,Male,Prostate Cancer,Radiation Therapy,20000,13,No,Recovered,3
+73,City Care Hospital,Central,Pediatrics,Outpatient,2024-08-26,2024-09-02,32,Female,Childbirth,Delivery and Postnatal Care,12000,7,No,Recovered,4
+74,Sunrise Medical Center,East,General Medicine,Emergency,2024-03-10,2024-03-18,55,Male,Kidney Stones,Lithotripsy,6000,8,No,Recovered,3
+75,City Care Hospital,West,Orthopedics,Inpatient,2024-02-12,2024-02-21,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,9,No,Stable,4
+76,Metro Health Institute,East,Cardiology,Inpatient,2024-05-09,2024-05-19,55,Female,Heart Disease,Angioplasty,15000,10,Yes,Recovered,3
+77,Sunrise Medical Center,South,General Medicine,Outpatient,2024-11-19,2024-11-27,62,Male,Diabetes,Insulin Therapy,2000,8,No,Stable,4
+78,Green Valley Hospital,West,Orthopedics,Emergency,2024-09-09,2024-09-15,35,Female,Fractured Arm,X-Ray and Splint,500,6,Yes,Recovered,5
+79,Green Valley Hospital,West,ICU,Outpatient,2024-06-28,2024-07-10,78,Male,Stroke,CT Scan and Medication,10000,12,No,Stable,2
+80,Sunrise Medical Center,North,Surgery,Inpatient,2024-04-13,2024-04-28,53,Female,Cancer,Surgery and Chemotherapy,25000,15,Yes,Recovered,4
+81,Metro Health Institute,West,General Medicine,Outpatient,2024-02-21,2024-02-28,72,Male,Hypertension,Medication and Counseling,1000,7,No,Stable,4
+82,HealthPlus Hospital,West,Surgery,Inpatient,2024-04-09,2024-04-18,60,Female,Appendicitis,Appendectomy,8000,9,Yes,Recovered,3
+83,Sunrise Medical Center,South,Orthopedics,Day Care,2024-02-25,2024-03-07,45,Male,Fractured Leg,Cast and Physical Therapy,3000,11,No,Recovered,4
+84,City Care Hospital,Central,Cardiology,Inpatient,2024-03-09,2024-03-22,75,Female,Heart Attack,Cardiac Catheterization,18000,13,Yes,Stable,2
+85,HealthPlus Hospital,West,Emergency,Outpatient,2024-09-08,2024-09-14,28,Male,Allergic Reaction,Epinephrine Injection,100,6,No,Recovered,5
+86,Metro Health Institute,South,General Medicine,Inpatient,2024-02-18,2024-02-25,52,Female,Respiratory Infection,Antibiotics and Rest,800,7,No,Stable,4
+87,Metro Health Institute,North,Surgery,Inpatient,2024-01-18,2024-02-01,67,Male,Prostate Cancer,Radiation Therapy,20000,14,No,Recovered,3
+88,City Care Hospital,West,Pediatrics,Outpatient,2024-07-17,2024-07-25,35,Female,Childbirth,Delivery and Postnatal Care,12000,8,No,Recovered,4
+89,Green Valley Hospital,South,General Medicine,Outpatient,2024-04-14,2024-04-23,50,Male,Kidney Stones,Lithotripsy,6000,9,No,Recovered,3
+90,Metro Health Institute,West,Orthopedics,Inpatient,2024-06-15,2024-06-25,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,10,No,Stable,4
+91,HealthPlus Hospital,East,Cardiology,Emergency,2024-02-21,2024-03-03,48,Female,Heart Disease,Angioplasty,15000,11,Yes,Recovered,4
+92,Sunrise Medical Center,East,General Medicine,Outpatient,2024-03-17,2024-03-26,65,Male,Diabetes,Insulin Therapy,2000,9,No,Stable,3
+93,HealthPlus Hospital,North,Orthopedics,Inpatient,2024-06-10,2024-06-17,30,Female,Fractured Arm,X-Ray and Splint,500,7,No,Recovered,5
+94,HealthPlus Hospital,West,ICU,Inpatient,2024-09-09,2024-09-22,70,Male,Stroke,CT Scan and Medication,10000,13,Yes,Stable,2
+95,Green Valley Hospital,North,Surgery,Inpatient,2024-05-31,2024-06-16,55,Female,Cancer,Surgery and Chemotherapy,25000,16,No,Recovered,4
+96,HealthPlus Hospital,East,General Medicine,Outpatient,2024-07-17,2024-07-25,68,Male,Hypertension,Medication and Counseling,1000,8,No,Stable,4
+97,Green Valley Hospital,Central,Surgery,Inpatient,2024-07-10,2024-07-20,45,Female,Appendicitis,Appendectomy,8000,10,No,Recovered,3
+98,Green Valley Hospital,Central,Orthopedics,Inpatient,2024-04-08,2024-04-20,40,Male,Fractured Leg,Cast and Physical Therapy,3000,12,No,Recovered,4
+99,Metro Health Institute,Central,Cardiology,Emergency,2024-04-12,2024-04-26,78,Female,Heart Attack,Cardiac Catheterization,18000,14,Yes,Stable,2
+100,Metro Health Institute,Central,Emergency,Emergency,2024-06-04,2024-06-11,25,Male,Allergic Reaction,Epinephrine Injection,100,7,No,Recovered,5
+101,City Care Hospital,East,General Medicine,Outpatient,2024-01-12,2024-01-20,52,Female,Respiratory Infection,Antibiotics and Rest,800,8,No,Stable,4
+102,HealthPlus Hospital,South,Surgery,Day Care,2024-09-07,2024-09-22,58,Male,Prostate Cancer,Radiation Therapy,20000,15,No,Recovered,3
+103,City Care Hospital,Central,Pediatrics,Outpatient,2024-08-12,2024-08-21,32,Female,Childbirth,Delivery and Postnatal Care,12000,9,No,Recovered,4
+104,HealthPlus Hospital,Central,General Medicine,Outpatient,2024-04-22,2024-05-02,55,Male,Kidney Stones,Lithotripsy,6000,10,No,Recovered,3
+105,City Care Hospital,Central,Orthopedics,Outpatient,2024-05-16,2024-05-27,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,11,No,Stable,4
+106,Metro Health Institute,West,Cardiology,Inpatient,2024-04-30,2024-05-12,55,Female,Heart Disease,Angioplasty,15000,12,Yes,Recovered,3
+107,Metro Health Institute,North,General Medicine,Inpatient,2024-08-26,2024-09-05,62,Male,Diabetes,Insulin Therapy,2000,10,No,Stable,4
+108,Metro Health Institute,East,Orthopedics,Inpatient,2024-10-05,2024-10-13,35,Female,Fractured Arm,X-Ray and Splint,500,8,Yes,Recovered,5
+109,Metro Health Institute,East,ICU,Outpatient,2024-02-09,2024-02-23,78,Male,Stroke,CT Scan and Medication,10000,14,No,Stable,2
+110,Sunrise Medical Center,Central,Surgery,Inpatient,2024-05-31,2024-06-17,53,Female,Cancer,Surgery and Chemotherapy,25000,17,Yes,Recovered,4
+111,Metro Health Institute,South,General Medicine,Inpatient,2024-01-06,2024-01-15,72,Male,Hypertension,Medication and Counseling,1000,9,No,Stable,4
+112,Green Valley Hospital,South,Surgery,Outpatient,2024-06-14,2024-06-25,60,Female,Appendicitis,Appendectomy,8000,11,Yes,Recovered,3
+113,Metro Health Institute,North,Orthopedics,Inpatient,2024-03-31,2024-04-13,45,Male,Fractured Leg,Cast and Physical Therapy,3000,13,No,Recovered,4
+114,Sunrise Medical Center,Central,Cardiology,Inpatient,2024-05-02,2024-05-17,75,Female,Heart Attack,Cardiac Catheterization,18000,15,Yes,Stable,2
+115,Sunrise Medical Center,West,Emergency,Outpatient,2024-06-16,2024-06-24,28,Male,Allergic Reaction,Epinephrine Injection,100,8,No,Recovered,5
+116,Sunrise Medical Center,North,General Medicine,Outpatient,2024-04-28,2024-05-07,52,Female,Respiratory Infection,Antibiotics and Rest,800,9,No,Stable,4
+117,Sunrise Medical Center,East,Surgery,Inpatient,2024-05-24,2024-06-09,67,Male,Prostate Cancer,Radiation Therapy,20000,16,No,Recovered,3
+118,City Care Hospital,East,Pediatrics,Inpatient,2024-10-06,2024-10-16,35,Female,Childbirth,Delivery and Postnatal Care,12000,10,No,Recovered,4
+119,City Care Hospital,East,General Medicine,Inpatient,2024-10-23,2024-11-03,50,Male,Kidney Stones,Lithotripsy,6000,11,No,Recovered,3
+120,Green Valley Hospital,Central,Orthopedics,Outpatient,2024-01-03,2024-01-15,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,12,No,Stable,4
+122,City Care Hospital,North,General Medicine,Outpatient,2024-05-18,2024-05-29,65,Male,Diabetes,Insulin Therapy,2000,11,No,Stable,3
+123,Sunrise Medical Center,South,Orthopedics,Inpatient,2024-11-05,2024-11-14,30,Female,Fractured Arm,X-Ray and Splint,500,9,No,Recovered,5
+124,Metro Health Institute,North,ICU,Outpatient,2024-07-13,2024-07-28,70,Male,Stroke,CT Scan and Medication,10000,15,Yes,Stable,2
+125,Metro Health Institute,South,Surgery,Inpatient,2024-03-16,2024-04-03,55,Female,Cancer,Surgery and Chemotherapy,25000,18,No,Recovered,4
+126,Sunrise Medical Center,Central,General Medicine,Inpatient,2024-08-05,2024-08-15,68,Male,Hypertension,Medication and Counseling,1000,10,No,Stable,4
+127,HealthPlus Hospital,Central,Surgery,Day Care,2024-02-23,2024-03-06,45,Female,Appendicitis,Appendectomy,8000,12,No,Recovered,3
+128,Sunrise Medical Center,North,Orthopedics,Inpatient,2024-01-08,2024-01-22,40,Male,Fractured Leg,Cast and Physical Therapy,3000,14,No,Recovered,4
+129,City Care Hospital,West,Cardiology,Inpatient,2024-08-19,2024-09-04,78,Female,Heart Attack,Cardiac Catheterization,18000,16,Yes,Stable,2
+130,Metro Health Institute,South,Emergency,Inpatient,2024-07-07,2024-07-16,25,Male,Allergic Reaction,Epinephrine Injection,100,9,No,Recovered,5
+131,Sunrise Medical Center,North,General Medicine,Outpatient,2024-10-03,2024-10-13,52,Female,Respiratory Infection,Antibiotics and Rest,800,10,No,Stable,4
+132,Metro Health Institute,South,Surgery,Emergency,2024-05-06,2024-05-23,58,Male,Prostate Cancer,Radiation Therapy,20000,17,No,Recovered,3
+133,Sunrise Medical Center,North,Pediatrics,Day Care,2024-11-08,2024-11-19,32,Female,Childbirth,Delivery and Postnatal Care,12000,11,No,Recovered,4
+134,Sunrise Medical Center,East,General Medicine,Inpatient,2024-06-03,2024-06-15,55,Male,Kidney Stones,Lithotripsy,6000,12,No,Recovered,3
+135,City Care Hospital,Central,Orthopedics,Inpatient,2024-09-27,2024-10-10,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,13,No,Stable,4
+136,Sunrise Medical Center,East,Cardiology,Outpatient,2024-02-06,2024-02-20,55,Female,Heart Disease,Angioplasty,15000,14,Yes,Recovered,3
+137,Metro Health Institute,West,General Medicine,Inpatient,2024-02-05,2024-02-17,62,Male,Diabetes,Insulin Therapy,2000,12,No,Stable,4
+138,Green Valley Hospital,East,Orthopedics,Outpatient,2024-10-13,2024-10-23,35,Female,Fractured Arm,X-Ray and Splint,500,10,Yes,Recovered,5
+139,Metro Health Institute,North,ICU,Outpatient,2024-11-01,2024-11-17,78,Male,Stroke,CT Scan and Medication,10000,16,No,Stable,2
+140,City Care Hospital,North,Surgery,Inpatient,2024-12-10,2024-12-29,53,Female,Cancer,Surgery and Chemotherapy,25000,19,Yes,Recovered,4
+141,Green Valley Hospital,South,General Medicine,Outpatient,2024-04-28,2024-05-09,72,Male,Hypertension,Medication and Counseling,1000,11,No,Stable,4
+142,Sunrise Medical Center,South,Surgery,Inpatient,2024-01-09,2024-01-22,60,Female,Appendicitis,Appendectomy,8000,13,Yes,Recovered,3
+143,HealthPlus Hospital,Central,Orthopedics,Inpatient,2024-12-24,2025-01-08,45,Male,Fractured Leg,Cast and Physical Therapy,3000,15,No,Recovered,4
+144,Green Valley Hospital,Central,Cardiology,Inpatient,2024-08-08,2024-08-25,75,Female,Heart Attack,Cardiac Catheterization,18000,17,Yes,Stable,2
+145,Green Valley Hospital,Central,Emergency,Inpatient,2024-03-31,2024-04-10,28,Male,Allergic Reaction,Epinephrine Injection,100,10,No,Recovered,5
+146,Sunrise Medical Center,West,General Medicine,Outpatient,2024-10-06,2024-10-17,52,Female,Respiratory Infection,Antibiotics and Rest,800,11,No,Stable,4
+147,HealthPlus Hospital,East,Surgery,Outpatient,2024-11-26,2024-12-14,67,Male,Prostate Cancer,Radiation Therapy,20000,18,No,Recovered,3
+148,HealthPlus Hospital,West,Pediatrics,Day Care,2024-04-14,2024-04-26,35,Female,Childbirth,Delivery and Postnatal Care,12000,12,No,Recovered,4
+149,City Care Hospital,East,General Medicine,Day Care,2024-10-08,2024-10-21,50,Male,Kidney Stones,Lithotripsy,6000,13,No,Recovered,3
+150,Green Valley Hospital,West,Orthopedics,Inpatient,2024-10-15,2024-10-29,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,14,No,Stable,4
+151,HealthPlus Hospital,West,Cardiology,Inpatient,2024-07-02,2024-07-17,48,Female,Heart Disease,Angioplasty,15000,15,Yes,Recovered,4
+152,City Care Hospital,West,General Medicine,Outpatient,2024-08-19,2024-09-01,65,Male,Diabetes,Insulin Therapy,2000,13,No,Stable,3
+153,HealthPlus Hospital,West,Orthopedics,Day Care,2024-04-08,2024-04-19,30,Female,Fractured Arm,X-Ray and Splint,500,11,No,Recovered,5
+154,Green Valley Hospital,North,ICU,Inpatient,2024-12-06,2024-12-23,70,Male,Stroke,CT Scan and Medication,10000,17,Yes,Stable,2
+155,HealthPlus Hospital,West,Surgery,Inpatient,2024-12-25,2025-01-14,55,Female,Cancer,Surgery and Chemotherapy,25000,20,No,Recovered,4
+156,Green Valley Hospital,South,General Medicine,Inpatient,2024-12-25,2025-01-06,68,Male,Hypertension,Medication and Counseling,1000,12,No,Stable,4
+157,Sunrise Medical Center,West,Surgery,Inpatient,2024-09-26,2024-10-10,45,Female,Appendicitis,Appendectomy,8000,14,No,Recovered,3
+158,Metro Health Institute,East,Orthopedics,Outpatient,2024-01-16,2024-02-01,40,Male,Fractured Leg,Cast and Physical Therapy,3000,16,No,Recovered,4
+159,City Care Hospital,Central,Cardiology,Inpatient,2024-05-14,2024-06-01,78,Female,Heart Attack,Cardiac Catheterization,18000,18,Yes,Stable,2
+160,Sunrise Medical Center,South,Emergency,Outpatient,2024-06-11,2024-06-22,25,Male,Allergic Reaction,Epinephrine Injection,100,11,No,Recovered,5
+161,Sunrise Medical Center,Central,General Medicine,Outpatient,2024-12-17,2024-12-29,52,Female,Respiratory Infection,Antibiotics and Rest,800,12,No,Stable,4
+162,Metro Health Institute,Central,Surgery,Outpatient,2024-07-19,2024-08-07,58,Male,Prostate Cancer,Radiation Therapy,20000,19,No,Recovered,3
+163,HealthPlus Hospital,South,Pediatrics,Inpatient,2024-07-15,2024-07-28,32,Female,Childbirth,Delivery and Postnatal Care,12000,13,No,Recovered,4
+164,Metro Health Institute,East,General Medicine,Inpatient,2024-02-23,2024-03-08,55,Male,Kidney Stones,Lithotripsy,6000,14,No,Recovered,3
+165,Sunrise Medical Center,East,Orthopedics,Outpatient,2024-10-17,2024-11-01,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,15,No,Stable,4
+166,Sunrise Medical Center,West,Cardiology,Outpatient,2024-05-03,2024-05-19,55,Female,Heart Disease,Angioplasty,15000,16,Yes,Recovered,3
+167,Sunrise Medical Center,West,General Medicine,Inpatient,2024-02-03,2024-02-17,62,Male,Diabetes,Insulin Therapy,2000,14,No,Stable,4
+168,HealthPlus Hospital,Central,Orthopedics,Outpatient,2024-12-27,2025-01-08,35,Female,Fractured Arm,X-Ray and Splint,500,12,Yes,Recovered,5
+169,Green Valley Hospital,South,ICU,Inpatient,2024-03-10,2024-03-28,78,Male,Stroke,CT Scan and Medication,10000,18,No,Stable,2
+170,City Care Hospital,East,Surgery,Outpatient,2024-01-06,2024-01-27,53,Female,Cancer,Surgery and Chemotherapy,25000,21,Yes,Recovered,4
+171,Green Valley Hospital,East,General Medicine,Inpatient,2024-01-29,2024-02-11,72,Male,Hypertension,Medication and Counseling,1000,13,No,Stable,4
+172,City Care Hospital,Central,Surgery,Inpatient,2024-06-14,2024-06-29,60,Female,Appendicitis,Appendectomy,8000,15,Yes,Recovered,3
+173,City Care Hospital,South,Orthopedics,Inpatient,2024-02-07,2024-02-24,45,Male,Fractured Leg,Cast and Physical Therapy,3000,17,No,Recovered,4
+174,City Care Hospital,East,Cardiology,Inpatient,2024-11-04,2024-11-23,75,Female,Heart Attack,Cardiac Catheterization,18000,19,Yes,Stable,2
+175,Metro Health Institute,North,Emergency,Inpatient,2024-07-06,2024-07-18,28,Male,Allergic Reaction,Epinephrine Injection,100,12,No,Recovered,5
+176,Metro Health Institute,Central,General Medicine,Inpatient,2024-04-28,2024-05-11,52,Female,Respiratory Infection,Antibiotics and Rest,800,13,No,Stable,4
+177,Metro Health Institute,South,Surgery,Inpatient,2024-01-02,2024-01-22,67,Male,Prostate Cancer,Radiation Therapy,20000,20,No,Recovered,3
+178,Sunrise Medical Center,South,Pediatrics,Outpatient,2024-06-24,2024-07-08,35,Female,Childbirth,Delivery and Postnatal Care,12000,14,No,Recovered,4
+179,Metro Health Institute,East,General Medicine,Inpatient,2024-02-25,2024-03-11,50,Male,Kidney Stones,Lithotripsy,6000,15,No,Recovered,3
+180,City Care Hospital,East,Orthopedics,Outpatient,2024-12-23,2025-01-08,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,16,No,Stable,4
+181,HealthPlus Hospital,Central,Cardiology,Outpatient,2024-04-16,2024-05-03,48,Female,Heart Disease,Angioplasty,15000,17,Yes,Recovered,4
+183,Sunrise Medical Center,East,Orthopedics,Inpatient,2024-06-22,2024-07-05,30,Female,Fractured Arm,X-Ray and Splint,500,13,No,Recovered,5
+184,HealthPlus Hospital,East,ICU,Inpatient,2024-01-07,2024-01-26,70,Male,Stroke,CT Scan and Medication,10000,19,Yes,Stable,2
+185,City Care Hospital,North,Surgery,Outpatient,2024-02-17,2024-03-10,55,Female,Cancer,Surgery and Chemotherapy,25000,22,No,Recovered,4
+186,Sunrise Medical Center,North,General Medicine,Outpatient,2024-03-16,2024-03-30,68,Male,Hypertension,Medication and Counseling,1000,14,No,Stable,4
+187,Metro Health Institute,South,Surgery,Inpatient,2024-01-19,2024-02-04,45,Female,Appendicitis,Appendectomy,8000,16,No,Recovered,3
+188,Sunrise Medical Center,Central,Orthopedics,Outpatient,2024-09-22,2024-10-10,40,Male,Fractured Leg,Cast and Physical Therapy,3000,18,No,Recovered,4
+189,Sunrise Medical Center,Central,Cardiology,Inpatient,2024-12-12,2025-01-01,78,Female,Heart Attack,Cardiac Catheterization,18000,20,Yes,Stable,2
+190,City Care Hospital,West,Emergency,Inpatient,2024-12-26,2025-01-08,25,Male,Allergic Reaction,Epinephrine Injection,100,13,No,Recovered,5
+191,Green Valley Hospital,West,General Medicine,Outpatient,2024-04-07,2024-04-21,52,Female,Respiratory Infection,Antibiotics and Rest,800,14,No,Stable,4
+192,Green Valley Hospital,South,Surgery,Inpatient,2024-10-15,2024-11-05,58,Male,Prostate Cancer,Radiation Therapy,20000,21,No,Recovered,3
+193,Green Valley Hospital,North,Pediatrics,Outpatient,2024-07-03,2024-07-18,32,Female,Childbirth,Delivery and Postnatal Care,12000,15,No,Recovered,4
+194,Metro Health Institute,North,General Medicine,Inpatient,2024-01-17,2024-02-02,55,Male,Kidney Stones,Lithotripsy,6000,16,No,Recovered,3
+195,Metro Health Institute,South,Orthopedics,Outpatient,2024-02-03,2024-02-20,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,17,No,Stable,4
+196,Metro Health Institute,South,Cardiology,Inpatient,2024-07-19,2024-08-06,55,Female,Heart Disease,Angioplasty,15000,18,Yes,Recovered,3
+197,Green Valley Hospital,North,General Medicine,Inpatient,2024-06-04,2024-06-20,62,Male,Diabetes,Insulin Therapy,2000,16,No,Stable,4
+198,HealthPlus Hospital,South,Orthopedics,Inpatient,2024-01-04,2024-01-18,35,Female,Fractured Arm,X-Ray and Splint,500,14,Yes,Recovered,5
+199,City Care Hospital,North,ICU,Inpatient,2024-12-06,2024-12-26,78,Male,Stroke,CT Scan and Medication,10000,20,No,Stable,2
+200,Green Valley Hospital,West,Surgery,Outpatient,2024-09-24,2024-10-17,53,Female,Cancer,Surgery and Chemotherapy,25000,23,Yes,Recovered,4
+201,City Care Hospital,Central,General Medicine,Inpatient,2024-07-02,2024-07-17,72,Male,Hypertension,Medication and Counseling,1000,15,No,Stable,4
+202,Green Valley Hospital,West,Surgery,Inpatient,2024-12-27,2025-01-13,60,Female,Appendicitis,Appendectomy,8000,17,Yes,Recovered,3
+203,HealthPlus Hospital,East,Orthopedics,Inpatient,2024-12-21,2025-01-09,45,Male,Fractured Leg,Cast and Physical Therapy,3000,19,No,Recovered,4
+204,Green Valley Hospital,East,Cardiology,Inpatient,2024-12-22,2025-01-12,75,Female,Heart Attack,Cardiac Catheterization,18000,21,Yes,Stable,2
+205,HealthPlus Hospital,South,Emergency,Outpatient,2024-04-04,2024-04-18,28,Male,Allergic Reaction,Epinephrine Injection,100,14,No,Recovered,5
+206,Sunrise Medical Center,North,General Medicine,Inpatient,2024-11-18,2024-12-03,52,Female,Respiratory Infection,Antibiotics and Rest,800,15,No,Stable,4
+207,Metro Health Institute,East,Surgery,Day Care,2024-07-03,2024-07-25,67,Male,Prostate Cancer,Radiation Therapy,20000,22,No,Recovered,3
+208,Sunrise Medical Center,East,Pediatrics,Inpatient,2024-09-22,2024-10-08,35,Female,Childbirth,Delivery and Postnatal Care,12000,16,No,Recovered,4
+209,Green Valley Hospital,North,General Medicine,Outpatient,2024-11-10,2024-11-27,50,Male,Kidney Stones,Lithotripsy,6000,17,No,Recovered,3
+210,Metro Health Institute,East,Orthopedics,Inpatient,2024-02-29,2024-03-18,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,18,No,Stable,4
+211,HealthPlus Hospital,South,Cardiology,Inpatient,2024-06-13,2024-07-02,48,Female,Heart Disease,Angioplasty,15000,19,Yes,Recovered,4
+212,Green Valley Hospital,North,General Medicine,Outpatient,2024-02-17,2024-03-05,65,Male,Diabetes,Insulin Therapy,2000,17,No,Stable,3
+213,Metro Health Institute,West,Orthopedics,Day Care,2024-04-12,2024-04-27,30,Female,Fractured Arm,X-Ray and Splint,500,15,No,Recovered,5
+214,Green Valley Hospital,East,ICU,Outpatient,2024-05-31,2024-06-21,70,Male,Stroke,CT Scan and Medication,10000,21,Yes,Stable,2
+215,Metro Health Institute,West,Surgery,Inpatient,2024-11-09,2024-12-03,55,Female,Cancer,Surgery and Chemotherapy,25000,24,No,Recovered,4
+216,Metro Health Institute,West,General Medicine,Inpatient,2024-11-11,2024-11-27,68,Male,Hypertension,Medication and Counseling,1000,16,No,Stable,4
+217,Sunrise Medical Center,Central,Surgery,Outpatient,2024-05-22,2024-06-09,45,Female,Appendicitis,Appendectomy,8000,18,No,Recovered,3
+218,Metro Health Institute,Central,Orthopedics,Inpatient,2024-04-30,2024-05-20,40,Male,Fractured Leg,Cast and Physical Therapy,3000,20,No,Recovered,4
+219,Green Valley Hospital,West,Cardiology,Outpatient,2024-07-13,2024-08-04,78,Female,Heart Attack,Cardiac Catheterization,18000,22,Yes,Stable,2
+220,City Care Hospital,Central,Emergency,Inpatient,2024-11-29,2024-12-14,25,Male,Allergic Reaction,Epinephrine Injection,100,15,No,Recovered,5
+221,City Care Hospital,East,General Medicine,Inpatient,2024-12-23,2025-01-08,52,Female,Respiratory Infection,Antibiotics and Rest,800,16,No,Stable,4
+222,Sunrise Medical Center,Central,Surgery,Outpatient,2024-03-23,2024-04-15,58,Male,Prostate Cancer,Radiation Therapy,20000,23,No,Recovered,3
+223,HealthPlus Hospital,West,Pediatrics,Outpatient,2024-03-09,2024-03-26,32,Female,Childbirth,Delivery and Postnatal Care,12000,17,No,Recovered,4
+224,City Care Hospital,West,General Medicine,Inpatient,2024-09-15,2024-10-03,55,Male,Kidney Stones,Lithotripsy,6000,18,No,Recovered,3
+225,Sunrise Medical Center,Central,Orthopedics,Inpatient,2024-04-20,2024-05-09,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,19,No,Stable,4
+226,Metro Health Institute,East,Cardiology,Outpatient,2024-03-14,2024-04-03,55,Female,Heart Disease,Angioplasty,15000,20,Yes,Recovered,3
+227,Green Valley Hospital,West,General Medicine,Inpatient,2024-01-12,2024-01-30,62,Male,Diabetes,Insulin Therapy,2000,18,No,Stable,4
+228,Metro Health Institute,South,Orthopedics,Inpatient,2024-05-27,2024-06-12,35,Female,Fractured Arm,X-Ray and Splint,500,16,Yes,Recovered,5
+229,Green Valley Hospital,Central,ICU,Inpatient,2024-05-23,2024-06-14,78,Male,Stroke,CT Scan and Medication,10000,22,No,Stable,2
+230,HealthPlus Hospital,West,Surgery,Outpatient,2024-07-25,2024-08-19,53,Female,Cancer,Surgery and Chemotherapy,25000,25,Yes,Recovered,4
+231,Sunrise Medical Center,West,General Medicine,Outpatient,2024-03-14,2024-03-31,72,Male,Hypertension,Medication and Counseling,1000,17,No,Stable,4
+232,Sunrise Medical Center,East,Surgery,Inpatient,2024-09-18,2024-10-07,60,Female,Appendicitis,Appendectomy,8000,19,Yes,Recovered,3
+233,City Care Hospital,Central,Orthopedics,Inpatient,2024-09-05,2024-09-26,45,Male,Fractured Leg,Cast and Physical Therapy,3000,21,No,Recovered,4
+234,Sunrise Medical Center,North,Cardiology,Inpatient,2024-06-18,2024-07-11,75,Female,Heart Attack,Cardiac Catheterization,18000,23,Yes,Stable,2
+235,HealthPlus Hospital,North,Emergency,Inpatient,2024-03-07,2024-03-23,28,Male,Allergic Reaction,Epinephrine Injection,100,16,No,Recovered,5
+236,City Care Hospital,East,General Medicine,Inpatient,2024-07-04,2024-07-21,52,Female,Respiratory Infection,Antibiotics and Rest,800,17,No,Stable,4
+237,Metro Health Institute,West,Surgery,Inpatient,2024-09-03,2024-09-27,67,Male,Prostate Cancer,Radiation Therapy,20000,24,No,Recovered,3
+238,Sunrise Medical Center,Central,Pediatrics,Outpatient,2024-05-16,2024-06-03,35,Female,Childbirth,Delivery and Postnatal Care,12000,18,No,Recovered,4
+239,Metro Health Institute,East,General Medicine,Inpatient,2024-04-06,2024-04-25,50,Male,Kidney Stones,Lithotripsy,6000,19,No,Recovered,3
+240,Metro Health Institute,West,Orthopedics,Inpatient,2024-07-04,2024-07-24,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,20,No,Stable,4
+241,Sunrise Medical Center,East,Cardiology,Inpatient,2024-05-10,2024-05-31,48,Female,Heart Disease,Angioplasty,15000,21,Yes,Recovered,4
+242,Green Valley Hospital,Central,General Medicine,Outpatient,2024-05-26,2024-06-14,65,Male,Diabetes,Insulin Therapy,2000,19,No,Stable,3
+244,Metro Health Institute,West,ICU,Outpatient,2024-05-07,2024-05-30,70,Male,Stroke,CT Scan and Medication,10000,23,Yes,Stable,2
+245,City Care Hospital,East,Surgery,Inpatient,2024-04-21,2024-05-17,55,Female,Cancer,Surgery and Chemotherapy,25000,26,No,Recovered,4
+246,Sunrise Medical Center,Central,General Medicine,Outpatient,2024-09-19,2024-10-07,68,Male,Hypertension,Medication and Counseling,1000,18,No,Stable,4
+247,City Care Hospital,North,Surgery,Inpatient,2024-06-17,2024-07-07,45,Female,Appendicitis,Appendectomy,8000,20,No,Recovered,3
+248,Metro Health Institute,Central,Orthopedics,Inpatient,2024-06-19,2024-07-11,40,Male,Fractured Leg,Cast and Physical Therapy,3000,22,No,Recovered,4
+249,Metro Health Institute,North,Cardiology,Emergency,2024-08-27,2024-09-20,78,Female,Heart Attack,Cardiac Catheterization,18000,24,Yes,Stable,2
+250,City Care Hospital,South,Emergency,Inpatient,2024-05-12,2024-05-29,25,Male,Allergic Reaction,Epinephrine Injection,100,17,No,Recovered,5
+251,Metro Health Institute,Central,General Medicine,Inpatient,2024-02-06,2024-02-24,52,Female,Respiratory Infection,Antibiotics and Rest,800,18,No,Stable,4
+252,Sunrise Medical Center,West,Surgery,Outpatient,2024-11-08,2024-12-03,58,Male,Prostate Cancer,Radiation Therapy,20000,25,No,Recovered,3
+253,Metro Health Institute,Central,Pediatrics,Inpatient,2024-01-21,2024-02-09,32,Female,Childbirth,Delivery and Postnatal Care,12000,19,No,Recovered,4
+254,City Care Hospital,West,General Medicine,Outpatient,2024-07-28,2024-08-17,55,Male,Kidney Stones,Lithotripsy,6000,20,No,Recovered,3
+255,City Care Hospital,West,Orthopedics,Inpatient,2024-04-07,2024-04-28,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,21,No,Stable,4
+256,Sunrise Medical Center,South,Cardiology,Inpatient,2024-03-19,2024-04-10,55,Female,Heart Disease,Angioplasty,15000,22,Yes,Recovered,3
+257,City Care Hospital,North,General Medicine,Inpatient,2024-01-16,2024-02-05,62,Male,Diabetes,Insulin Therapy,2000,20,No,Stable,4
+258,Green Valley Hospital,North,Orthopedics,Inpatient,2024-11-25,2024-12-13,35,Female,Fractured Arm,X-Ray and Splint,500,18,Yes,Recovered,5
+259,Metro Health Institute,South,ICU,Inpatient,2024-06-06,2024-06-30,78,Male,Stroke,CT Scan and Medication,10000,24,No,Stable,2
+260,City Care Hospital,North,Surgery,Inpatient,2024-05-05,2024-06-01,53,Female,Cancer,Surgery and Chemotherapy,25000,27,Yes,Recovered,4
+261,Metro Health Institute,East,General Medicine,Outpatient,2024-09-28,2024-10-17,72,Male,Hypertension,Medication and Counseling,1000,19,No,Stable,4
+262,City Care Hospital,West,Surgery,Inpatient,2024-01-15,2024-02-05,60,Female,Appendicitis,Appendectomy,8000,21,Yes,Recovered,3
+263,City Care Hospital,Central,Orthopedics,Inpatient,2024-07-25,2024-08-17,45,Male,Fractured Leg,Cast and Physical Therapy,3000,23,No,Recovered,4
+264,Sunrise Medical Center,East,Cardiology,Inpatient,2024-06-30,2024-07-25,75,Female,Heart Attack,Cardiac Catheterization,18000,25,Yes,Stable,2
+265,Metro Health Institute,Central,Emergency,Inpatient,2024-07-21,2024-08-08,28,Male,Allergic Reaction,Epinephrine Injection,100,18,No,Recovered,5
+266,City Care Hospital,Central,General Medicine,Inpatient,2024-02-15,2024-03-05,52,Female,Respiratory Infection,Antibiotics and Rest,800,19,No,Stable,4
+267,Green Valley Hospital,Central,Surgery,Outpatient,2024-12-14,2025-01-09,67,Male,Prostate Cancer,Radiation Therapy,20000,26,No,Recovered,3
+268,HealthPlus Hospital,East,Pediatrics,Inpatient,2024-03-28,2024-04-17,35,Female,Childbirth,Delivery and Postnatal Care,12000,20,No,Recovered,4
+269,HealthPlus Hospital,South,General Medicine,Outpatient,2024-09-05,2024-09-26,50,Male,Kidney Stones,Lithotripsy,6000,21,No,Recovered,3
+270,Sunrise Medical Center,Central,Orthopedics,Emergency,2024-09-30,2024-10-22,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,22,No,Stable,4
+271,Sunrise Medical Center,South,Cardiology,Inpatient,2024-05-05,2024-05-28,48,Female,Heart Disease,Angioplasty,15000,23,Yes,Recovered,4
+272,Green Valley Hospital,East,General Medicine,Inpatient,2024-02-17,2024-03-09,65,Male,Diabetes,Insulin Therapy,2000,21,No,Stable,3
+273,Metro Health Institute,North,Orthopedics,Inpatient,2024-04-18,2024-05-07,30,Female,Fractured Arm,X-Ray and Splint,500,19,No,Recovered,5
+274,Sunrise Medical Center,West,ICU,Outpatient,2024-10-22,2024-11-16,70,Male,Stroke,CT Scan and Medication,10000,25,Yes,Stable,2
+275,Green Valley Hospital,West,Surgery,Inpatient,2024-11-27,2024-12-25,55,Female,Cancer,Surgery and Chemotherapy,25000,28,No,Recovered,4
+276,City Care Hospital,North,General Medicine,Outpatient,2024-12-08,2024-12-28,68,Male,Hypertension,Medication and Counseling,1000,20,No,Stable,4
+277,City Care Hospital,South,Surgery,Outpatient,2024-03-23,2024-04-14,45,Female,Appendicitis,Appendectomy,8000,22,No,Recovered,3
+278,HealthPlus Hospital,East,Orthopedics,Outpatient,2024-08-09,2024-09-02,40,Male,Fractured Leg,Cast and Physical Therapy,3000,24,No,Recovered,4
+279,Sunrise Medical Center,East,Cardiology,Inpatient,2024-02-25,2024-03-22,78,Female,Heart Attack,Cardiac Catheterization,18000,26,Yes,Stable,2
+280,Sunrise Medical Center,Central,Emergency,Day Care,2024-09-16,2024-10-05,25,Male,Allergic Reaction,Epinephrine Injection,100,19,No,Recovered,5
+281,Sunrise Medical Center,South,General Medicine,Inpatient,2024-06-01,2024-06-21,52,Female,Respiratory Infection,Antibiotics and Rest,800,20,No,Stable,4
+282,Metro Health Institute,Central,Surgery,Inpatient,2024-09-18,2024-10-15,58,Male,Prostate Cancer,Radiation Therapy,20000,27,No,Recovered,3
+283,City Care Hospital,East,Pediatrics,Inpatient,2024-09-07,2024-09-28,32,Female,Childbirth,Delivery and Postnatal Care,12000,21,No,Recovered,4
+284,City Care Hospital,Central,General Medicine,Emergency,2024-12-29,2025-01-20,55,Male,Kidney Stones,Lithotripsy,6000,22,No,Recovered,3
+285,Green Valley Hospital,South,Orthopedics,Inpatient,2024-06-27,2024-07-20,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,23,No,Stable,4
+286,Sunrise Medical Center,North,Cardiology,Outpatient,2024-05-05,2024-05-29,55,Female,Heart Disease,Angioplasty,15000,24,Yes,Recovered,3
+287,Metro Health Institute,North,General Medicine,Inpatient,2024-07-11,2024-08-02,62,Male,Diabetes,Insulin Therapy,2000,22,No,Stable,4
+288,Sunrise Medical Center,South,Orthopedics,Day Care,2024-02-29,2024-03-20,35,Female,Fractured Arm,X-Ray and Splint,500,20,Yes,Recovered,5
+289,Sunrise Medical Center,Central,ICU,Inpatient,2024-02-10,2024-03-07,78,Male,Stroke,CT Scan and Medication,10000,26,No,Stable,2
+290,HealthPlus Hospital,North,Surgery,Inpatient,2024-07-09,2024-08-07,53,Female,Cancer,Surgery and Chemotherapy,25000,29,Yes,Recovered,4
+291,City Care Hospital,South,General Medicine,Day Care,2024-10-29,2024-11-19,72,Male,Hypertension,Medication and Counseling,1000,21,No,Stable,4
+292,Sunrise Medical Center,North,Surgery,Inpatient,2024-07-14,2024-08-06,60,Female,Appendicitis,Appendectomy,8000,23,Yes,Recovered,3
+293,Sunrise Medical Center,Central,Orthopedics,Inpatient,2024-10-13,2024-11-07,45,Male,Fractured Leg,Cast and Physical Therapy,3000,25,No,Recovered,4
+294,Sunrise Medical Center,West,Cardiology,Outpatient,2024-03-06,2024-04-02,75,Female,Heart Attack,Cardiac Catheterization,18000,27,Yes,Stable,2
+296,HealthPlus Hospital,West,General Medicine,Inpatient,2024-06-13,2024-07-04,52,Female,Respiratory Infection,Antibiotics and Rest,800,21,No,Stable,4
+297,Green Valley Hospital,West,Surgery,Inpatient,2024-08-12,2024-09-09,67,Male,Prostate Cancer,Radiation Therapy,20000,28,No,Recovered,3
+298,HealthPlus Hospital,West,Pediatrics,Inpatient,2024-05-07,2024-05-29,35,Female,Childbirth,Delivery and Postnatal Care,12000,22,No,Recovered,4
+299,Green Valley Hospital,West,General Medicine,Inpatient,2024-01-06,2024-01-29,50,Male,Kidney Stones,Lithotripsy,6000,23,No,Recovered,3
+300,Sunrise Medical Center,North,Orthopedics,Outpatient,2024-01-27,2024-02-20,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,24,No,Stable,4
+301,Sunrise Medical Center,Central,Cardiology,Outpatient,2024-12-05,2024-12-30,48,Female,Heart Disease,Angioplasty,15000,25,Yes,Recovered,4
+302,HealthPlus Hospital,West,General Medicine,Inpatient,2024-08-09,2024-09-01,65,Male,Diabetes,Insulin Therapy,2000,23,No,Stable,3
+303,Sunrise Medical Center,West,Orthopedics,Inpatient,2024-04-06,2024-04-27,30,Female,Fractured Arm,X-Ray and Splint,500,21,No,Recovered,5
+304,Green Valley Hospital,South,ICU,Inpatient,2024-04-04,2024-05-01,70,Male,Stroke,CT Scan and Medication,10000,27,Yes,Stable,2
+305,City Care Hospital,Central,Surgery,Outpatient,2024-01-15,2024-02-14,55,Female,Cancer,Surgery and Chemotherapy,25000,30,No,Recovered,4
+306,Green Valley Hospital,South,General Medicine,Emergency,2024-12-11,2025-01-02,68,Male,Hypertension,Medication and Counseling,1000,22,No,Stable,4
+307,HealthPlus Hospital,North,Surgery,Emergency,2024-02-09,2024-03-04,45,Female,Appendicitis,Appendectomy,8000,24,No,Recovered,3
+308,City Care Hospital,Central,Orthopedics,Inpatient,2024-10-04,2024-10-30,40,Male,Fractured Leg,Cast and Physical Therapy,3000,26,No,Recovered,4
+309,HealthPlus Hospital,South,Cardiology,Inpatient,2024-03-28,2024-04-25,78,Female,Heart Attack,Cardiac Catheterization,18000,28,Yes,Stable,2
+310,Sunrise Medical Center,North,Emergency,Inpatient,2024-05-02,2024-05-23,25,Male,Allergic Reaction,Epinephrine Injection,100,21,No,Recovered,5
+311,City Care Hospital,West,General Medicine,Inpatient,2024-04-10,2024-05-02,52,Female,Respiratory Infection,Antibiotics and Rest,800,22,No,Stable,4
+312,Green Valley Hospital,South,Surgery,Inpatient,2024-10-28,2024-11-26,58,Male,Prostate Cancer,Radiation Therapy,20000,29,No,Recovered,3
+313,Sunrise Medical Center,Central,Pediatrics,Outpatient,2024-01-13,2024-02-05,32,Female,Childbirth,Delivery and Postnatal Care,12000,23,No,Recovered,4
+314,Green Valley Hospital,East,General Medicine,Inpatient,2024-05-08,2024-06-01,55,Male,Kidney Stones,Lithotripsy,6000,24,No,Recovered,3
+315,City Care Hospital,North,Orthopedics,Inpatient,2024-04-12,2024-05-07,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,25,No,Stable,4
+316,Metro Health Institute,Central,Cardiology,Inpatient,2024-04-09,2024-05-05,55,Female,Heart Disease,Angioplasty,15000,26,Yes,Recovered,3
+317,Metro Health Institute,East,General Medicine,Inpatient,2024-03-11,2024-04-04,62,Male,Diabetes,Insulin Therapy,2000,24,No,Stable,4
+318,City Care Hospital,South,Orthopedics,Inpatient,2024-11-29,2024-12-21,35,Female,Fractured Arm,X-Ray and Splint,500,22,Yes,Recovered,5
+319,Green Valley Hospital,West,ICU,Inpatient,2024-05-18,2024-06-15,78,Male,Stroke,CT Scan and Medication,10000,28,No,Stable,2
+320,Green Valley Hospital,East,Surgery,Outpatient,2024-06-02,2024-07-03,53,Female,Cancer,Surgery and Chemotherapy,25000,31,Yes,Recovered,4
+321,Metro Health Institute,North,General Medicine,Inpatient,2024-05-20,2024-06-12,72,Male,Hypertension,Medication and Counseling,1000,23,No,Stable,4
+322,Metro Health Institute,West,Surgery,Inpatient,2024-12-24,2025-01-18,60,Female,Appendicitis,Appendectomy,8000,25,Yes,Recovered,3
+323,Metro Health Institute,East,Orthopedics,Inpatient,2024-05-04,2024-05-31,45,Male,Fractured Leg,Cast and Physical Therapy,3000,27,No,Recovered,4
+324,HealthPlus Hospital,West,Cardiology,Outpatient,2024-05-05,2024-06-03,75,Female,Heart Attack,Cardiac Catheterization,18000,29,Yes,Stable,2
+325,Metro Health Institute,Central,Emergency,Inpatient,2024-04-30,2024-05-22,28,Male,Allergic Reaction,Epinephrine Injection,100,22,No,Recovered,5
+326,Green Valley Hospital,West,General Medicine,Outpatient,2024-04-29,2024-05-22,52,Female,Respiratory Infection,Antibiotics and Rest,800,23,No,Stable,4
+327,City Care Hospital,West,Surgery,Emergency,2024-02-02,2024-03-03,67,Male,Prostate Cancer,Radiation Therapy,20000,30,No,Recovered,3
+328,Metro Health Institute,South,Pediatrics,Outpatient,2024-08-09,2024-09-02,35,Female,Childbirth,Delivery and Postnatal Care,12000,24,No,Recovered,4
+329,HealthPlus Hospital,South,General Medicine,Outpatient,2024-01-10,2024-02-04,50,Male,Kidney Stones,Lithotripsy,6000,25,No,Recovered,3
+330,HealthPlus Hospital,East,Orthopedics,Inpatient,2024-03-23,2024-04-18,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,26,No,Stable,4
+331,Green Valley Hospital,Central,Cardiology,Emergency,2024-03-14,2024-04-10,48,Female,Heart Disease,Angioplasty,15000,27,Yes,Recovered,4
+332,Green Valley Hospital,East,General Medicine,Inpatient,2024-04-16,2024-05-11,65,Male,Diabetes,Insulin Therapy,2000,25,No,Stable,3
+333,City Care Hospital,South,Orthopedics,Emergency,2024-10-03,2024-10-26,30,Female,Fractured Arm,X-Ray and Splint,500,23,No,Recovered,5
+334,City Care Hospital,West,ICU,Inpatient,2024-08-07,2024-09-05,70,Male,Stroke,CT Scan and Medication,10000,29,Yes,Stable,2
+335,Sunrise Medical Center,Central,Surgery,Inpatient,2024-12-28,2025-01-29,55,Female,Cancer,Surgery and Chemotherapy,25000,32,No,Recovered,4
+336,Sunrise Medical Center,Central,General Medicine,Inpatient,2024-05-08,2024-06-01,68,Male,Hypertension,Medication and Counseling,1000,24,No,Stable,4
+337,Green Valley Hospital,South,Surgery,Outpatient,2024-12-05,2024-12-31,45,Female,Appendicitis,Appendectomy,8000,26,No,Recovered,3
+338,Green Valley Hospital,West,Orthopedics,Inpatient,2024-01-17,2024-02-14,40,Male,Fractured Leg,Cast and Physical Therapy,3000,28,No,Recovered,4
+339,HealthPlus Hospital,East,Cardiology,Inpatient,2024-07-03,2024-08-02,78,Female,Heart Attack,Cardiac Catheterization,18000,30,Yes,Stable,2
+340,Sunrise Medical Center,East,Emergency,Outpatient,2024-10-19,2024-11-11,25,Male,Allergic Reaction,Epinephrine Injection,100,23,No,Recovered,5
+341,HealthPlus Hospital,South,General Medicine,Outpatient,2024-07-13,2024-08-06,52,Female,Respiratory Infection,Antibiotics and Rest,800,24,No,Stable,4
+342,HealthPlus Hospital,North,Surgery,Inpatient,2024-12-07,2025-01-07,58,Male,Prostate Cancer,Radiation Therapy,20000,31,No,Recovered,3
+343,Green Valley Hospital,South,Pediatrics,Inpatient,2024-04-25,2024-05-20,32,Female,Childbirth,Delivery and Postnatal Care,12000,25,No,Recovered,4
+344,Green Valley Hospital,East,General Medicine,Inpatient,2024-01-13,2024-02-08,55,Male,Kidney Stones,Lithotripsy,6000,26,No,Recovered,3
+345,HealthPlus Hospital,Central,Orthopedics,Outpatient,2024-10-10,2024-11-06,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,27,No,Stable,4
+346,Metro Health Institute,Central,Cardiology,Inpatient,2024-01-25,2024-02-22,55,Female,Heart Disease,Angioplasty,15000,28,Yes,Recovered,3
+347,Green Valley Hospital,North,General Medicine,Outpatient,2024-10-06,2024-11-01,62,Male,Diabetes,Insulin Therapy,2000,26,No,Stable,4
+348,Metro Health Institute,West,Orthopedics,Inpatient,2024-09-25,2024-10-19,35,Female,Fractured Arm,X-Ray and Splint,500,24,Yes,Recovered,5
+349,Sunrise Medical Center,North,ICU,Inpatient,2024-11-05,2024-12-05,78,Male,Stroke,CT Scan and Medication,10000,30,No,Stable,2
+350,HealthPlus Hospital,West,Surgery,Inpatient,2024-06-24,2024-07-27,53,Female,Cancer,Surgery and Chemotherapy,25000,33,Yes,Recovered,4
+351,Green Valley Hospital,South,General Medicine,Inpatient,2024-11-23,2024-12-18,72,Male,Hypertension,Medication and Counseling,1000,25,No,Stable,4
+352,HealthPlus Hospital,East,Surgery,Outpatient,2024-03-03,2024-03-30,60,Female,Appendicitis,Appendectomy,8000,27,Yes,Recovered,3
+353,HealthPlus Hospital,West,Orthopedics,Inpatient,2024-06-07,2024-07-06,45,Male,Fractured Leg,Cast and Physical Therapy,3000,29,No,Recovered,4
+354,City Care Hospital,East,Cardiology,Inpatient,2024-02-14,2024-03-16,75,Female,Heart Attack,Cardiac Catheterization,18000,31,Yes,Stable,2
+355,City Care Hospital,Central,Emergency,Emergency,2024-10-07,2024-10-31,28,Male,Allergic Reaction,Epinephrine Injection,100,24,No,Recovered,5
+357,Sunrise Medical Center,East,Surgery,Emergency,2024-09-18,2024-10-20,67,Male,Prostate Cancer,Radiation Therapy,20000,32,No,Recovered,3
+358,City Care Hospital,Central,Pediatrics,Outpatient,2024-10-22,2024-11-17,35,Female,Childbirth,Delivery and Postnatal Care,12000,26,No,Recovered,4
+359,Green Valley Hospital,West,General Medicine,Inpatient,2024-10-06,2024-11-02,50,Male,Kidney Stones,Lithotripsy,6000,27,No,Recovered,3
+360,Sunrise Medical Center,South,Orthopedics,Outpatient,2024-04-22,2024-05-20,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,28,No,Stable,4
+361,HealthPlus Hospital,West,Cardiology,Outpatient,2024-01-25,2024-02-23,48,Female,Heart Disease,Angioplasty,15000,29,Yes,Recovered,4
+362,HealthPlus Hospital,East,General Medicine,Inpatient,2024-12-06,2025-01-02,65,Male,Diabetes,Insulin Therapy,2000,27,No,Stable,3
+363,City Care Hospital,East,Orthopedics,Inpatient,2024-06-29,2024-07-24,30,Female,Fractured Arm,X-Ray and Splint,500,25,No,Recovered,5
+364,HealthPlus Hospital,North,ICU,Outpatient,2024-02-04,2024-03-06,70,Male,Stroke,CT Scan and Medication,10000,31,Yes,Stable,2
+365,City Care Hospital,North,Surgery,Inpatient,2024-12-05,2025-01-08,55,Female,Cancer,Surgery and Chemotherapy,25000,34,No,Recovered,4
+366,Metro Health Institute,East,General Medicine,Inpatient,2024-12-29,2025-01-24,68,Male,Hypertension,Medication and Counseling,1000,26,No,Stable,4
+367,HealthPlus Hospital,North,Surgery,Day Care,2024-06-12,2024-07-10,45,Female,Appendicitis,Appendectomy,8000,28,No,Recovered,3
+368,HealthPlus Hospital,Central,Orthopedics,Outpatient,2024-10-08,2024-11-07,40,Male,Fractured Leg,Cast and Physical Therapy,3000,30,No,Recovered,4
+369,Green Valley Hospital,Central,Cardiology,Inpatient,2024-01-14,2024-02-15,78,Female,Heart Attack,Cardiac Catheterization,18000,32,Yes,Stable,2
+370,HealthPlus Hospital,West,Emergency,Inpatient,2024-02-04,2024-02-29,25,Male,Allergic Reaction,Epinephrine Injection,100,25,No,Recovered,5
+371,City Care Hospital,West,General Medicine,Inpatient,2024-04-11,2024-05-07,52,Female,Respiratory Infection,Antibiotics and Rest,800,26,No,Stable,4
+372,Sunrise Medical Center,East,Surgery,Inpatient,2024-08-28,2024-09-30,58,Male,Prostate Cancer,Radiation Therapy,20000,33,No,Recovered,3
+373,Sunrise Medical Center,North,Pediatrics,Outpatient,2024-02-18,2024-03-16,32,Female,Childbirth,Delivery and Postnatal Care,12000,27,No,Recovered,4
+374,Green Valley Hospital,South,General Medicine,Outpatient,2024-01-13,2024-02-10,55,Male,Kidney Stones,Lithotripsy,6000,28,No,Recovered,3
+375,City Care Hospital,East,Orthopedics,Inpatient,2024-09-01,2024-09-30,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,29,No,Stable,4
+376,Metro Health Institute,Central,Cardiology,Inpatient,2024-10-08,2024-11-07,55,Female,Heart Disease,Angioplasty,15000,30,Yes,Recovered,3
+377,Green Valley Hospital,South,General Medicine,Outpatient,2024-09-27,2024-10-25,62,Male,Diabetes,Insulin Therapy,2000,28,No,Stable,4
+378,Metro Health Institute,East,Orthopedics,Inpatient,2024-10-19,2024-11-14,35,Female,Fractured Arm,X-Ray and Splint,500,26,Yes,Recovered,5
+379,Sunrise Medical Center,South,ICU,Inpatient,2024-10-20,2024-11-22,78,Male,Stroke,CT Scan and Medication,10000,33,No,Stable,2
+380,Green Valley Hospital,North,Surgery,Inpatient,2024-08-08,2024-09-12,53,Female,Cancer,Surgery and Chemotherapy,25000,35,Yes,Recovered,4
+381,HealthPlus Hospital,North,General Medicine,Outpatient,2024-07-09,2024-08-05,72,Male,Hypertension,Medication and Counseling,1000,27,No,Stable,4
+382,City Care Hospital,South,Surgery,Inpatient,2024-11-09,2024-12-08,60,Female,Appendicitis,Appendectomy,8000,29,Yes,Recovered,3
+383,Metro Health Institute,North,Orthopedics,Outpatient,2024-05-07,2024-06-07,45,Male,Fractured Leg,Cast and Physical Therapy,3000,31,No,Recovered,4
+384,Metro Health Institute,North,Cardiology,Inpatient,2024-02-05,2024-03-09,75,Female,Heart Attack,Cardiac Catheterization,18000,33,Yes,Stable,2
+385,Green Valley Hospital,South,Emergency,Outpatient,2024-10-02,2024-10-28,28,Male,Allergic Reaction,Epinephrine Injection,100,26,No,Recovered,5
+386,Green Valley Hospital,South,General Medicine,Inpatient,2024-04-10,2024-05-07,52,Female,Respiratory Infection,Antibiotics and Rest,800,27,No,Stable,4
+387,City Care Hospital,East,Surgery,Inpatient,2024-12-24,2025-01-27,67,Male,Prostate Cancer,Radiation Therapy,20000,34,No,Recovered,3
+388,HealthPlus Hospital,North,Pediatrics,Inpatient,2024-05-31,2024-06-28,35,Female,Childbirth,Delivery and Postnatal Care,12000,28,No,Recovered,4
+389,HealthPlus Hospital,South,General Medicine,Inpatient,2024-11-07,2024-12-06,50,Male,Kidney Stones,Lithotripsy,6000,29,No,Recovered,3
+390,Green Valley Hospital,East,Orthopedics,Inpatient,2024-01-16,2024-02-15,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,30,No,Stable,4
+391,City Care Hospital,Central,Cardiology,Inpatient,2024-08-29,2024-09-29,48,Female,Heart Disease,Angioplasty,15000,31,Yes,Recovered,4
+392,City Care Hospital,West,General Medicine,Inpatient,2024-06-13,2024-07-12,65,Male,Diabetes,Insulin Therapy,2000,29,No,Stable,3
+393,City Care Hospital,Central,Orthopedics,Inpatient,2024-06-18,2024-07-15,30,Female,Fractured Arm,X-Ray and Splint,500,27,No,Recovered,5
+394,HealthPlus Hospital,South,ICU,Emergency,2024-04-07,2024-05-11,70,Male,Stroke,CT Scan and Medication,10000,34,Yes,Stable,2
+395,HealthPlus Hospital,East,Surgery,Inpatient,2024-12-21,2025-01-26,55,Female,Cancer,Surgery and Chemotherapy,25000,36,No,Recovered,4
+396,City Care Hospital,East,General Medicine,Outpatient,2024-05-23,2024-06-20,68,Male,Hypertension,Medication and Counseling,1000,28,No,Stable,4
+397,Metro Health Institute,Central,Surgery,Day Care,2024-11-07,2024-12-07,45,Female,Appendicitis,Appendectomy,8000,30,No,Recovered,3
+398,City Care Hospital,Central,Orthopedics,Inpatient,2024-06-04,2024-07-06,40,Male,Fractured Leg,Cast and Physical Therapy,3000,32,No,Recovered,4
+399,Green Valley Hospital,Central,Cardiology,Outpatient,2024-01-18,2024-02-21,78,Female,Heart Attack,Cardiac Catheterization,18000,34,Yes,Stable,2
+400,Sunrise Medical Center,West,Emergency,Outpatient,2024-11-17,2024-12-14,25,Male,Allergic Reaction,Epinephrine Injection,100,27,No,Recovered,5
+401,Metro Health Institute,East,General Medicine,Outpatient,2024-03-08,2024-04-05,52,Female,Respiratory Infection,Antibiotics and Rest,800,28,No,Stable,4
+402,HealthPlus Hospital,East,Surgery,Inpatient,2024-04-08,2024-05-13,58,Male,Prostate Cancer,Radiation Therapy,20000,35,No,Recovered,3
+403,City Care Hospital,Central,Pediatrics,Inpatient,2024-11-11,2024-12-10,32,Female,Childbirth,Delivery and Postnatal Care,12000,29,No,Recovered,4
+404,City Care Hospital,South,General Medicine,Inpatient,2024-11-23,2024-12-23,55,Male,Kidney Stones,Lithotripsy,6000,30,No,Recovered,3
+405,Green Valley Hospital,South,Orthopedics,Inpatient,2024-12-01,2025-01-01,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,31,No,Stable,4
+406,Green Valley Hospital,Central,Cardiology,Day Care,2024-06-04,2024-07-06,55,Female,Heart Disease,Angioplasty,15000,32,Yes,Recovered,3
+407,HealthPlus Hospital,South,General Medicine,Emergency,2024-10-04,2024-11-03,62,Male,Diabetes,Insulin Therapy,2000,30,No,Stable,4
+408,Metro Health Institute,South,Orthopedics,Inpatient,2024-04-29,2024-05-27,35,Female,Fractured Arm,X-Ray and Splint,500,28,Yes,Recovered,5
+409,Green Valley Hospital,East,ICU,Outpatient,2024-09-27,2024-11-01,78,Male,Stroke,CT Scan and Medication,10000,35,No,Stable,2
+410,HealthPlus Hospital,South,Surgery,Inpatient,2024-07-02,2024-08-08,53,Female,Cancer,Surgery and Chemotherapy,25000,37,Yes,Recovered,4
+411,Sunrise Medical Center,Central,General Medicine,Emergency,2024-01-20,2024-02-18,72,Male,Hypertension,Medication and Counseling,1000,29,No,Stable,4
+412,Sunrise Medical Center,Central,Surgery,Inpatient,2024-06-01,2024-07-02,60,Female,Appendicitis,Appendectomy,8000,31,Yes,Recovered,3
+413,Sunrise Medical Center,South,Orthopedics,Emergency,2024-06-20,2024-07-23,45,Male,Fractured Leg,Cast and Physical Therapy,3000,33,No,Recovered,4
+414,City Care Hospital,East,Cardiology,Outpatient,2024-04-04,2024-05-09,75,Female,Heart Attack,Cardiac Catheterization,18000,35,Yes,Stable,2
+415,HealthPlus Hospital,Central,Emergency,Inpatient,2024-05-17,2024-06-14,28,Male,Allergic Reaction,Epinephrine Injection,100,28,No,Recovered,5
+416,City Care Hospital,West,General Medicine,Inpatient,2024-07-02,2024-07-31,52,Female,Respiratory Infection,Antibiotics and Rest,800,29,No,Stable,4
+418,City Care Hospital,South,Pediatrics,Outpatient,2024-01-19,2024-02-18,35,Female,Childbirth,Delivery and Postnatal Care,12000,30,No,Recovered,4
+419,Green Valley Hospital,East,General Medicine,Inpatient,2024-02-25,2024-03-27,50,Male,Kidney Stones,Lithotripsy,6000,31,No,Recovered,3
+420,Green Valley Hospital,West,Orthopedics,Inpatient,2024-10-07,2024-11-08,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,32,No,Stable,4
+421,City Care Hospital,West,Cardiology,Emergency,2024-05-08,2024-06-10,48,Female,Heart Disease,Angioplasty,15000,33,Yes,Recovered,4
+422,City Care Hospital,North,General Medicine,Inpatient,2024-08-10,2024-09-10,65,Male,Diabetes,Insulin Therapy,2000,31,No,Stable,3
+423,Metro Health Institute,South,Orthopedics,Inpatient,2024-07-26,2024-08-24,30,Female,Fractured Arm,X-Ray and Splint,500,29,No,Recovered,5
+424,HealthPlus Hospital,Central,ICU,Inpatient,2024-07-20,2024-08-25,70,Male,Stroke,CT Scan and Medication,10000,36,Yes,Stable,2
+425,City Care Hospital,South,Surgery,Inpatient,2024-05-31,2024-07-08,55,Female,Cancer,Surgery and Chemotherapy,25000,38,No,Recovered,4
+426,Green Valley Hospital,South,General Medicine,Emergency,2024-06-25,2024-07-25,68,Male,Hypertension,Medication and Counseling,1000,30,No,Stable,4
+427,Sunrise Medical Center,South,Surgery,Inpatient,2024-10-28,2024-11-29,45,Female,Appendicitis,Appendectomy,8000,32,No,Recovered,3
+428,HealthPlus Hospital,North,Orthopedics,Inpatient,2024-12-19,2025-01-22,40,Male,Fractured Leg,Cast and Physical Therapy,3000,34,No,Recovered,4
+429,Metro Health Institute,North,Cardiology,Inpatient,2024-04-03,2024-05-09,78,Female,Heart Attack,Cardiac Catheterization,18000,36,Yes,Stable,2
+430,Metro Health Institute,South,Emergency,Emergency,2024-09-02,2024-10-01,25,Male,Allergic Reaction,Epinephrine Injection,100,29,No,Recovered,5
+431,Sunrise Medical Center,Central,General Medicine,Inpatient,2024-12-20,2025-01-19,52,Female,Respiratory Infection,Antibiotics and Rest,800,30,No,Stable,4
+432,Sunrise Medical Center,North,Surgery,Outpatient,2024-01-03,2024-02-09,58,Male,Prostate Cancer,Radiation Therapy,20000,37,No,Recovered,3
+433,City Care Hospital,South,Pediatrics,Outpatient,2024-10-14,2024-11-14,32,Female,Childbirth,Delivery and Postnatal Care,12000,31,No,Recovered,4
+434,HealthPlus Hospital,North,General Medicine,Outpatient,2024-06-30,2024-08-01,55,Male,Kidney Stones,Lithotripsy,6000,32,No,Recovered,3
+435,HealthPlus Hospital,East,Orthopedics,Day Care,2024-12-20,2025-01-22,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,33,No,Stable,4
+436,City Care Hospital,South,Cardiology,Outpatient,2024-07-30,2024-09-02,55,Female,Heart Disease,Angioplasty,15000,34,Yes,Recovered,3
+437,Metro Health Institute,West,General Medicine,Emergency,2024-11-02,2024-12-04,62,Male,Diabetes,Insulin Therapy,2000,32,No,Stable,4
+438,City Care Hospital,East,Orthopedics,Inpatient,2024-03-01,2024-03-31,35,Female,Fractured Arm,X-Ray and Splint,500,30,Yes,Recovered,5
+439,Metro Health Institute,West,ICU,Outpatient,2024-02-22,2024-03-30,78,Male,Stroke,CT Scan and Medication,10000,37,No,Stable,2
+440,HealthPlus Hospital,West,Surgery,Inpatient,2024-12-05,2025-01-13,53,Female,Cancer,Surgery and Chemotherapy,25000,39,Yes,Recovered,4
+441,City Care Hospital,East,General Medicine,Inpatient,2024-07-11,2024-08-11,72,Male,Hypertension,Medication and Counseling,1000,31,No,Stable,4
+442,Sunrise Medical Center,Central,Surgery,Outpatient,2024-07-23,2024-08-25,60,Female,Appendicitis,Appendectomy,8000,33,Yes,Recovered,3
+443,City Care Hospital,East,Orthopedics,Day Care,2024-03-03,2024-04-07,45,Male,Fractured Leg,Cast and Physical Therapy,3000,35,No,Recovered,4
+444,Sunrise Medical Center,Central,Cardiology,Outpatient,2024-03-23,2024-04-29,75,Female,Heart Attack,Cardiac Catheterization,18000,37,Yes,Stable,2
+445,HealthPlus Hospital,Central,Emergency,Inpatient,2024-10-26,2024-11-25,28,Male,Allergic Reaction,Epinephrine Injection,100,30,No,Recovered,5
+446,City Care Hospital,East,General Medicine,Inpatient,2024-04-21,2024-05-22,52,Female,Respiratory Infection,Antibiotics and Rest,800,31,No,Stable,4
+447,Green Valley Hospital,West,Surgery,Inpatient,2024-08-01,2024-09-08,67,Male,Prostate Cancer,Radiation Therapy,20000,38,No,Recovered,3
+448,HealthPlus Hospital,South,Pediatrics,Inpatient,2024-04-25,2024-05-27,35,Female,Childbirth,Delivery and Postnatal Care,12000,32,No,Recovered,4
+449,Green Valley Hospital,Central,General Medicine,Inpatient,2024-04-06,2024-05-09,50,Male,Kidney Stones,Lithotripsy,6000,33,No,Recovered,3
+450,City Care Hospital,West,Orthopedics,Inpatient,2024-03-01,2024-04-04,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,34,No,Stable,4
+451,Sunrise Medical Center,Central,Cardiology,Inpatient,2024-12-06,2025-01-10,48,Female,Heart Disease,Angioplasty,15000,35,Yes,Recovered,4
+452,Sunrise Medical Center,South,General Medicine,Outpatient,2024-12-10,2025-01-12,65,Male,Diabetes,Insulin Therapy,2000,33,No,Stable,3
+453,Metro Health Institute,West,Orthopedics,Inpatient,2024-02-12,2024-03-14,30,Female,Fractured Arm,X-Ray and Splint,500,31,No,Recovered,5
+454,Green Valley Hospital,East,ICU,Emergency,2024-05-09,2024-06-16,70,Male,Stroke,CT Scan and Medication,10000,38,Yes,Stable,2
+455,HealthPlus Hospital,North,Surgery,Outpatient,2024-07-25,2024-09-03,55,Female,Cancer,Surgery and Chemotherapy,25000,40,No,Recovered,4
+456,Sunrise Medical Center,North,General Medicine,Inpatient,2024-05-20,2024-06-21,68,Male,Hypertension,Medication and Counseling,1000,32,No,Stable,4
+457,Green Valley Hospital,East,Surgery,Inpatient,2024-09-20,2024-10-24,45,Female,Appendicitis,Appendectomy,8000,34,No,Recovered,3
+458,HealthPlus Hospital,South,Orthopedics,Inpatient,2024-04-05,2024-05-11,40,Male,Fractured Leg,Cast and Physical Therapy,3000,36,No,Recovered,4
+459,HealthPlus Hospital,North,Cardiology,Day Care,2024-01-22,2024-02-29,78,Female,Heart Attack,Cardiac Catheterization,18000,38,Yes,Stable,2
+460,Sunrise Medical Center,East,Emergency,Inpatient,2024-05-03,2024-06-03,25,Male,Allergic Reaction,Epinephrine Injection,100,31,No,Recovered,5
+461,City Care Hospital,West,General Medicine,Inpatient,2024-08-06,2024-09-07,52,Female,Respiratory Infection,Antibiotics and Rest,800,32,No,Stable,4
+462,Sunrise Medical Center,South,Surgery,Emergency,2024-03-07,2024-04-15,58,Male,Prostate Cancer,Radiation Therapy,20000,39,No,Recovered,3
+463,Sunrise Medical Center,Central,Pediatrics,Day Care,2024-10-25,2024-11-27,32,Female,Childbirth,Delivery and Postnatal Care,12000,33,No,Recovered,4
+464,City Care Hospital,West,General Medicine,Inpatient,2024-01-05,2024-02-08,55,Male,Kidney Stones,Lithotripsy,6000,34,No,Recovered,3
+465,Metro Health Institute,East,Orthopedics,Inpatient,2024-01-25,2024-02-29,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,35,No,Stable,4
+466,HealthPlus Hospital,Central,Cardiology,Inpatient,2024-07-05,2024-08-10,55,Female,Heart Disease,Angioplasty,15000,36,Yes,Recovered,3
+467,City Care Hospital,East,General Medicine,Inpatient,2024-07-06,2024-08-09,62,Male,Diabetes,Insulin Therapy,2000,34,No,Stable,4
+468,Metro Health Institute,North,Orthopedics,Inpatient,2024-04-17,2024-05-19,35,Female,Fractured Arm,X-Ray and Splint,500,32,Yes,Recovered,5
+469,City Care Hospital,North,ICU,Inpatient,2024-04-04,2024-05-13,78,Male,Stroke,CT Scan and Medication,10000,39,No,Stable,2
+470,Metro Health Institute,Central,Surgery,Emergency,2024-01-26,2024-03-07,53,Female,Cancer,Surgery and Chemotherapy,25000,41,Yes,Recovered,4
+471,Sunrise Medical Center,Central,General Medicine,Inpatient,2024-08-30,2024-10-02,72,Male,Hypertension,Medication and Counseling,1000,33,No,Stable,4
+472,City Care Hospital,West,Surgery,Outpatient,2024-05-18,2024-06-22,60,Female,Appendicitis,Appendectomy,8000,35,Yes,Recovered,3
+473,HealthPlus Hospital,North,Orthopedics,Inpatient,2024-02-13,2024-03-21,45,Male,Fractured Leg,Cast and Physical Therapy,3000,37,No,Recovered,4
+474,City Care Hospital,South,Cardiology,Outpatient,2024-05-26,2024-07-04,75,Female,Heart Attack,Cardiac Catheterization,18000,39,Yes,Stable,2
+475,Sunrise Medical Center,North,Emergency,Outpatient,2024-12-08,2025-01-09,28,Male,Allergic Reaction,Epinephrine Injection,100,32,No,Recovered,5
+476,City Care Hospital,North,General Medicine,Outpatient,2024-04-05,2024-05-08,52,Female,Respiratory Infection,Antibiotics and Rest,800,33,No,Stable,4
+477,HealthPlus Hospital,South,Surgery,Emergency,2024-11-23,2025-01-02,67,Male,Prostate Cancer,Radiation Therapy,20000,40,No,Recovered,3
+479,Metro Health Institute,East,General Medicine,Inpatient,2024-04-04,2024-05-09,50,Male,Kidney Stones,Lithotripsy,6000,35,No,Recovered,3
+480,HealthPlus Hospital,North,Orthopedics,Inpatient,2024-03-09,2024-04-14,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,36,No,Stable,4
+481,Sunrise Medical Center,Central,Cardiology,Inpatient,2024-04-05,2024-05-12,48,Female,Heart Disease,Angioplasty,15000,37,Yes,Recovered,4
+482,Sunrise Medical Center,East,General Medicine,Inpatient,2024-04-28,2024-06-02,65,Male,Diabetes,Insulin Therapy,2000,35,No,Stable,3
+483,Metro Health Institute,South,Orthopedics,Emergency,2024-02-14,2024-03-18,30,Female,Fractured Arm,X-Ray and Splint,500,33,No,Recovered,5
+484,Metro Health Institute,East,ICU,Inpatient,2024-08-03,2024-09-12,70,Male,Stroke,CT Scan and Medication,10000,40,Yes,Stable,2
+485,HealthPlus Hospital,West,Surgery,Outpatient,2024-05-02,2024-06-13,55,Female,Cancer,Surgery and Chemotherapy,25000,42,No,Recovered,4
+486,City Care Hospital,South,General Medicine,Inpatient,2024-09-19,2024-10-23,68,Male,Hypertension,Medication and Counseling,1000,34,No,Stable,4
+487,Metro Health Institute,North,Surgery,Inpatient,2024-06-28,2024-08-03,45,Female,Appendicitis,Appendectomy,8000,36,No,Recovered,3
+488,City Care Hospital,North,Orthopedics,Inpatient,2024-06-11,2024-07-19,40,Male,Fractured Leg,Cast and Physical Therapy,3000,38,No,Recovered,4
+489,Green Valley Hospital,Central,Cardiology,Outpatient,2024-06-21,2024-07-31,78,Female,Heart Attack,Cardiac Catheterization,18000,40,Yes,Stable,2
+490,HealthPlus Hospital,North,Emergency,Outpatient,2024-02-27,2024-03-31,25,Male,Allergic Reaction,Epinephrine Injection,100,33,No,Recovered,5
+491,Green Valley Hospital,West,General Medicine,Inpatient,2024-09-17,2024-10-21,52,Female,Respiratory Infection,Antibiotics and Rest,800,34,No,Stable,4
+492,Metro Health Institute,South,Surgery,Inpatient,2024-02-08,2024-03-20,58,Male,Prostate Cancer,Radiation Therapy,20000,41,No,Recovered,3
+493,Sunrise Medical Center,West,Pediatrics,Outpatient,2024-09-21,2024-10-26,32,Female,Childbirth,Delivery and Postnatal Care,12000,35,No,Recovered,4
+494,Green Valley Hospital,North,General Medicine,Inpatient,2024-12-31,2025-02-05,55,Male,Kidney Stones,Lithotripsy,6000,36,No,Recovered,3
+495,Green Valley Hospital,Central,Orthopedics,Emergency,2024-10-06,2024-11-12,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,37,No,Stable,4
+496,Sunrise Medical Center,West,Cardiology,Inpatient,2024-06-15,2024-07-23,55,Female,Heart Disease,Angioplasty,15000,38,Yes,Recovered,3
+497,Metro Health Institute,East,General Medicine,Inpatient,2024-04-25,2024-05-31,62,Male,Diabetes,Insulin Therapy,2000,36,No,Stable,4
+498,Metro Health Institute,South,Orthopedics,Inpatient,2024-11-15,2024-12-19,35,Female,Fractured Arm,X-Ray and Splint,500,34,Yes,Recovered,5
+499,HealthPlus Hospital,Central,ICU,Inpatient,2024-04-04,2024-05-15,78,Male,Stroke,CT Scan and Medication,10000,41,No,Stable,2
+500,HealthPlus Hospital,South,Surgery,Inpatient,2024-06-25,2024-08-07,53,Female,Cancer,Surgery and Chemotherapy,25000,43,Yes,Recovered,4
+501,Metro Health Institute,East,General Medicine,Inpatient,2024-10-09,2024-11-13,72,Male,Hypertension,Medication and Counseling,1000,35,No,Stable,4
+502,Metro Health Institute,South,Surgery,Day Care,2024-12-03,2025-01-09,60,Female,Appendicitis,Appendectomy,8000,37,Yes,Recovered,3
+503,Green Valley Hospital,South,Orthopedics,Inpatient,2024-12-03,2025-01-11,45,Male,Fractured Leg,Cast and Physical Therapy,3000,39,No,Recovered,4
+504,Sunrise Medical Center,East,Cardiology,Inpatient,2024-02-02,2024-03-14,75,Female,Heart Attack,Cardiac Catheterization,18000,41,Yes,Stable,2
+505,City Care Hospital,North,Emergency,Inpatient,2024-11-24,2024-12-28,28,Male,Allergic Reaction,Epinephrine Injection,100,34,No,Recovered,5
+506,Green Valley Hospital,North,General Medicine,Inpatient,2024-02-11,2024-03-17,52,Female,Respiratory Infection,Antibiotics and Rest,800,35,No,Stable,4
+507,HealthPlus Hospital,South,Surgery,Outpatient,2024-08-01,2024-09-12,67,Male,Prostate Cancer,Radiation Therapy,20000,42,No,Recovered,3
+508,Sunrise Medical Center,North,Pediatrics,Inpatient,2024-12-06,2025-01-11,35,Female,Childbirth,Delivery and Postnatal Care,12000,36,No,Recovered,4
+509,City Care Hospital,East,General Medicine,Outpatient,2024-08-27,2024-10-03,50,Male,Kidney Stones,Lithotripsy,6000,37,No,Recovered,3
+510,Metro Health Institute,Central,Orthopedics,Inpatient,2024-12-12,2025-01-19,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,38,No,Stable,4
+511,HealthPlus Hospital,North,Cardiology,Day Care,2024-05-06,2024-06-14,48,Female,Heart Disease,Angioplasty,15000,39,Yes,Recovered,4
+512,HealthPlus Hospital,North,General Medicine,Inpatient,2024-04-25,2024-06-01,65,Male,Diabetes,Insulin Therapy,2000,37,No,Stable,3
+513,Green Valley Hospital,North,Orthopedics,Outpatient,2024-04-29,2024-06-03,30,Female,Fractured Arm,X-Ray and Splint,500,35,No,Recovered,5
+514,Sunrise Medical Center,East,ICU,Inpatient,2024-05-09,2024-06-20,70,Male,Stroke,CT Scan and Medication,10000,42,Yes,Stable,2
+515,Sunrise Medical Center,South,Surgery,Inpatient,2024-09-06,2024-10-20,55,Female,Cancer,Surgery and Chemotherapy,25000,44,No,Recovered,4
+516,Green Valley Hospital,East,General Medicine,Outpatient,2024-06-14,2024-07-20,68,Male,Hypertension,Medication and Counseling,1000,36,No,Stable,4
+517,Green Valley Hospital,North,Surgery,Outpatient,2024-09-26,2024-11-03,45,Female,Appendicitis,Appendectomy,8000,38,No,Recovered,3
+518,Green Valley Hospital,South,Orthopedics,Outpatient,2024-06-01,2024-07-11,40,Male,Fractured Leg,Cast and Physical Therapy,3000,40,No,Recovered,4
+519,HealthPlus Hospital,East,Cardiology,Inpatient,2024-04-22,2024-06-03,78,Female,Heart Attack,Cardiac Catheterization,18000,42,Yes,Stable,2
+520,Metro Health Institute,East,Emergency,Outpatient,2024-03-10,2024-04-14,25,Male,Allergic Reaction,Epinephrine Injection,100,35,No,Recovered,5
+521,HealthPlus Hospital,East,General Medicine,Outpatient,2024-07-20,2024-08-25,52,Female,Respiratory Infection,Antibiotics and Rest,800,36,No,Stable,4
+522,HealthPlus Hospital,West,Surgery,Outpatient,2024-11-24,2025-01-06,58,Male,Prostate Cancer,Radiation Therapy,20000,43,No,Recovered,3
+523,HealthPlus Hospital,East,Pediatrics,Inpatient,2024-11-10,2024-12-17,32,Female,Childbirth,Delivery and Postnatal Care,12000,37,No,Recovered,4
+524,City Care Hospital,Central,General Medicine,Outpatient,2024-04-02,2024-05-10,55,Male,Kidney Stones,Lithotripsy,6000,38,No,Recovered,3
+525,HealthPlus Hospital,East,Orthopedics,Outpatient,2024-06-23,2024-08-01,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,39,No,Stable,4
+526,City Care Hospital,South,Cardiology,Emergency,2024-09-15,2024-10-25,55,Female,Heart Disease,Angioplasty,15000,40,Yes,Recovered,3
+527,Sunrise Medical Center,South,General Medicine,Inpatient,2024-08-12,2024-09-19,62,Male,Diabetes,Insulin Therapy,2000,38,No,Stable,4
+528,Sunrise Medical Center,South,Orthopedics,Inpatient,2024-01-25,2024-03-01,35,Female,Fractured Arm,X-Ray and Splint,500,36,Yes,Recovered,5
+529,Green Valley Hospital,East,ICU,Outpatient,2024-08-04,2024-09-16,78,Male,Stroke,CT Scan and Medication,10000,43,No,Stable,2
+530,City Care Hospital,South,Surgery,Inpatient,2024-01-15,2024-02-29,53,Female,Cancer,Surgery and Chemotherapy,25000,45,Yes,Recovered,4
+531,City Care Hospital,Central,General Medicine,Outpatient,2024-02-12,2024-03-21,72,Male,Hypertension,Medication and Counseling,1000,38,No,Stable,4
+532,HealthPlus Hospital,East,Surgery,Inpatient,2024-08-27,2024-10-05,60,Female,Appendicitis,Appendectomy,8000,39,Yes,Recovered,3
+533,Green Valley Hospital,Central,Orthopedics,Inpatient,2024-02-07,2024-03-19,45,Male,Fractured Leg,Cast and Physical Therapy,3000,41,No,Recovered,4
+534,Green Valley Hospital,West,Cardiology,Outpatient,2024-05-04,2024-06-16,75,Female,Heart Attack,Cardiac Catheterization,18000,43,Yes,Stable,2
+535,HealthPlus Hospital,South,Emergency,Inpatient,2024-08-03,2024-09-08,28,Male,Allergic Reaction,Epinephrine Injection,100,36,No,Recovered,5
+536,City Care Hospital,South,General Medicine,Inpatient,2024-08-27,2024-10-03,52,Female,Respiratory Infection,Antibiotics and Rest,800,37,No,Stable,4
+537,HealthPlus Hospital,West,Surgery,Outpatient,2024-06-12,2024-07-26,67,Male,Prostate Cancer,Radiation Therapy,20000,44,No,Recovered,3
+538,HealthPlus Hospital,South,Pediatrics,Outpatient,2024-02-04,2024-03-13,35,Female,Childbirth,Delivery and Postnatal Care,12000,38,No,Recovered,4
+540,Sunrise Medical Center,South,Orthopedics,Outpatient,2024-10-19,2024-11-28,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,40,No,Stable,4
+541,City Care Hospital,Central,Cardiology,Inpatient,2024-12-13,2025-01-23,48,Female,Heart Disease,Angioplasty,15000,41,Yes,Recovered,4
+542,City Care Hospital,East,General Medicine,Inpatient,2024-11-21,2024-12-30,65,Male,Diabetes,Insulin Therapy,2000,39,No,Stable,3
+543,Green Valley Hospital,North,Orthopedics,Emergency,2024-09-30,2024-11-06,30,Female,Fractured Arm,X-Ray and Splint,500,37,No,Recovered,5
+544,Sunrise Medical Center,East,ICU,Inpatient,2024-05-27,2024-07-10,70,Male,Stroke,CT Scan and Medication,10000,44,Yes,Stable,2
+545,City Care Hospital,East,Surgery,Inpatient,2024-11-16,2025-01-01,55,Female,Cancer,Surgery and Chemotherapy,25000,46,No,Recovered,4
+546,Sunrise Medical Center,Central,General Medicine,Inpatient,2024-06-27,2024-08-06,68,Male,Hypertension,Medication and Counseling,1000,40,No,Stable,4
+547,City Care Hospital,West,Surgery,Inpatient,2024-02-19,2024-04-01,45,Female,Appendicitis,Appendectomy,8000,42,No,Recovered,3
+548,Sunrise Medical Center,North,Orthopedics,Outpatient,2024-11-07,2024-12-19,40,Male,Fractured Leg,Cast and Physical Therapy,3000,42,No,Recovered,4
+549,City Care Hospital,North,Cardiology,Outpatient,2024-04-27,2024-06-10,78,Female,Heart Attack,Cardiac Catheterization,18000,44,Yes,Stable,2
+550,Metro Health Institute,West,Emergency,Outpatient,2024-12-09,2025-01-15,25,Male,Allergic Reaction,Epinephrine Injection,100,37,No,Recovered,5
+551,City Care Hospital,North,General Medicine,Inpatient,2024-05-14,2024-06-21,52,Female,Respiratory Infection,Antibiotics and Rest,800,38,No,Stable,4
+552,City Care Hospital,South,Surgery,Inpatient,2024-11-14,2024-12-29,58,Male,Prostate Cancer,Radiation Therapy,20000,45,No,Recovered,3
+553,City Care Hospital,North,Pediatrics,Inpatient,2024-07-15,2024-08-23,32,Female,Childbirth,Delivery and Postnatal Care,12000,39,No,Recovered,4
+554,HealthPlus Hospital,North,General Medicine,Inpatient,2024-06-20,2024-07-30,55,Male,Kidney Stones,Lithotripsy,6000,40,No,Recovered,3
+555,City Care Hospital,Central,Orthopedics,Inpatient,2024-04-18,2024-05-29,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,41,No,Stable,4
+556,Sunrise Medical Center,North,Cardiology,Inpatient,2024-11-01,2024-12-13,55,Female,Heart Disease,Angioplasty,15000,42,Yes,Recovered,3
+557,Sunrise Medical Center,North,General Medicine,Inpatient,2024-01-23,2024-03-03,62,Male,Diabetes,Insulin Therapy,2000,40,No,Stable,4
+558,Sunrise Medical Center,Central,Orthopedics,Inpatient,2024-06-20,2024-07-28,35,Female,Fractured Arm,X-Ray and Splint,500,38,Yes,Recovered,5
+559,Metro Health Institute,North,ICU,Outpatient,2024-05-15,2024-06-29,78,Male,Stroke,CT Scan and Medication,10000,45,No,Stable,2
+560,HealthPlus Hospital,Central,Surgery,Inpatient,2024-07-17,2024-09-02,53,Female,Cancer,Surgery and Chemotherapy,25000,47,Yes,Recovered,4
+561,Green Valley Hospital,North,General Medicine,Inpatient,2024-04-03,2024-05-14,72,Male,Hypertension,Medication and Counseling,1000,41,No,Stable,4
+562,HealthPlus Hospital,North,Surgery,Outpatient,2024-08-31,2024-10-13,60,Female,Appendicitis,Appendectomy,8000,43,Yes,Recovered,3
+563,Green Valley Hospital,North,Orthopedics,Outpatient,2024-05-21,2024-07-03,45,Male,Fractured Leg,Cast and Physical Therapy,3000,43,No,Recovered,4
+564,HealthPlus Hospital,West,Cardiology,Outpatient,2024-03-09,2024-04-23,75,Female,Heart Attack,Cardiac Catheterization,18000,45,Yes,Stable,2
+565,Sunrise Medical Center,West,Emergency,Inpatient,2024-03-13,2024-04-20,28,Male,Allergic Reaction,Epinephrine Injection,100,38,No,Recovered,5
+566,Metro Health Institute,East,General Medicine,Outpatient,2024-09-11,2024-10-20,52,Female,Respiratory Infection,Antibiotics and Rest,800,39,No,Stable,4
+567,HealthPlus Hospital,South,Surgery,Inpatient,2024-04-05,2024-05-21,67,Male,Prostate Cancer,Radiation Therapy,20000,46,No,Recovered,3
+568,Metro Health Institute,North,Pediatrics,Inpatient,2024-04-22,2024-06-01,35,Female,Childbirth,Delivery and Postnatal Care,12000,40,No,Recovered,4
+569,HealthPlus Hospital,East,General Medicine,Inpatient,2024-08-17,2024-09-27,50,Male,Kidney Stones,Lithotripsy,6000,41,No,Recovered,3
+570,Sunrise Medical Center,South,Orthopedics,Inpatient,2024-04-30,2024-06-11,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,42,No,Stable,4
+571,City Care Hospital,East,Cardiology,Inpatient,2024-05-22,2024-07-04,48,Female,Heart Disease,Angioplasty,15000,43,Yes,Recovered,4
+572,Sunrise Medical Center,West,General Medicine,Inpatient,2024-03-30,2024-05-10,65,Male,Diabetes,Insulin Therapy,2000,41,No,Stable,3
+573,City Care Hospital,Central,Orthopedics,Outpatient,2024-05-06,2024-06-14,30,Female,Fractured Arm,X-Ray and Splint,500,39,No,Recovered,5
+574,HealthPlus Hospital,East,ICU,Inpatient,2024-09-10,2024-10-26,70,Male,Stroke,CT Scan and Medication,10000,46,Yes,Stable,2
+575,Green Valley Hospital,North,Surgery,Inpatient,2024-07-14,2024-08-31,55,Female,Cancer,Surgery and Chemotherapy,25000,48,No,Recovered,4
+576,Green Valley Hospital,South,General Medicine,Inpatient,2024-12-31,2025-02-11,68,Male,Hypertension,Medication and Counseling,1000,42,No,Stable,4
+577,Green Valley Hospital,Central,Surgery,Inpatient,2024-10-09,2024-11-22,45,Female,Appendicitis,Appendectomy,8000,44,No,Recovered,3
+578,Metro Health Institute,East,Orthopedics,Inpatient,2024-01-07,2024-02-20,40,Male,Fractured Leg,Cast and Physical Therapy,3000,44,No,Recovered,4
+579,Sunrise Medical Center,West,Cardiology,Inpatient,2024-05-18,2024-07-03,78,Female,Heart Attack,Cardiac Catheterization,18000,46,Yes,Stable,2
+580,HealthPlus Hospital,East,Emergency,Inpatient,2024-04-16,2024-05-25,25,Male,Allergic Reaction,Epinephrine Injection,100,39,No,Recovered,5
+581,Sunrise Medical Center,North,General Medicine,Outpatient,2024-08-03,2024-09-12,52,Female,Respiratory Infection,Antibiotics and Rest,800,40,No,Stable,4
+582,Green Valley Hospital,Central,Surgery,Emergency,2024-04-07,2024-05-24,58,Male,Prostate Cancer,Radiation Therapy,20000,47,No,Recovered,3
+583,City Care Hospital,West,Pediatrics,Inpatient,2024-12-19,2025-01-29,32,Female,Childbirth,Delivery and Postnatal Care,12000,41,No,Recovered,4
+584,City Care Hospital,Central,General Medicine,Outpatient,2024-04-19,2024-05-31,55,Male,Kidney Stones,Lithotripsy,6000,42,No,Recovered,3
+585,Green Valley Hospital,Central,Orthopedics,Outpatient,2024-07-10,2024-08-22,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,43,No,Stable,4
+586,HealthPlus Hospital,South,Cardiology,Day Care,2024-02-14,2024-03-29,55,Female,Heart Disease,Angioplasty,15000,44,Yes,Recovered,3
+587,Sunrise Medical Center,South,General Medicine,Outpatient,2024-11-28,2025-01-09,62,Male,Diabetes,Insulin Therapy,2000,42,No,Stable,4
+588,HealthPlus Hospital,South,Orthopedics,Outpatient,2024-11-29,2025-01-08,35,Female,Fractured Arm,X-Ray and Splint,500,40,Yes,Recovered,5
+589,City Care Hospital,Central,ICU,Emergency,2024-10-17,2024-12-03,78,Male,Stroke,CT Scan and Medication,10000,47,No,Stable,2
+590,City Care Hospital,East,Surgery,Outpatient,2024-05-08,2024-06-26,53,Female,Cancer,Surgery and Chemotherapy,25000,49,Yes,Recovered,4
+591,HealthPlus Hospital,East,General Medicine,Inpatient,2024-01-22,2024-03-05,72,Male,Hypertension,Medication and Counseling,1000,43,No,Stable,4
+592,City Care Hospital,Central,Surgery,Inpatient,2024-09-17,2024-11-01,60,Female,Appendicitis,Appendectomy,8000,45,Yes,Recovered,3
+593,City Care Hospital,West,Orthopedics,Inpatient,2024-06-06,2024-07-21,45,Male,Fractured Leg,Cast and Physical Therapy,3000,45,No,Recovered,4
+594,Sunrise Medical Center,Central,Cardiology,Inpatient,2024-12-28,2025-02-13,75,Female,Heart Attack,Cardiac Catheterization,18000,47,Yes,Stable,2
+595,HealthPlus Hospital,Central,Emergency,Inpatient,2024-09-12,2024-10-22,28,Male,Allergic Reaction,Epinephrine Injection,100,40,No,Recovered,5
+596,Metro Health Institute,North,General Medicine,Inpatient,2024-07-16,2024-08-26,52,Female,Respiratory Infection,Antibiotics and Rest,800,41,No,Stable,4
+597,City Care Hospital,South,Surgery,Inpatient,2024-12-27,2025-02-13,67,Male,Prostate Cancer,Radiation Therapy,20000,48,No,Recovered,3
+598,HealthPlus Hospital,West,Pediatrics,Inpatient,2024-10-19,2024-11-30,35,Female,Childbirth,Delivery and Postnatal Care,12000,42,No,Recovered,4
+599,HealthPlus Hospital,Central,General Medicine,Outpatient,2024-06-16,2024-07-29,50,Male,Kidney Stones,Lithotripsy,6000,43,No,Recovered,3
+601,HealthPlus Hospital,North,Cardiology,Inpatient,2024-01-07,2024-02-21,48,Female,Heart Disease,Angioplasty,15000,45,Yes,Recovered,4
+602,HealthPlus Hospital,South,General Medicine,Inpatient,2024-02-03,2024-03-17,65,Male,Diabetes,Insulin Therapy,2000,43,No,Stable,3
+603,Green Valley Hospital,East,Orthopedics,Outpatient,2024-06-11,2024-07-22,30,Female,Fractured Arm,X-Ray and Splint,500,41,No,Recovered,5
+604,HealthPlus Hospital,West,ICU,Outpatient,2024-07-24,2024-09-10,70,Male,Stroke,CT Scan and Medication,10000,48,Yes,Stable,2
+605,Green Valley Hospital,North,Surgery,Day Care,2024-01-12,2024-03-02,55,Female,Cancer,Surgery and Chemotherapy,25000,50,No,Recovered,4
+606,HealthPlus Hospital,West,General Medicine,Outpatient,2024-02-16,2024-03-31,68,Male,Hypertension,Medication and Counseling,1000,44,No,Stable,4
+607,Sunrise Medical Center,South,Surgery,Outpatient,2024-09-14,2024-10-30,45,Female,Appendicitis,Appendectomy,8000,46,No,Recovered,3
+608,Metro Health Institute,South,Orthopedics,Inpatient,2024-10-02,2024-11-17,40,Male,Fractured Leg,Cast and Physical Therapy,3000,46,No,Recovered,4
+609,Metro Health Institute,East,Cardiology,Inpatient,2024-01-11,2024-02-28,78,Female,Heart Attack,Cardiac Catheterization,18000,48,Yes,Stable,2
+610,Metro Health Institute,East,Emergency,Inpatient,2024-07-04,2024-08-14,25,Male,Allergic Reaction,Epinephrine Injection,100,41,No,Recovered,5
+611,Metro Health Institute,West,General Medicine,Outpatient,2024-01-30,2024-03-12,52,Female,Respiratory Infection,Antibiotics and Rest,800,42,No,Stable,4
+612,Metro Health Institute,South,Surgery,Emergency,2024-09-21,2024-11-09,58,Male,Prostate Cancer,Radiation Therapy,20000,49,No,Recovered,3
+613,Metro Health Institute,Central,Pediatrics,Inpatient,2024-11-01,2024-12-14,32,Female,Childbirth,Delivery and Postnatal Care,12000,43,No,Recovered,4
+614,City Care Hospital,North,General Medicine,Inpatient,2024-11-14,2024-12-28,55,Male,Kidney Stones,Lithotripsy,6000,44,No,Recovered,3
+615,HealthPlus Hospital,Central,Orthopedics,Inpatient,2024-08-06,2024-09-20,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,45,No,Stable,4
+616,Sunrise Medical Center,North,Cardiology,Inpatient,2024-08-18,2024-10-03,55,Female,Heart Disease,Angioplasty,15000,46,Yes,Recovered,3
+617,Green Valley Hospital,West,General Medicine,Inpatient,2024-12-05,2025-01-18,62,Male,Diabetes,Insulin Therapy,2000,44,No,Stable,4
+618,Sunrise Medical Center,South,Orthopedics,Inpatient,2024-08-12,2024-09-23,35,Female,Fractured Arm,X-Ray and Splint,500,42,Yes,Recovered,5
+619,HealthPlus Hospital,South,ICU,Emergency,2024-06-12,2024-07-31,78,Male,Stroke,CT Scan and Medication,10000,49,No,Stable,2
+620,HealthPlus Hospital,North,Surgery,Inpatient,2024-10-03,2024-11-23,53,Female,Cancer,Surgery and Chemotherapy,25000,51,Yes,Recovered,4
+621,HealthPlus Hospital,West,General Medicine,Outpatient,2024-08-04,2024-09-18,72,Male,Hypertension,Medication and Counseling,1000,45,No,Stable,4
+622,Sunrise Medical Center,North,Surgery,Outpatient,2024-11-04,2024-12-21,60,Female,Appendicitis,Appendectomy,8000,47,Yes,Recovered,3
+623,Metro Health Institute,West,Orthopedics,Inpatient,2024-07-11,2024-08-27,45,Male,Fractured Leg,Cast and Physical Therapy,3000,47,No,Recovered,4
+624,Green Valley Hospital,West,Cardiology,Inpatient,2024-11-14,2025-01-02,75,Female,Heart Attack,Cardiac Catheterization,18000,49,Yes,Stable,2
+625,Metro Health Institute,Central,Emergency,Outpatient,2024-01-17,2024-02-28,28,Male,Allergic Reaction,Epinephrine Injection,100,42,No,Recovered,5
+626,Metro Health Institute,West,General Medicine,Inpatient,2024-01-14,2024-02-26,52,Female,Respiratory Infection,Antibiotics and Rest,800,43,No,Stable,4
+627,Green Valley Hospital,South,Surgery,Emergency,2024-02-06,2024-03-27,67,Male,Prostate Cancer,Radiation Therapy,20000,50,No,Recovered,3
+628,Green Valley Hospital,West,Pediatrics,Inpatient,2024-07-22,2024-09-04,35,Female,Childbirth,Delivery and Postnatal Care,12000,44,No,Recovered,4
+629,City Care Hospital,Central,General Medicine,Outpatient,2024-09-16,2024-10-31,50,Male,Kidney Stones,Lithotripsy,6000,45,No,Recovered,3
+630,City Care Hospital,South,Orthopedics,Outpatient,2024-03-20,2024-05-05,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,46,No,Stable,4
+631,Sunrise Medical Center,North,Cardiology,Inpatient,2024-02-27,2024-04-14,48,Female,Heart Disease,Angioplasty,15000,47,Yes,Recovered,4
+632,Sunrise Medical Center,Central,General Medicine,Inpatient,2024-11-10,2024-12-25,65,Male,Diabetes,Insulin Therapy,2000,45,No,Stable,3
+633,City Care Hospital,North,Orthopedics,Emergency,2024-10-01,2024-11-13,30,Female,Fractured Arm,X-Ray and Splint,500,43,No,Recovered,5
+634,Sunrise Medical Center,East,ICU,Inpatient,2024-08-25,2024-10-14,70,Male,Stroke,CT Scan and Medication,10000,50,Yes,Stable,2
+635,Metro Health Institute,South,Surgery,Inpatient,2024-06-27,2024-08-18,55,Female,Cancer,Surgery and Chemotherapy,25000,52,No,Recovered,4
+636,Green Valley Hospital,North,General Medicine,Inpatient,2024-06-02,2024-07-18,68,Male,Hypertension,Medication and Counseling,1000,46,No,Stable,4
+637,Green Valley Hospital,West,Surgery,Inpatient,2024-01-08,2024-02-25,45,Female,Appendicitis,Appendectomy,8000,48,No,Recovered,3
+638,Green Valley Hospital,North,Orthopedics,Outpatient,2024-03-09,2024-04-26,40,Male,Fractured Leg,Cast and Physical Therapy,3000,48,No,Recovered,4
+639,Sunrise Medical Center,West,Cardiology,Outpatient,2024-11-24,2025-01-13,78,Female,Heart Attack,Cardiac Catheterization,18000,50,Yes,Stable,2
+640,Green Valley Hospital,West,Emergency,Inpatient,2024-05-04,2024-06-16,25,Male,Allergic Reaction,Epinephrine Injection,100,43,No,Recovered,5
+641,Metro Health Institute,North,General Medicine,Outpatient,2024-09-14,2024-10-28,52,Female,Respiratory Infection,Antibiotics and Rest,800,44,No,Stable,4
+642,Green Valley Hospital,North,Surgery,Inpatient,2024-09-14,2024-11-04,58,Male,Prostate Cancer,Radiation Therapy,20000,51,No,Recovered,3
+643,Sunrise Medical Center,West,Pediatrics,Inpatient,2024-04-23,2024-06-07,32,Female,Childbirth,Delivery and Postnatal Care,12000,45,No,Recovered,4
+644,Green Valley Hospital,East,General Medicine,Inpatient,2024-03-15,2024-04-30,55,Male,Kidney Stones,Lithotripsy,6000,46,No,Recovered,3
+645,City Care Hospital,North,Orthopedics,Day Care,2024-09-10,2024-10-27,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,47,No,Stable,4
+646,Metro Health Institute,Central,Cardiology,Inpatient,2024-02-04,2024-03-23,55,Female,Heart Disease,Angioplasty,15000,48,Yes,Recovered,3
+647,Green Valley Hospital,South,General Medicine,Inpatient,2024-06-30,2024-08-15,62,Male,Diabetes,Insulin Therapy,2000,46,No,Stable,4
+648,Green Valley Hospital,North,Orthopedics,Inpatient,2024-11-21,2025-01-04,35,Female,Fractured Arm,X-Ray and Splint,500,44,Yes,Recovered,5
+649,Metro Health Institute,Central,ICU,Outpatient,2024-09-17,2024-11-07,78,Male,Stroke,CT Scan and Medication,10000,51,No,Stable,2
+650,HealthPlus Hospital,North,Surgery,Inpatient,2024-10-06,2024-11-28,53,Female,Cancer,Surgery and Chemotherapy,25000,53,Yes,Recovered,4
+651,Metro Health Institute,East,General Medicine,Inpatient,2024-01-31,2024-03-18,72,Male,Hypertension,Medication and Counseling,1000,47,No,Stable,4
+652,HealthPlus Hospital,Central,Surgery,Outpatient,2024-03-14,2024-05-02,60,Female,Appendicitis,Appendectomy,8000,49,Yes,Recovered,3
+653,HealthPlus Hospital,East,Orthopedics,Inpatient,2024-04-10,2024-05-29,45,Male,Fractured Leg,Cast and Physical Therapy,3000,49,No,Recovered,4
+654,Sunrise Medical Center,East,Cardiology,Inpatient,2024-04-16,2024-06-06,75,Female,Heart Attack,Cardiac Catheterization,18000,51,Yes,Stable,2
+655,Metro Health Institute,South,Emergency,Inpatient,2024-03-12,2024-04-25,28,Male,Allergic Reaction,Epinephrine Injection,100,44,No,Recovered,5
+656,Green Valley Hospital,North,General Medicine,Inpatient,2024-12-21,2025-02-04,52,Female,Respiratory Infection,Antibiotics and Rest,800,45,No,Stable,4
+657,Sunrise Medical Center,East,Surgery,Inpatient,2024-03-01,2024-04-22,67,Male,Prostate Cancer,Radiation Therapy,20000,52,No,Recovered,3
+658,Sunrise Medical Center,Central,Pediatrics,Outpatient,2024-09-16,2024-11-01,35,Female,Childbirth,Delivery and Postnatal Care,12000,46,No,Recovered,4
+659,HealthPlus Hospital,North,General Medicine,Outpatient,2024-08-02,2024-09-18,50,Male,Kidney Stones,Lithotripsy,6000,47,No,Recovered,3
+660,HealthPlus Hospital,Central,Orthopedics,Outpatient,2024-08-11,2024-09-28,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,48,No,Stable,4
+662,Sunrise Medical Center,East,General Medicine,Day Care,2024-03-19,2024-05-05,65,Male,Diabetes,Insulin Therapy,2000,47,No,Stable,3
+663,Metro Health Institute,East,Orthopedics,Inpatient,2024-04-22,2024-06-06,30,Female,Fractured Arm,X-Ray and Splint,500,45,No,Recovered,5
+664,Green Valley Hospital,North,ICU,Inpatient,2024-08-09,2024-09-30,70,Male,Stroke,CT Scan and Medication,10000,52,Yes,Stable,2
+665,HealthPlus Hospital,West,Surgery,Emergency,2024-04-19,2024-06-12,55,Female,Cancer,Surgery and Chemotherapy,25000,54,No,Recovered,4
+666,Sunrise Medical Center,North,General Medicine,Inpatient,2024-09-11,2024-10-29,68,Male,Hypertension,Medication and Counseling,1000,48,No,Stable,4
+667,Sunrise Medical Center,South,Surgery,Outpatient,2024-01-15,2024-03-05,45,Female,Appendicitis,Appendectomy,8000,50,No,Recovered,3
+668,Metro Health Institute,West,Orthopedics,Outpatient,2024-01-27,2024-03-17,40,Male,Fractured Leg,Cast and Physical Therapy,3000,50,No,Recovered,4
+669,Metro Health Institute,North,Cardiology,Inpatient,2024-09-23,2024-11-14,78,Female,Heart Attack,Cardiac Catheterization,18000,52,Yes,Stable,2
+670,City Care Hospital,East,Emergency,Inpatient,2024-08-13,2024-09-27,25,Male,Allergic Reaction,Epinephrine Injection,100,45,No,Recovered,5
+671,Green Valley Hospital,East,General Medicine,Inpatient,2024-01-16,2024-03-02,52,Female,Respiratory Infection,Antibiotics and Rest,800,46,No,Stable,4
+672,City Care Hospital,North,Surgery,Inpatient,2024-11-25,2025-01-17,58,Male,Prostate Cancer,Radiation Therapy,20000,53,No,Recovered,3
+673,Metro Health Institute,South,Pediatrics,Inpatient,2024-01-02,2024-02-18,32,Female,Childbirth,Delivery and Postnatal Care,12000,47,No,Recovered,4
+674,City Care Hospital,South,General Medicine,Inpatient,2024-12-15,2025-02-01,55,Male,Kidney Stones,Lithotripsy,6000,48,No,Recovered,3
+675,Green Valley Hospital,West,Orthopedics,Outpatient,2024-09-23,2024-11-11,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,49,No,Stable,4
+676,Sunrise Medical Center,Central,Cardiology,Emergency,2024-12-27,2025-02-15,55,Female,Heart Disease,Angioplasty,15000,50,Yes,Recovered,3
+677,Metro Health Institute,Central,General Medicine,Outpatient,2024-12-13,2025-01-30,62,Male,Diabetes,Insulin Therapy,2000,48,No,Stable,4
+678,Sunrise Medical Center,North,Orthopedics,Inpatient,2024-04-24,2024-06-09,35,Female,Fractured Arm,X-Ray and Splint,500,46,Yes,Recovered,5
+679,HealthPlus Hospital,North,ICU,Inpatient,2024-10-03,2024-11-25,78,Male,Stroke,CT Scan and Medication,10000,53,No,Stable,2
+680,HealthPlus Hospital,North,Surgery,Inpatient,2024-03-18,2024-05-12,53,Female,Cancer,Surgery and Chemotherapy,25000,55,Yes,Recovered,4
+681,City Care Hospital,East,General Medicine,Inpatient,2024-06-21,2024-08-09,72,Male,Hypertension,Medication and Counseling,1000,49,No,Stable,4
+682,HealthPlus Hospital,North,Surgery,Emergency,2024-03-28,2024-05-18,60,Female,Appendicitis,Appendectomy,8000,51,Yes,Recovered,3
+683,Metro Health Institute,South,Orthopedics,Inpatient,2024-06-26,2024-08-16,45,Male,Fractured Leg,Cast and Physical Therapy,3000,51,No,Recovered,4
+684,Metro Health Institute,Central,Cardiology,Inpatient,2024-11-15,2025-01-07,75,Female,Heart Attack,Cardiac Catheterization,18000,53,Yes,Stable,2
+685,City Care Hospital,Central,Emergency,Outpatient,2024-06-08,2024-07-24,28,Male,Allergic Reaction,Epinephrine Injection,100,46,No,Recovered,5
+686,Metro Health Institute,Central,General Medicine,Inpatient,2024-02-03,2024-03-21,52,Female,Respiratory Infection,Antibiotics and Rest,800,47,No,Stable,4
+687,Metro Health Institute,South,Surgery,Inpatient,2024-04-28,2024-06-21,67,Male,Prostate Cancer,Radiation Therapy,20000,54,No,Recovered,3
+688,Sunrise Medical Center,West,Pediatrics,Inpatient,2024-10-14,2024-12-01,35,Female,Childbirth,Delivery and Postnatal Care,12000,48,No,Recovered,4
+689,City Care Hospital,West,General Medicine,Outpatient,2024-07-09,2024-08-27,50,Male,Kidney Stones,Lithotripsy,6000,49,No,Recovered,3
+690,Sunrise Medical Center,North,Orthopedics,Outpatient,2024-07-24,2024-09-12,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,50,No,Stable,4
+691,HealthPlus Hospital,East,Cardiology,Inpatient,2024-06-06,2024-07-27,48,Female,Heart Disease,Angioplasty,15000,51,Yes,Recovered,4
+692,Metro Health Institute,East,General Medicine,Emergency,2024-04-17,2024-06-05,65,Male,Diabetes,Insulin Therapy,2000,49,No,Stable,3
+693,City Care Hospital,South,Orthopedics,Outpatient,2024-08-06,2024-09-22,30,Female,Fractured Arm,X-Ray and Splint,500,47,No,Recovered,5
+694,HealthPlus Hospital,West,ICU,Outpatient,2024-08-19,2024-10-12,70,Male,Stroke,CT Scan and Medication,10000,54,Yes,Stable,2
+695,HealthPlus Hospital,West,Surgery,Inpatient,2024-11-24,2025-01-19,55,Female,Cancer,Surgery and Chemotherapy,25000,56,No,Recovered,4
+696,City Care Hospital,East,General Medicine,Inpatient,2024-08-14,2024-10-03,68,Male,Hypertension,Medication and Counseling,1000,50,No,Stable,4
+697,HealthPlus Hospital,West,Surgery,Outpatient,2024-12-30,2025-02-20,45,Female,Appendicitis,Appendectomy,8000,52,No,Recovered,3
+698,Sunrise Medical Center,West,Orthopedics,Inpatient,2024-10-29,2024-12-20,40,Male,Fractured Leg,Cast and Physical Therapy,3000,52,No,Recovered,4
+699,Sunrise Medical Center,East,Cardiology,Outpatient,2024-01-29,2024-03-23,78,Female,Heart Attack,Cardiac Catheterization,18000,54,Yes,Stable,2
+700,Sunrise Medical Center,South,Emergency,Outpatient,2024-05-23,2024-07-09,25,Male,Allergic Reaction,Epinephrine Injection,100,47,No,Recovered,5
+701,Metro Health Institute,West,General Medicine,Inpatient,2024-05-20,2024-07-07,52,Female,Respiratory Infection,Antibiotics and Rest,800,48,No,Stable,4
+702,HealthPlus Hospital,West,Surgery,Outpatient,2024-01-02,2024-02-26,58,Male,Prostate Cancer,Radiation Therapy,20000,55,No,Recovered,3
+703,Metro Health Institute,Central,Pediatrics,Emergency,2024-03-07,2024-04-25,32,Female,Childbirth,Delivery and Postnatal Care,12000,49,No,Recovered,4
+704,HealthPlus Hospital,North,General Medicine,Outpatient,2024-10-05,2024-11-24,55,Male,Kidney Stones,Lithotripsy,6000,50,No,Recovered,3
+705,HealthPlus Hospital,East,Orthopedics,Inpatient,2024-05-08,2024-06-28,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,51,No,Stable,4
+706,City Care Hospital,Central,Cardiology,Outpatient,2024-02-24,2024-04-16,55,Female,Heart Disease,Angioplasty,15000,52,Yes,Recovered,3
+707,Green Valley Hospital,East,General Medicine,Inpatient,2024-04-15,2024-06-04,62,Male,Diabetes,Insulin Therapy,2000,50,No,Stable,4
+708,Metro Health Institute,Central,Orthopedics,Outpatient,2024-04-10,2024-05-28,35,Female,Fractured Arm,X-Ray and Splint,500,48,Yes,Recovered,5
+709,Sunrise Medical Center,North,ICU,Outpatient,2024-03-04,2024-04-28,78,Male,Stroke,CT Scan and Medication,10000,55,No,Stable,2
+710,City Care Hospital,North,Surgery,Outpatient,2024-02-07,2024-04-04,53,Female,Cancer,Surgery and Chemotherapy,25000,57,Yes,Recovered,4
+711,City Care Hospital,West,General Medicine,Inpatient,2024-10-06,2024-11-26,72,Male,Hypertension,Medication and Counseling,1000,51,No,Stable,4
+712,Sunrise Medical Center,South,Surgery,Inpatient,2024-10-28,2024-12-20,60,Female,Appendicitis,Appendectomy,8000,53,Yes,Recovered,3
+713,Metro Health Institute,East,Orthopedics,Inpatient,2024-06-30,2024-08-22,45,Male,Fractured Leg,Cast and Physical Therapy,3000,53,No,Recovered,4
+714,City Care Hospital,East,Cardiology,Inpatient,2024-08-13,2024-10-07,75,Female,Heart Attack,Cardiac Catheterization,18000,55,Yes,Stable,2
+715,City Care Hospital,East,Emergency,Inpatient,2024-12-02,2025-01-19,28,Male,Allergic Reaction,Epinephrine Injection,100,48,No,Recovered,5
+716,City Care Hospital,Central,General Medicine,Outpatient,2024-11-04,2024-12-23,52,Female,Respiratory Infection,Antibiotics and Rest,800,49,No,Stable,4
+717,Sunrise Medical Center,North,Surgery,Inpatient,2024-01-12,2024-03-08,67,Male,Prostate Cancer,Radiation Therapy,20000,56,No,Recovered,3
+718,City Care Hospital,West,Pediatrics,Outpatient,2024-12-14,2025-02-02,35,Female,Childbirth,Delivery and Postnatal Care,12000,50,No,Recovered,4
+719,Sunrise Medical Center,Central,General Medicine,Emergency,2024-01-25,2024-03-16,50,Male,Kidney Stones,Lithotripsy,6000,51,No,Recovered,3
+720,Sunrise Medical Center,West,Orthopedics,Inpatient,2024-01-10,2024-03-02,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,52,No,Stable,4
+721,Sunrise Medical Center,South,Cardiology,Outpatient,2024-05-27,2024-07-19,48,Female,Heart Disease,Angioplasty,15000,53,Yes,Recovered,4
+723,Metro Health Institute,North,Orthopedics,Outpatient,2024-09-29,2024-11-17,30,Female,Fractured Arm,X-Ray and Splint,500,49,No,Recovered,5
+724,Sunrise Medical Center,West,ICU,Inpatient,2024-01-30,2024-03-26,70,Male,Stroke,CT Scan and Medication,10000,56,Yes,Stable,2
+725,Metro Health Institute,East,Surgery,Inpatient,2024-04-17,2024-06-14,55,Female,Cancer,Surgery and Chemotherapy,25000,58,No,Recovered,4
+726,Metro Health Institute,North,General Medicine,Outpatient,2024-04-06,2024-05-28,68,Male,Hypertension,Medication and Counseling,1000,52,No,Stable,4
+727,HealthPlus Hospital,South,Surgery,Emergency,2024-05-25,2024-07-18,45,Female,Appendicitis,Appendectomy,8000,54,No,Recovered,3
+728,Metro Health Institute,Central,Orthopedics,Outpatient,2024-12-26,2025-02-18,40,Male,Fractured Leg,Cast and Physical Therapy,3000,54,No,Recovered,4
+729,Sunrise Medical Center,South,Cardiology,Emergency,2024-05-01,2024-06-26,78,Female,Heart Attack,Cardiac Catheterization,18000,56,Yes,Stable,2
+730,Sunrise Medical Center,North,Emergency,Day Care,2024-03-17,2024-05-05,25,Male,Allergic Reaction,Epinephrine Injection,100,49,No,Recovered,5
+731,Green Valley Hospital,West,General Medicine,Inpatient,2024-02-14,2024-04-04,52,Female,Respiratory Infection,Antibiotics and Rest,800,50,No,Stable,4
+732,Sunrise Medical Center,North,Surgery,Outpatient,2024-03-13,2024-05-09,58,Male,Prostate Cancer,Radiation Therapy,20000,57,No,Recovered,3
+733,City Care Hospital,Central,Pediatrics,Inpatient,2024-02-18,2024-04-09,32,Female,Childbirth,Delivery and Postnatal Care,12000,51,No,Recovered,4
+734,HealthPlus Hospital,Central,General Medicine,Day Care,2024-07-28,2024-09-18,55,Male,Kidney Stones,Lithotripsy,6000,52,No,Recovered,3
+735,HealthPlus Hospital,Central,Orthopedics,Inpatient,2024-06-02,2024-07-25,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,53,No,Stable,4
+736,City Care Hospital,Central,Cardiology,Inpatient,2024-07-01,2024-08-24,55,Female,Heart Disease,Angioplasty,15000,54,Yes,Recovered,3
+737,Metro Health Institute,South,General Medicine,Outpatient,2024-10-31,2024-12-22,62,Male,Diabetes,Insulin Therapy,2000,52,No,Stable,4
+738,City Care Hospital,South,Orthopedics,Inpatient,2024-07-31,2024-09-19,35,Female,Fractured Arm,X-Ray and Splint,500,50,Yes,Recovered,5
+739,Metro Health Institute,South,ICU,Outpatient,2024-02-26,2024-04-23,78,Male,Stroke,CT Scan and Medication,10000,57,No,Stable,2
+740,City Care Hospital,East,Surgery,Inpatient,2024-05-17,2024-07-15,53,Female,Cancer,Surgery and Chemotherapy,25000,59,Yes,Recovered,4
+741,Sunrise Medical Center,Central,General Medicine,Day Care,2024-04-24,2024-06-16,72,Male,Hypertension,Medication and Counseling,1000,53,No,Stable,4
+742,Metro Health Institute,West,Surgery,Outpatient,2024-10-29,2024-12-23,60,Female,Appendicitis,Appendectomy,8000,55,Yes,Recovered,3
+743,Metro Health Institute,West,Orthopedics,Inpatient,2024-04-22,2024-06-16,45,Male,Fractured Leg,Cast and Physical Therapy,3000,55,No,Recovered,4
+744,Sunrise Medical Center,Central,Cardiology,Outpatient,2024-02-20,2024-04-17,75,Female,Heart Attack,Cardiac Catheterization,18000,57,Yes,Stable,2
+745,HealthPlus Hospital,West,Emergency,Inpatient,2024-09-26,2024-11-15,28,Male,Allergic Reaction,Epinephrine Injection,100,50,No,Recovered,5
+746,Metro Health Institute,South,General Medicine,Outpatient,2024-06-05,2024-07-26,52,Female,Respiratory Infection,Antibiotics and Rest,800,51,No,Stable,4
+747,Green Valley Hospital,East,Surgery,Outpatient,2024-02-05,2024-04-03,67,Male,Prostate Cancer,Radiation Therapy,20000,58,No,Recovered,3
+748,Metro Health Institute,East,Pediatrics,Outpatient,2024-09-09,2024-10-31,35,Female,Childbirth,Delivery and Postnatal Care,12000,52,No,Recovered,4
+749,Metro Health Institute,North,General Medicine,Inpatient,2024-03-18,2024-05-10,50,Male,Kidney Stones,Lithotripsy,6000,53,No,Recovered,3
+750,Green Valley Hospital,West,Orthopedics,Inpatient,2024-11-13,2025-01-06,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,54,No,Stable,4
+751,Metro Health Institute,West,Cardiology,Outpatient,2024-10-31,2024-12-25,48,Female,Heart Disease,Angioplasty,15000,55,Yes,Recovered,4
+752,HealthPlus Hospital,West,General Medicine,Inpatient,2024-05-15,2024-07-07,65,Male,Diabetes,Insulin Therapy,2000,53,No,Stable,3
+753,HealthPlus Hospital,East,Orthopedics,Inpatient,2024-07-22,2024-09-11,30,Female,Fractured Arm,X-Ray and Splint,500,51,No,Recovered,5
+754,Metro Health Institute,West,ICU,Inpatient,2024-07-26,2024-09-22,70,Male,Stroke,CT Scan and Medication,10000,58,Yes,Stable,2
+755,Metro Health Institute,Central,Surgery,Inpatient,2024-08-27,2024-10-26,55,Female,Cancer,Surgery and Chemotherapy,25000,60,No,Recovered,4
+756,Green Valley Hospital,East,General Medicine,Outpatient,2024-01-26,2024-03-20,68,Male,Hypertension,Medication and Counseling,1000,54,No,Stable,4
+757,Metro Health Institute,East,Surgery,Inpatient,2024-04-28,2024-06-23,45,Female,Appendicitis,Appendectomy,8000,56,No,Recovered,3
+758,Green Valley Hospital,North,Orthopedics,Inpatient,2024-03-03,2024-04-28,40,Male,Fractured Leg,Cast and Physical Therapy,3000,56,No,Recovered,4
+759,Sunrise Medical Center,West,Cardiology,Emergency,2024-09-12,2024-11-09,78,Female,Heart Attack,Cardiac Catheterization,18000,58,Yes,Stable,2
+760,Green Valley Hospital,Central,Emergency,Inpatient,2024-01-26,2024-03-17,25,Male,Allergic Reaction,Epinephrine Injection,100,51,No,Recovered,5
+761,Green Valley Hospital,West,General Medicine,Outpatient,2024-07-08,2024-08-29,52,Female,Respiratory Infection,Antibiotics and Rest,800,52,No,Stable,4
+762,City Care Hospital,Central,Surgery,Inpatient,2024-09-23,2024-11-21,58,Male,Prostate Cancer,Radiation Therapy,20000,59,No,Recovered,3
+763,HealthPlus Hospital,Central,Pediatrics,Outpatient,2024-12-13,2025-02-04,32,Female,Childbirth,Delivery and Postnatal Care,12000,53,No,Recovered,4
+764,City Care Hospital,West,General Medicine,Outpatient,2024-04-15,2024-06-08,55,Male,Kidney Stones,Lithotripsy,6000,54,No,Recovered,3
+765,City Care Hospital,East,Orthopedics,Outpatient,2024-01-03,2024-02-27,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,55,No,Stable,4
+766,HealthPlus Hospital,North,Cardiology,Inpatient,2024-09-21,2024-11-16,55,Female,Heart Disease,Angioplasty,15000,56,Yes,Recovered,3
+767,Sunrise Medical Center,North,General Medicine,Inpatient,2024-01-01,2024-02-24,62,Male,Diabetes,Insulin Therapy,2000,54,No,Stable,4
+768,Sunrise Medical Center,South,Orthopedics,Outpatient,2024-01-25,2024-03-17,35,Female,Fractured Arm,X-Ray and Splint,500,52,Yes,Recovered,5
+769,Metro Health Institute,East,ICU,Inpatient,2024-12-28,2025-02-25,78,Male,Stroke,CT Scan and Medication,10000,59,No,Stable,2
+770,Green Valley Hospital,West,Surgery,Inpatient,2024-11-11,2025-01-11,53,Female,Cancer,Surgery and Chemotherapy,25000,61,Yes,Recovered,4
+771,City Care Hospital,East,General Medicine,Inpatient,2024-09-15,2024-11-09,72,Male,Hypertension,Medication and Counseling,1000,55,No,Stable,4
+772,Metro Health Institute,North,Surgery,Emergency,2024-11-01,2024-12-28,60,Female,Appendicitis,Appendectomy,8000,57,Yes,Recovered,3
+773,City Care Hospital,South,Orthopedics,Outpatient,2024-01-28,2024-03-25,45,Male,Fractured Leg,Cast and Physical Therapy,3000,57,No,Recovered,4
+774,Sunrise Medical Center,Central,Cardiology,Outpatient,2024-02-02,2024-04-01,75,Female,Heart Attack,Cardiac Catheterization,18000,59,Yes,Stable,2
+775,HealthPlus Hospital,Central,Emergency,Outpatient,2024-04-20,2024-06-11,28,Male,Allergic Reaction,Epinephrine Injection,100,52,No,Recovered,5
+776,HealthPlus Hospital,South,General Medicine,Inpatient,2024-01-09,2024-03-02,52,Female,Respiratory Infection,Antibiotics and Rest,800,53,No,Stable,4
+777,Green Valley Hospital,Central,Surgery,Inpatient,2024-11-21,2025-01-20,67,Male,Prostate Cancer,Radiation Therapy,20000,60,No,Recovered,3
+778,Metro Health Institute,West,Pediatrics,Inpatient,2024-01-21,2024-03-15,35,Female,Childbirth,Delivery and Postnatal Care,12000,54,No,Recovered,4
+779,Metro Health Institute,Central,General Medicine,Outpatient,2024-07-18,2024-09-11,50,Male,Kidney Stones,Lithotripsy,6000,55,No,Recovered,3
+780,Sunrise Medical Center,Central,Orthopedics,Inpatient,2024-11-08,2025-01-03,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,56,No,Stable,4
+781,City Care Hospital,West,Cardiology,Outpatient,2024-09-26,2024-11-22,48,Female,Heart Disease,Angioplasty,15000,57,Yes,Recovered,4
+782,Green Valley Hospital,South,General Medicine,Outpatient,2024-03-26,2024-05-20,65,Male,Diabetes,Insulin Therapy,2000,55,No,Stable,3
+783,Metro Health Institute,West,Orthopedics,Inpatient,2024-06-21,2024-08-13,30,Female,Fractured Arm,X-Ray and Splint,500,53,No,Recovered,5
+785,HealthPlus Hospital,South,Surgery,Inpatient,2024-07-19,2024-09-19,55,Female,Cancer,Surgery and Chemotherapy,25000,62,No,Recovered,4
+786,City Care Hospital,South,General Medicine,Inpatient,2024-10-08,2024-12-03,68,Male,Hypertension,Medication and Counseling,1000,56,No,Stable,4
+787,Metro Health Institute,West,Surgery,Day Care,2024-06-05,2024-08-02,45,Female,Appendicitis,Appendectomy,8000,58,No,Recovered,3
+788,HealthPlus Hospital,East,Orthopedics,Emergency,2024-04-14,2024-06-11,40,Male,Fractured Leg,Cast and Physical Therapy,3000,58,No,Recovered,4
+789,HealthPlus Hospital,East,Cardiology,Emergency,2024-10-18,2024-12-17,78,Female,Heart Attack,Cardiac Catheterization,18000,60,Yes,Stable,2
+790,Sunrise Medical Center,South,Emergency,Inpatient,2024-11-20,2025-01-12,25,Male,Allergic Reaction,Epinephrine Injection,100,53,No,Recovered,5
+791,City Care Hospital,East,General Medicine,Inpatient,2024-06-27,2024-08-20,52,Female,Respiratory Infection,Antibiotics and Rest,800,54,No,Stable,4
+792,Green Valley Hospital,North,Surgery,Inpatient,2024-01-11,2024-03-12,58,Male,Prostate Cancer,Radiation Therapy,20000,61,No,Recovered,3
+793,HealthPlus Hospital,West,Pediatrics,Inpatient,2024-07-02,2024-08-26,32,Female,Childbirth,Delivery and Postnatal Care,12000,55,No,Recovered,4
+794,HealthPlus Hospital,East,General Medicine,Inpatient,2024-11-21,2025-01-16,55,Male,Kidney Stones,Lithotripsy,6000,56,No,Recovered,3
+795,Metro Health Institute,Central,Orthopedics,Inpatient,2024-12-28,2025-02-23,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,57,No,Stable,4
+796,City Care Hospital,East,Cardiology,Day Care,2024-05-26,2024-07-23,55,Female,Heart Disease,Angioplasty,15000,58,Yes,Recovered,3
+797,City Care Hospital,East,General Medicine,Inpatient,2024-02-24,2024-04-20,62,Male,Diabetes,Insulin Therapy,2000,56,No,Stable,4
+798,Sunrise Medical Center,North,Orthopedics,Inpatient,2024-07-28,2024-09-20,35,Female,Fractured Arm,X-Ray and Splint,500,54,Yes,Recovered,5
+799,Sunrise Medical Center,North,ICU,Outpatient,2024-10-31,2024-12-31,78,Male,Stroke,CT Scan and Medication,10000,61,No,Stable,2
+800,City Care Hospital,South,Surgery,Outpatient,2024-12-11,2025-02-12,53,Female,Cancer,Surgery and Chemotherapy,25000,63,Yes,Recovered,4
+801,Metro Health Institute,South,General Medicine,Outpatient,2024-01-19,2024-03-16,72,Male,Hypertension,Medication and Counseling,1000,57,No,Stable,4
+802,Sunrise Medical Center,South,Surgery,Outpatient,2024-04-16,2024-06-14,60,Female,Appendicitis,Appendectomy,8000,59,Yes,Recovered,3
+803,City Care Hospital,South,Orthopedics,Outpatient,2024-06-23,2024-08-21,45,Male,Fractured Leg,Cast and Physical Therapy,3000,59,No,Recovered,4
+804,City Care Hospital,West,Cardiology,Outpatient,2024-02-05,2024-04-06,75,Female,Heart Attack,Cardiac Catheterization,18000,61,Yes,Stable,2
+805,Sunrise Medical Center,North,Emergency,Inpatient,2024-11-20,2025-01-13,28,Male,Allergic Reaction,Epinephrine Injection,100,54,No,Recovered,5
+806,Metro Health Institute,South,General Medicine,Outpatient,2024-02-11,2024-04-06,52,Female,Respiratory Infection,Antibiotics and Rest,800,55,No,Stable,4
+807,HealthPlus Hospital,North,Surgery,Inpatient,2024-08-31,2024-11-01,67,Male,Prostate Cancer,Radiation Therapy,20000,62,No,Recovered,3
+808,Sunrise Medical Center,South,Pediatrics,Inpatient,2024-12-02,2025-01-27,35,Female,Childbirth,Delivery and Postnatal Care,12000,56,No,Recovered,4
+809,Green Valley Hospital,West,General Medicine,Inpatient,2024-09-07,2024-11-03,50,Male,Kidney Stones,Lithotripsy,6000,57,No,Recovered,3
+810,HealthPlus Hospital,North,Orthopedics,Inpatient,2024-10-06,2024-12-03,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,58,No,Stable,4
+811,Sunrise Medical Center,South,Cardiology,Outpatient,2024-04-06,2024-06-04,48,Female,Heart Disease,Angioplasty,15000,59,Yes,Recovered,4
+812,Green Valley Hospital,North,General Medicine,Inpatient,2024-10-29,2024-12-25,65,Male,Diabetes,Insulin Therapy,2000,57,No,Stable,3
+813,Sunrise Medical Center,Central,Orthopedics,Inpatient,2024-06-02,2024-07-27,30,Female,Fractured Arm,X-Ray and Splint,500,55,No,Recovered,5
+814,City Care Hospital,West,ICU,Inpatient,2024-01-23,2024-03-25,70,Male,Stroke,CT Scan and Medication,10000,62,Yes,Stable,2
+815,Green Valley Hospital,South,Surgery,Outpatient,2024-05-14,2024-07-17,55,Female,Cancer,Surgery and Chemotherapy,25000,64,No,Recovered,4
+816,Sunrise Medical Center,North,General Medicine,Inpatient,2024-05-08,2024-07-05,68,Male,Hypertension,Medication and Counseling,1000,58,No,Stable,4
+817,HealthPlus Hospital,North,Surgery,Outpatient,2024-07-09,2024-09-07,45,Female,Appendicitis,Appendectomy,8000,60,No,Recovered,3
+818,Metro Health Institute,East,Orthopedics,Outpatient,2024-04-06,2024-06-05,40,Male,Fractured Leg,Cast and Physical Therapy,3000,60,No,Recovered,4
+819,Metro Health Institute,West,Cardiology,Inpatient,2024-06-18,2024-08-19,78,Female,Heart Attack,Cardiac Catheterization,18000,62,Yes,Stable,2
+820,Sunrise Medical Center,East,Emergency,Outpatient,2024-06-05,2024-07-30,25,Male,Allergic Reaction,Epinephrine Injection,100,55,No,Recovered,5
+821,City Care Hospital,Central,General Medicine,Inpatient,2024-04-29,2024-06-24,52,Female,Respiratory Infection,Antibiotics and Rest,800,56,No,Stable,4
+822,Green Valley Hospital,South,Surgery,Inpatient,2024-09-11,2024-11-13,58,Male,Prostate Cancer,Radiation Therapy,20000,63,No,Recovered,3
+823,HealthPlus Hospital,South,Pediatrics,Outpatient,2024-04-21,2024-06-17,32,Female,Childbirth,Delivery and Postnatal Care,12000,57,No,Recovered,4
+824,City Care Hospital,East,General Medicine,Emergency,2024-10-07,2024-12-04,55,Male,Kidney Stones,Lithotripsy,6000,58,No,Recovered,3
+825,HealthPlus Hospital,South,Orthopedics,Inpatient,2024-04-01,2024-05-30,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,59,No,Stable,4
+826,Metro Health Institute,Central,Cardiology,Inpatient,2024-11-12,2025-01-11,55,Female,Heart Disease,Angioplasty,15000,60,Yes,Recovered,3
+827,Green Valley Hospital,North,General Medicine,Inpatient,2024-05-13,2024-07-10,62,Male,Diabetes,Insulin Therapy,2000,58,No,Stable,4
+828,Metro Health Institute,East,Orthopedics,Inpatient,2024-01-15,2024-03-11,35,Female,Fractured Arm,X-Ray and Splint,500,56,Yes,Recovered,5
+829,HealthPlus Hospital,East,ICU,Outpatient,2024-02-24,2024-04-27,78,Male,Stroke,CT Scan and Medication,10000,63,No,Stable,2
+830,City Care Hospital,North,Surgery,Outpatient,2024-10-22,2024-12-26,53,Female,Cancer,Surgery and Chemotherapy,25000,65,Yes,Recovered,4
+831,City Care Hospital,East,General Medicine,Outpatient,2024-11-15,2025-01-13,72,Male,Hypertension,Medication and Counseling,1000,59,No,Stable,4
+832,Metro Health Institute,East,Surgery,Inpatient,2024-03-18,2024-05-18,60,Female,Appendicitis,Appendectomy,8000,61,Yes,Recovered,3
+833,HealthPlus Hospital,South,Orthopedics,Outpatient,2024-08-08,2024-10-08,45,Male,Fractured Leg,Cast and Physical Therapy,3000,61,No,Recovered,4
+834,City Care Hospital,North,Cardiology,Outpatient,2024-07-29,2024-09-30,75,Female,Heart Attack,Cardiac Catheterization,18000,63,Yes,Stable,2
+835,Metro Health Institute,North,Emergency,Outpatient,2024-02-18,2024-04-14,28,Male,Allergic Reaction,Epinephrine Injection,100,56,No,Recovered,5
+836,City Care Hospital,North,General Medicine,Inpatient,2024-06-14,2024-08-10,52,Female,Respiratory Infection,Antibiotics and Rest,800,57,No,Stable,4
+837,Metro Health Institute,East,Surgery,Inpatient,2024-09-10,2024-11-13,67,Male,Prostate Cancer,Radiation Therapy,20000,64,No,Recovered,3
+838,Metro Health Institute,North,Pediatrics,Inpatient,2024-12-19,2025-02-15,35,Female,Childbirth,Delivery and Postnatal Care,12000,58,No,Recovered,4
+839,City Care Hospital,Central,General Medicine,Inpatient,2024-11-06,2025-01-04,50,Male,Kidney Stones,Lithotripsy,6000,59,No,Recovered,3
+840,Metro Health Institute,South,Orthopedics,Inpatient,2024-02-05,2024-04-05,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,60,No,Stable,4
+841,HealthPlus Hospital,West,Cardiology,Inpatient,2024-03-27,2024-05-27,48,Female,Heart Disease,Angioplasty,15000,61,Yes,Recovered,4
+842,HealthPlus Hospital,West,General Medicine,Outpatient,2024-06-08,2024-08-06,65,Male,Diabetes,Insulin Therapy,2000,59,No,Stable,3
+843,City Care Hospital,East,Orthopedics,Inpatient,2024-02-25,2024-04-22,30,Female,Fractured Arm,X-Ray and Splint,500,57,No,Recovered,5
+844,Green Valley Hospital,Central,ICU,Outpatient,2024-07-27,2024-09-29,70,Male,Stroke,CT Scan and Medication,10000,64,Yes,Stable,2
+846,Green Valley Hospital,North,General Medicine,Inpatient,2024-01-04,2024-03-04,68,Male,Hypertension,Medication and Counseling,1000,60,No,Stable,4
+847,Sunrise Medical Center,South,Surgery,Outpatient,2024-02-11,2024-04-13,45,Female,Appendicitis,Appendectomy,8000,62,No,Recovered,3
+848,City Care Hospital,South,Orthopedics,Inpatient,2024-01-18,2024-03-20,40,Male,Fractured Leg,Cast and Physical Therapy,3000,62,No,Recovered,4
+849,HealthPlus Hospital,North,Cardiology,Inpatient,2024-04-18,2024-06-21,78,Female,Heart Attack,Cardiac Catheterization,18000,64,Yes,Stable,2
+850,Metro Health Institute,South,Emergency,Outpatient,2024-10-05,2024-12-01,25,Male,Allergic Reaction,Epinephrine Injection,100,57,No,Recovered,5
+851,HealthPlus Hospital,South,General Medicine,Emergency,2024-03-05,2024-05-02,52,Female,Respiratory Infection,Antibiotics and Rest,800,58,No,Stable,4
+852,City Care Hospital,West,Surgery,Inpatient,2024-12-27,2025-03-02,58,Male,Prostate Cancer,Radiation Therapy,20000,65,No,Recovered,3
+853,City Care Hospital,South,Pediatrics,Inpatient,2024-04-08,2024-06-06,32,Female,Childbirth,Delivery and Postnatal Care,12000,59,No,Recovered,4
+854,HealthPlus Hospital,Central,General Medicine,Outpatient,2024-01-17,2024-03-17,55,Male,Kidney Stones,Lithotripsy,6000,60,No,Recovered,3
+855,Green Valley Hospital,West,Orthopedics,Outpatient,2024-05-02,2024-07-02,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,61,No,Stable,4
+856,Metro Health Institute,Central,Cardiology,Inpatient,2024-09-30,2024-12-01,55,Female,Heart Disease,Angioplasty,15000,62,Yes,Recovered,3
+857,HealthPlus Hospital,North,General Medicine,Inpatient,2024-02-09,2024-04-09,62,Male,Diabetes,Insulin Therapy,2000,60,No,Stable,4
+858,City Care Hospital,Central,Orthopedics,Inpatient,2024-01-27,2024-03-25,35,Female,Fractured Arm,X-Ray and Splint,500,58,Yes,Recovered,5
+859,City Care Hospital,West,ICU,Emergency,2024-11-06,2025-01-10,78,Male,Stroke,CT Scan and Medication,10000,65,No,Stable,2
+860,City Care Hospital,Central,Surgery,Inpatient,2024-08-04,2024-10-10,53,Female,Cancer,Surgery and Chemotherapy,25000,67,Yes,Recovered,4
+861,City Care Hospital,South,General Medicine,Inpatient,2024-05-05,2024-07-05,72,Male,Hypertension,Medication and Counseling,1000,61,No,Stable,4
+862,City Care Hospital,Central,Surgery,Emergency,2024-10-03,2024-12-05,60,Female,Appendicitis,Appendectomy,8000,63,Yes,Recovered,3
+863,HealthPlus Hospital,East,Orthopedics,Inpatient,2024-11-05,2025-01-07,45,Male,Fractured Leg,Cast and Physical Therapy,3000,63,No,Recovered,4
+864,Metro Health Institute,North,Cardiology,Inpatient,2024-05-11,2024-07-15,75,Female,Heart Attack,Cardiac Catheterization,18000,65,Yes,Stable,2
+865,HealthPlus Hospital,East,Emergency,Inpatient,2024-07-24,2024-09-20,28,Male,Allergic Reaction,Epinephrine Injection,100,58,No,Recovered,5
+866,HealthPlus Hospital,North,General Medicine,Inpatient,2024-01-05,2024-03-04,52,Female,Respiratory Infection,Antibiotics and Rest,800,59,No,Stable,4
+867,HealthPlus Hospital,Central,Surgery,Inpatient,2024-04-22,2024-06-27,67,Male,Prostate Cancer,Radiation Therapy,20000,66,No,Recovered,3
+868,Green Valley Hospital,South,Pediatrics,Inpatient,2024-08-05,2024-10-04,35,Female,Childbirth,Delivery and Postnatal Care,12000,60,No,Recovered,4
+869,Green Valley Hospital,South,General Medicine,Outpatient,2024-03-13,2024-05-13,50,Male,Kidney Stones,Lithotripsy,6000,61,No,Recovered,3
+870,HealthPlus Hospital,East,Orthopedics,Outpatient,2024-12-28,2025-02-28,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,62,No,Stable,4
+871,Green Valley Hospital,East,Cardiology,Inpatient,2024-12-21,2025-02-22,48,Female,Heart Disease,Angioplasty,15000,63,Yes,Recovered,4
+872,City Care Hospital,North,General Medicine,Inpatient,2024-04-04,2024-06-04,65,Male,Diabetes,Insulin Therapy,2000,61,No,Stable,3
+873,Metro Health Institute,Central,Orthopedics,Inpatient,2024-05-25,2024-07-23,30,Female,Fractured Arm,X-Ray and Splint,500,59,No,Recovered,5
+874,HealthPlus Hospital,Central,ICU,Emergency,2024-03-10,2024-05-15,70,Male,Stroke,CT Scan and Medication,10000,66,Yes,Stable,2
+875,HealthPlus Hospital,West,Surgery,Inpatient,2024-07-03,2024-09-09,55,Female,Cancer,Surgery and Chemotherapy,25000,68,No,Recovered,4
+876,HealthPlus Hospital,West,General Medicine,Outpatient,2024-02-15,2024-04-17,68,Male,Hypertension,Medication and Counseling,1000,62,No,Stable,4
+877,City Care Hospital,East,Surgery,Inpatient,2024-05-23,2024-07-26,45,Female,Appendicitis,Appendectomy,8000,64,No,Recovered,3
+878,Metro Health Institute,East,Orthopedics,Outpatient,2024-07-22,2024-09-24,40,Male,Fractured Leg,Cast and Physical Therapy,3000,64,No,Recovered,4
+879,HealthPlus Hospital,East,Cardiology,Inpatient,2024-08-11,2024-10-16,78,Female,Heart Attack,Cardiac Catheterization,18000,66,Yes,Stable,2
+880,Metro Health Institute,North,Emergency,Outpatient,2024-08-06,2024-10-04,25,Male,Allergic Reaction,Epinephrine Injection,100,59,No,Recovered,5
+881,HealthPlus Hospital,North,General Medicine,Inpatient,2024-03-22,2024-05-21,52,Female,Respiratory Infection,Antibiotics and Rest,800,60,No,Stable,4
+882,HealthPlus Hospital,South,Surgery,Emergency,2024-10-16,2024-12-22,58,Male,Prostate Cancer,Radiation Therapy,20000,67,No,Recovered,3
+883,Sunrise Medical Center,East,Pediatrics,Inpatient,2024-09-10,2024-11-10,32,Female,Childbirth,Delivery and Postnatal Care,12000,61,No,Recovered,4
+884,City Care Hospital,North,General Medicine,Outpatient,2024-10-02,2024-12-03,55,Male,Kidney Stones,Lithotripsy,6000,62,No,Recovered,3
+885,Sunrise Medical Center,North,Orthopedics,Outpatient,2024-06-20,2024-08-22,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,63,No,Stable,4
+886,Green Valley Hospital,Central,Cardiology,Day Care,2024-11-22,2025-01-25,55,Female,Heart Disease,Angioplasty,15000,64,Yes,Recovered,3
+887,City Care Hospital,South,General Medicine,Inpatient,2024-05-22,2024-07-23,62,Male,Diabetes,Insulin Therapy,2000,62,No,Stable,4
+888,City Care Hospital,East,Orthopedics,Inpatient,2024-10-21,2024-12-20,35,Female,Fractured Arm,X-Ray and Splint,500,60,Yes,Recovered,5
+889,Metro Health Institute,East,ICU,Inpatient,2024-03-15,2024-05-21,78,Male,Stroke,CT Scan and Medication,10000,67,No,Stable,2
+890,Sunrise Medical Center,West,Surgery,Inpatient,2024-03-31,2024-06-08,53,Female,Cancer,Surgery and Chemotherapy,25000,69,Yes,Recovered,4
+891,Sunrise Medical Center,West,General Medicine,Outpatient,2024-07-11,2024-09-12,72,Male,Hypertension,Medication and Counseling,1000,63,No,Stable,4
+892,Metro Health Institute,South,Surgery,Day Care,2024-07-22,2024-09-25,60,Female,Appendicitis,Appendectomy,8000,65,Yes,Recovered,3
+893,Sunrise Medical Center,Central,Orthopedics,Day Care,2024-09-30,2024-12-04,45,Male,Fractured Leg,Cast and Physical Therapy,3000,65,No,Recovered,4
+894,Metro Health Institute,South,Cardiology,Inpatient,2024-04-18,2024-06-24,75,Female,Heart Attack,Cardiac Catheterization,18000,67,Yes,Stable,2
+895,City Care Hospital,Central,Emergency,Outpatient,2024-11-15,2025-01-14,28,Male,Allergic Reaction,Epinephrine Injection,100,60,No,Recovered,5
+896,HealthPlus Hospital,East,General Medicine,Outpatient,2024-04-30,2024-06-30,52,Female,Respiratory Infection,Antibiotics and Rest,800,61,No,Stable,4
+897,Sunrise Medical Center,North,Surgery,Emergency,2024-07-14,2024-09-20,67,Male,Prostate Cancer,Radiation Therapy,20000,68,No,Recovered,3
+898,City Care Hospital,West,Pediatrics,Inpatient,2024-12-07,2025-02-07,35,Female,Childbirth,Delivery and Postnatal Care,12000,62,No,Recovered,4
+899,HealthPlus Hospital,North,General Medicine,Inpatient,2024-07-16,2024-09-17,50,Male,Kidney Stones,Lithotripsy,6000,63,No,Recovered,3
+900,Metro Health Institute,West,Orthopedics,Outpatient,2024-09-06,2024-11-09,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,64,No,Stable,4
+901,City Care Hospital,North,Cardiology,Inpatient,2024-11-28,2025-02-01,48,Female,Heart Disease,Angioplasty,15000,65,Yes,Recovered,4
+902,City Care Hospital,South,General Medicine,Inpatient,2024-12-22,2025-02-23,65,Male,Diabetes,Insulin Therapy,2000,63,No,Stable,3
+903,City Care Hospital,West,Orthopedics,Day Care,2024-07-01,2024-08-31,30,Female,Fractured Arm,X-Ray and Splint,500,61,No,Recovered,5
+904,Green Valley Hospital,Central,ICU,Day Care,2024-06-01,2024-08-08,70,Male,Stroke,CT Scan and Medication,10000,68,Yes,Stable,2
+905,City Care Hospital,East,Surgery,Emergency,2024-03-13,2024-05-22,55,Female,Cancer,Surgery and Chemotherapy,25000,70,No,Recovered,4
+907,Metro Health Institute,North,Surgery,Outpatient,2024-07-15,2024-09-19,45,Female,Appendicitis,Appendectomy,8000,66,No,Recovered,3
+908,Sunrise Medical Center,South,Orthopedics,Inpatient,2024-12-02,2025-02-06,40,Male,Fractured Leg,Cast and Physical Therapy,3000,66,No,Recovered,4
+909,HealthPlus Hospital,Central,Cardiology,Inpatient,2024-06-27,2024-09-03,78,Female,Heart Attack,Cardiac Catheterization,18000,68,Yes,Stable,2
+910,Metro Health Institute,West,Emergency,Inpatient,2024-05-07,2024-07-07,25,Male,Allergic Reaction,Epinephrine Injection,100,61,No,Recovered,5
+911,Metro Health Institute,North,General Medicine,Inpatient,2024-02-09,2024-04-11,52,Female,Respiratory Infection,Antibiotics and Rest,800,62,No,Stable,4
+912,Sunrise Medical Center,South,Surgery,Inpatient,2024-05-22,2024-07-30,58,Male,Prostate Cancer,Radiation Therapy,20000,69,No,Recovered,3
+913,City Care Hospital,South,Pediatrics,Outpatient,2024-03-27,2024-05-29,32,Female,Childbirth,Delivery and Postnatal Care,12000,63,No,Recovered,4
+914,City Care Hospital,North,General Medicine,Inpatient,2024-12-23,2025-02-25,55,Male,Kidney Stones,Lithotripsy,6000,64,No,Recovered,3
+915,Metro Health Institute,Central,Orthopedics,Outpatient,2024-07-12,2024-09-15,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,65,No,Stable,4
+916,City Care Hospital,West,Cardiology,Inpatient,2024-02-20,2024-04-26,55,Female,Heart Disease,Angioplasty,15000,66,Yes,Recovered,3
+917,City Care Hospital,North,General Medicine,Inpatient,2024-01-25,2024-03-29,62,Male,Diabetes,Insulin Therapy,2000,64,No,Stable,4
+918,Green Valley Hospital,West,Orthopedics,Inpatient,2024-11-07,2025-01-08,35,Female,Fractured Arm,X-Ray and Splint,500,62,Yes,Recovered,5
+919,HealthPlus Hospital,East,ICU,Inpatient,2024-12-06,2025-02-13,78,Male,Stroke,CT Scan and Medication,10000,69,No,Stable,2
+920,Sunrise Medical Center,North,Surgery,Outpatient,2024-10-06,2024-12-16,53,Female,Cancer,Surgery and Chemotherapy,25000,71,Yes,Recovered,4
+921,Metro Health Institute,East,General Medicine,Inpatient,2024-02-15,2024-04-20,72,Male,Hypertension,Medication and Counseling,1000,65,No,Stable,4
+922,Sunrise Medical Center,North,Surgery,Inpatient,2024-02-05,2024-04-12,60,Female,Appendicitis,Appendectomy,8000,67,Yes,Recovered,3
+923,City Care Hospital,South,Orthopedics,Outpatient,2024-03-13,2024-05-19,45,Male,Fractured Leg,Cast and Physical Therapy,3000,67,No,Recovered,4
+924,Green Valley Hospital,Central,Cardiology,Inpatient,2024-10-01,2024-12-09,75,Female,Heart Attack,Cardiac Catheterization,18000,69,Yes,Stable,2
+925,City Care Hospital,West,Emergency,Inpatient,2024-10-07,2024-12-08,28,Male,Allergic Reaction,Epinephrine Injection,100,62,No,Recovered,5
+926,Metro Health Institute,North,General Medicine,Inpatient,2024-11-02,2025-01-04,52,Female,Respiratory Infection,Antibiotics and Rest,800,63,No,Stable,4
+927,City Care Hospital,Central,Surgery,Inpatient,2024-02-05,2024-04-15,67,Male,Prostate Cancer,Radiation Therapy,20000,70,No,Recovered,3
+928,Green Valley Hospital,East,Pediatrics,Outpatient,2024-02-26,2024-04-30,35,Female,Childbirth,Delivery and Postnatal Care,12000,64,No,Recovered,4
+929,HealthPlus Hospital,Central,General Medicine,Inpatient,2024-11-25,2025-01-29,50,Male,Kidney Stones,Lithotripsy,6000,65,No,Recovered,3
+930,Sunrise Medical Center,West,Orthopedics,Inpatient,2024-12-05,2025-02-09,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,66,No,Stable,4
+931,Sunrise Medical Center,South,Cardiology,Inpatient,2024-09-22,2024-11-28,48,Female,Heart Disease,Angioplasty,15000,67,Yes,Recovered,4
+932,Sunrise Medical Center,East,General Medicine,Outpatient,2024-02-08,2024-04-13,65,Male,Diabetes,Insulin Therapy,2000,65,No,Stable,3
+933,Metro Health Institute,East,Orthopedics,Inpatient,2024-01-26,2024-03-29,30,Female,Fractured Arm,X-Ray and Splint,500,63,No,Recovered,5
+934,Green Valley Hospital,West,ICU,Outpatient,2024-01-21,2024-03-31,70,Male,Stroke,CT Scan and Medication,10000,70,Yes,Stable,2
+935,Metro Health Institute,South,Surgery,Inpatient,2024-09-10,2024-11-21,55,Female,Cancer,Surgery and Chemotherapy,25000,72,No,Recovered,4
+936,HealthPlus Hospital,South,General Medicine,Outpatient,2024-11-05,2025-01-10,68,Male,Hypertension,Medication and Counseling,1000,66,No,Stable,4
+937,Sunrise Medical Center,South,Surgery,Inpatient,2024-08-19,2024-10-26,45,Female,Appendicitis,Appendectomy,8000,68,No,Recovered,3
+938,Sunrise Medical Center,South,Orthopedics,Inpatient,2024-04-05,2024-06-12,40,Male,Fractured Leg,Cast and Physical Therapy,3000,68,No,Recovered,4
+939,City Care Hospital,North,Cardiology,Inpatient,2024-10-04,2024-12-13,78,Female,Heart Attack,Cardiac Catheterization,18000,70,Yes,Stable,2
+940,Green Valley Hospital,North,Emergency,Outpatient,2024-01-22,2024-03-25,25,Male,Allergic Reaction,Epinephrine Injection,100,63,No,Recovered,5
+941,HealthPlus Hospital,Central,General Medicine,Outpatient,2024-10-30,2025-01-02,52,Female,Respiratory Infection,Antibiotics and Rest,800,64,No,Stable,4
+942,Sunrise Medical Center,North,Surgery,Inpatient,2024-11-22,2025-02-01,58,Male,Prostate Cancer,Radiation Therapy,20000,71,No,Recovered,3
+943,Green Valley Hospital,Central,Pediatrics,Inpatient,2024-09-19,2024-11-23,32,Female,Childbirth,Delivery and Postnatal Care,12000,65,No,Recovered,4
+944,Sunrise Medical Center,North,General Medicine,Emergency,2024-11-17,2025-01-22,55,Male,Kidney Stones,Lithotripsy,6000,66,No,Recovered,3
+945,Sunrise Medical Center,West,Orthopedics,Inpatient,2024-08-02,2024-10-08,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,67,No,Stable,4
+946,Sunrise Medical Center,South,Cardiology,Inpatient,2024-06-20,2024-08-27,55,Female,Heart Disease,Angioplasty,15000,68,Yes,Recovered,3
+947,Metro Health Institute,East,General Medicine,Inpatient,2024-04-28,2024-07-03,62,Male,Diabetes,Insulin Therapy,2000,66,No,Stable,4
+948,Green Valley Hospital,South,Orthopedics,Outpatient,2024-12-03,2025-02-05,35,Female,Fractured Arm,X-Ray and Splint,500,64,Yes,Recovered,5
+949,Metro Health Institute,East,ICU,Outpatient,2024-09-12,2024-11-22,78,Male,Stroke,CT Scan and Medication,10000,71,No,Stable,2
+950,Sunrise Medical Center,East,Surgery,Outpatient,2024-03-10,2024-05-22,53,Female,Cancer,Surgery and Chemotherapy,25000,73,Yes,Recovered,4
+951,HealthPlus Hospital,East,General Medicine,Emergency,2024-12-16,2025-02-21,72,Male,Hypertension,Medication and Counseling,1000,67,No,Stable,4
+952,City Care Hospital,South,Surgery,Inpatient,2024-01-22,2024-03-31,60,Female,Appendicitis,Appendectomy,8000,69,Yes,Recovered,3
+953,City Care Hospital,East,Orthopedics,Inpatient,2024-08-03,2024-10-11,45,Male,Fractured Leg,Cast and Physical Therapy,3000,69,No,Recovered,4
+954,Sunrise Medical Center,Central,Cardiology,Inpatient,2024-03-10,2024-05-20,75,Female,Heart Attack,Cardiac Catheterization,18000,71,Yes,Stable,2
+955,Sunrise Medical Center,East,Emergency,Inpatient,2024-08-31,2024-11-03,28,Male,Allergic Reaction,Epinephrine Injection,100,64,No,Recovered,5
+956,Metro Health Institute,South,General Medicine,Inpatient,2024-05-31,2024-08-04,52,Female,Respiratory Infection,Antibiotics and Rest,800,65,No,Stable,4
+957,Sunrise Medical Center,North,Surgery,Inpatient,2024-06-08,2024-08-19,67,Male,Prostate Cancer,Radiation Therapy,20000,72,No,Recovered,3
+958,HealthPlus Hospital,South,Pediatrics,Inpatient,2024-09-02,2024-11-07,35,Female,Childbirth,Delivery and Postnatal Care,12000,66,No,Recovered,4
+959,Sunrise Medical Center,North,General Medicine,Outpatient,2024-10-03,2024-12-09,50,Male,Kidney Stones,Lithotripsy,6000,67,No,Recovered,3
+960,City Care Hospital,North,Orthopedics,Inpatient,2024-05-19,2024-07-26,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,68,No,Stable,4
+961,City Care Hospital,Central,Cardiology,Inpatient,2024-12-31,2025-03-10,48,Female,Heart Disease,Angioplasty,15000,69,Yes,Recovered,4
+962,HealthPlus Hospital,North,General Medicine,Outpatient,2024-07-01,2024-09-06,65,Male,Diabetes,Insulin Therapy,2000,67,No,Stable,3
+963,City Care Hospital,East,Orthopedics,Outpatient,2024-02-28,2024-05-03,30,Female,Fractured Arm,X-Ray and Splint,500,65,No,Recovered,5
+964,HealthPlus Hospital,Central,ICU,Outpatient,2024-01-03,2024-03-15,70,Male,Stroke,CT Scan and Medication,10000,72,Yes,Stable,2
+965,Green Valley Hospital,Central,Surgery,Outpatient,2024-03-15,2024-05-28,55,Female,Cancer,Surgery and Chemotherapy,25000,74,No,Recovered,4
+966,City Care Hospital,North,General Medicine,Outpatient,2024-09-09,2024-11-16,68,Male,Hypertension,Medication and Counseling,1000,68,No,Stable,4
+968,Green Valley Hospital,North,Orthopedics,Inpatient,2024-07-16,2024-09-24,40,Male,Fractured Leg,Cast and Physical Therapy,3000,70,No,Recovered,4
+969,Metro Health Institute,South,Cardiology,Inpatient,2024-05-03,2024-07-14,78,Female,Heart Attack,Cardiac Catheterization,18000,72,Yes,Stable,2
+970,Sunrise Medical Center,East,Emergency,Outpatient,2024-06-25,2024-08-29,25,Male,Allergic Reaction,Epinephrine Injection,100,65,No,Recovered,5
+971,Metro Health Institute,Central,General Medicine,Inpatient,2024-11-02,2025-01-07,52,Female,Respiratory Infection,Antibiotics and Rest,800,66,No,Stable,4
+972,Metro Health Institute,South,Surgery,Inpatient,2024-07-28,2024-10-09,58,Male,Prostate Cancer,Radiation Therapy,20000,73,No,Recovered,3
+973,Sunrise Medical Center,North,Pediatrics,Inpatient,2024-01-22,2024-03-29,32,Female,Childbirth,Delivery and Postnatal Care,12000,67,No,Recovered,4
+974,Metro Health Institute,South,General Medicine,Inpatient,2024-01-18,2024-03-26,55,Male,Kidney Stones,Lithotripsy,6000,68,No,Recovered,3
+975,HealthPlus Hospital,Central,Orthopedics,Inpatient,2024-06-25,2024-09-02,65,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,69,No,Stable,4
+976,Sunrise Medical Center,North,Cardiology,Inpatient,2024-05-27,2024-08-05,55,Female,Heart Disease,Angioplasty,15000,70,Yes,Recovered,3
+977,City Care Hospital,South,General Medicine,Outpatient,2024-11-07,2025-01-14,62,Male,Diabetes,Insulin Therapy,2000,68,No,Stable,4
+978,Sunrise Medical Center,North,Orthopedics,Emergency,2024-08-01,2024-10-06,35,Female,Fractured Arm,X-Ray and Splint,500,66,Yes,Recovered,5
+979,HealthPlus Hospital,North,ICU,Inpatient,2024-10-04,2024-12-16,78,Male,Stroke,CT Scan and Medication,10000,73,No,Stable,2
+980,Green Valley Hospital,Central,Surgery,Emergency,2024-08-02,2024-10-16,53,Female,Cancer,Surgery and Chemotherapy,25000,75,Yes,Recovered,4
+981,HealthPlus Hospital,North,General Medicine,Inpatient,2024-05-06,2024-07-14,72,Male,Hypertension,Medication and Counseling,1000,69,No,Stable,4
+982,Sunrise Medical Center,South,Surgery,Emergency,2024-08-28,2024-11-07,60,Female,Appendicitis,Appendectomy,8000,71,Yes,Recovered,3
+983,Metro Health Institute,Central,Orthopedics,Emergency,2024-08-15,2024-10-25,45,Male,Fractured Leg,Cast and Physical Therapy,3000,71,No,Recovered,4
+984,Green Valley Hospital,West,Cardiology,Inpatient,2024-09-20,2024-12-02,75,Female,Heart Attack,Cardiac Catheterization,18000,73,Yes,Stable,2
+985,HealthPlus Hospital,North,Emergency,Outpatient,2024-03-10,2024-05-16,28,Male,Allergic Reaction,Epinephrine Injection,100,67,No,Recovered,5
+986,City Care Hospital,East,General Medicine,Day Care,2024-08-22,2024-10-29,52,Female,Respiratory Infection,Antibiotics and Rest,800,68,No,Stable,4
+987,Green Valley Hospital,Central,Surgery,Emergency,2024-04-14,2024-06-27,67,Male,Prostate Cancer,Radiation Therapy,20000,74,No,Recovered,3
+988,Sunrise Medical Center,East,Pediatrics,Day Care,2024-10-16,2024-12-23,35,Female,Childbirth,Delivery and Postnatal Care,12000,68,No,Recovered,4
+989,Sunrise Medical Center,East,General Medicine,Inpatient,2024-10-19,2024-12-27,50,Male,Kidney Stones,Lithotripsy,6000,69,No,Recovered,3
+990,Sunrise Medical Center,East,Orthopedics,Inpatient,2024-08-16,2024-10-25,60,Female,Osteoarthritis,Physical Therapy and Pain Management,4000,70,No,Stable,4
+991,City Care Hospital,West,Cardiology,Outpatient,2024-12-12,2025-02-21,48,Female,Heart Disease,Angioplasty,15000,71,Yes,Recovered,4
+992,Green Valley Hospital,North,General Medicine,Outpatient,2024-07-15,2024-09-22,65,Male,Diabetes,Insulin Therapy,2000,69,No,Stable,3
+993,City Care Hospital,Central,Orthopedics,Outpatient,2024-01-10,2024-03-17,30,Female,Fractured Arm,X-Ray and Splint,500,67,No,Recovered,5
+994,Sunrise Medical Center,Central,ICU,Inpatient,2024-08-09,2024-10-22,70,Male,Stroke,CT Scan and Medication,10000,74,Yes,Stable,2
+995,Green Valley Hospital,North,Surgery,Inpatient,2024-10-11,2024-12-26,55,Female,Cancer,Surgery and Chemotherapy,25000,76,No,Recovered,4
+996,Sunrise Medical Center,Central,General Medicine,Inpatient,2024-02-07,2024-04-17,68,Male,Hypertension,Medication and Counseling,1000,70,No,Stable,4
+997,Sunrise Medical Center,Central,Surgery,Outpatient,2024-02-08,2024-04-20,45,Female,Appendicitis,Appendectomy,8000,72,No,Recovered,3
+998,Metro Health Institute,West,Orthopedics,Inpatient,2024-04-09,2024-06-20,40,Male,Fractured Leg,Cast and Physical Therapy,3000,72,No,Recovered,4
+999,Sunrise Medical Center,South,Cardiology,Outpatient,2024-11-04,2025-01-17,78,Female,Heart Attack,Cardiac Catheterization,18000,74,Yes,Stable,2
+1000,Metro Health Institute,East,Emergency,Outpatient,2024-07-12,2024-09-18,25,Male,Allergic Reaction,Epinephrine Injection,100,68,No,Recovered,5

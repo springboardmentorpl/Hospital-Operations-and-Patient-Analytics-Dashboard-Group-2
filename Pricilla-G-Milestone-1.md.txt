@@ -1,0 +1,48 @@
+# Milestone 1 – Data Collection and Preparation
+
+## Contributor
+Pricilla G
+
+## Module 1 – Hospital Data Collection
+
+### Tasks
+- Download hospital operational dataset from Kaggle
+- Collect patient admission records
+- Review department-related information
+- Prepare the raw dataset
+
+### Deliverable
+- hospital_raw_data.csv
+- data_collection.py
+
+## Module 2 – Data Cleaning & Transformation
+
+### Tasks
+- Remove duplicate records
+- Handle missing patient data
+- Standardize department names
+- Normalize healthcare indicators
+- Create analysis-ready dataset
+
+### Deliverables
+- hospital_cleaned.csv
+- hospital_cleaning.ipynb
+
+## Dataset Source
+
+Kaggle
+
+## Data Quality
+
+- Raw dataset: 9,216 rows × 12 columns
+- Duplicate records: 0
+- Missing values: analyzed and handled
+- Final dataset: prepared for further analytics
+
+## Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Jupyter Notebook
+- GitHub

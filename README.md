@@ -344,21 +344,6 @@ The Resource Utilization dashboard focuses on analyzing patient load and healthc
 - Interactive visualizations
 
 
-# Dashboard Structure
-
-Hospital Operations and Patient Analytics Dashboard
-                        │
-        ┌───────────────┼───────────────┐
-        │               │               │
-        ↓               ↓               ↓
-Hospital Overview    Patient Flow    Department Analytics
-        │               │               │
-        └───────────────┼───────────────┘
-                        │
-                        ↓
-              Resource Utilization
-
-
 # Dashboard Integration
 
 The four dashboards are integrated into a single Power BI report.

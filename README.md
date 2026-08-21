@@ -593,7 +593,3 @@ The dashboard supports analysis of patient admissions, patient flow, department 
 # Author
 
 Pricilla G
-
-B.Tech in Artificial Intelligence and Data Science
-
-Group 2

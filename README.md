@@ -164,8 +164,7 @@ Used to analyze hospital bed-related resource utilization based on the available
 ### Deliverables
 
 - hospital_final_dataset.xlsx
-- KPI measures and calculated fields
-- Power BI data model
+- generate_hospital_kpis.py
 
 
 ### Evaluation Criteria
@@ -576,36 +575,6 @@ Final Project Delivery
 - DAX
 - Microsoft Excel
 - GitHub
-
-
-# Project Structure
-
-Hospital-Operations-and-Patient-Analytics/
-│
-├── data/
-│   ├── hospital_raw_data.csv
-│   ├── hospital_cleaned.csv
-│   └── hospital_final_dataset.xlsx
-│
-├── notebooks/
-│   └── hospital_cleaning.ipynb
-│
-├── scripts/
-│   └── data_collection.py
-│
-├── powerbi/
-│   └── Hospital_Operations_Analytics.pbix
-│
-├── dashboard/
-│   └── dashboard_storyboard.pdf
-│
-├── images/
-│   ├── hospital_overview.png
-│   ├── patient_flow.png
-│   ├── department_analytics.png
-│   └── resource_utilization.png
-│
-└── README.md
 
 
 # Project Outcome

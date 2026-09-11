@@ -32,4 +32,5 @@ Design and plan Power BI dashboards for Hospital Operations Performance Analytic
 
 ## Tools Used
 - Power BI
+- TABLEAU 
 - PowerPoint

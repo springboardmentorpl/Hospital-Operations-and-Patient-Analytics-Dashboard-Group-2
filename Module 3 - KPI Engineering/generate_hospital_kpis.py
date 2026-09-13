@@ -5,8 +5,8 @@ import os
 # 1. Load cleaned hospital dataset
 # --------------------------------------------------
 
-input_file = "data/hospital_cleaned.csv"
-output_file = "data/hospital_final_dataset.xlsx"
+input_file = "Module 2 - Data Cleaning & Transformation/hospital_cleaned.csv"
+output_file = "Module 3 - KPI Engineering/hospital_final_dataset.xlsx"
 
 df = pd.read_csv(input_file)
 

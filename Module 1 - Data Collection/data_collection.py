@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-raw_file = "data_collection/hospital_raw_data.csv"
+raw_file = "Module 1 - Data Collection/hospital_raw_data.csv"
 
 if os.path.exists(raw_file):
     print("Raw dataset found successfully.")

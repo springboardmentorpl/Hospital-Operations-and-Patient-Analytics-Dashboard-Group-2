@@ -209,22 +209,33 @@ Dashboard Testing
 Documentation
       ↓
 Final Project Delivery
+```
 
-Technologies Used
-Data Processing
-Python
-Pandas
-NumPy
-Data Visualization
-Tableau
-Power BI
-Development and Documentation
-Jupyter Notebook
-VS Code
-Microsoft Excel
-Git
-GitHub
-##Project Structure##
+---
+
+# Technologies Used
+
+### Data Processing
+- Python
+- Pandas
+- NumPy
+
+### Data Visualization
+- Tableau
+- Power BI
+
+### Development and Documentation
+- Jupyter Notebook
+- VS Code
+- Microsoft Excel
+- Git
+- GitHub
+
+---
+
+# Project Structure
+
+```
 Hospital-Operations-and-Patient-Analytics-Dashboard-Group-2/
 │
 ├── module 1/
@@ -273,126 +284,140 @@ Hospital-Operations-and-Patient-Analytics-Dashboard-Group-2/
     └── scripts/
         ├── data Validation.ipynb
         └── data cleaning.ipynb
-Modules
-Module 1 – Data Collection
+```
 
+---
+
+# Modules
+
+### Module 1 – Data Collection
 Collection and preparation of the hospital dataset.
 
-Module 2 – Data Cleaning
-
+### Module 2 – Data Cleaning
 Cleaning, preprocessing, handling data quality issues, and preparing the dataset for analysis.
 
-Module 3 – KPI Generation
-
+### Module 3 – KPI Generation
 Calculation and preparation of important hospital operational KPIs.
 
-Module 4 – Dashboard Storyboard
-
+### Module 4 – Dashboard Storyboard
 Planning the dashboard structure, KPIs, visualizations, and analytical story.
 
-Module 5 – First Dashboard Set
-
+### Module 5 – First Dashboard Set
 Development of:
-
-Hospital Overview
-Patient Flow
+- Hospital Overview
+- Patient Flow
 
 using Tableau and Power BI.
 
-Module 6 – Second Dashboard Set
-
+### Module 6 – Second Dashboard Set
 Development of:
-
-Department Analysis
-Resource Utilization
+- Department Analysis
+- Resource Utilization
 
 using Tableau and Power BI.
 
-Module 7 – Testing and Validation
-
+### Module 7 – Testing and Validation
 Dashboard testing, quality assurance, KPI validation, and final dashboard preparation.
 
-Module 8 – Documentation and Project Delivery
-
+### Module 8 – Documentation and Project Delivery
 Final documentation, project organization, dashboard delivery, methodology, KPI definitions, dashboard guide, and GitHub deployment.
 
-Testing and Validation
+---
+
+# Testing and Validation
 
 The project includes testing and validation activities to ensure:
 
-KPI calculations are accurate.
-Dashboard filters work correctly.
-Visualizations display the expected data.
-Dashboard interactions function correctly.
-Data quality is maintained.
-Dashboard outputs are consistent with the underlying dataset.
+- KPI calculations are accurate.
+- Dashboard filters work correctly.
+- Visualizations display the expected data.
+- Dashboard interactions function correctly.
+- Data quality is maintained.
+- Dashboard outputs are consistent with the underlying dataset.
 
 Detailed testing information is available in the Dashboard Testing Report and QA Checklist included in the repository.
 
-Documentation
+---
+
+# Documentation
 
 The project documentation includes:
 
-Project Documentation – Overall project description and workflow.
-KPI Definitions – Definitions and calculation logic for important KPIs.
-Dashboard Guide – Instructions for understanding and using the dashboards.
-Healthcare Operations Methodology – Analytical methodology used for hospital operations analysis.
-Dashboard Testing Report – Testing and validation results.
-Key Insights
+- **Project Documentation** – Overall project description and workflow.
+- **KPI Definitions** – Definitions and calculation logic for important KPIs.
+- **Dashboard Guide** – Instructions for understanding and using the dashboards.
+- **Healthcare Operations Methodology** – Analytical methodology used for hospital operations analysis.
+- **Dashboard Testing Report** – Testing and validation results.
+
+---
+
+# Key Insights
 
 The dashboards enable management to:
 
-Monitor overall admission and revenue trends.
-Identify departments with higher patient volumes.
-Understand patient movement and transfer patterns.
-Compare department performance.
-Monitor readmission patterns.
-Evaluate bed and staff utilization.
-Analyze equipment usage and status.
-Identify areas that may require operational attention.
-Business Value
+- Monitor overall admission and revenue trends.
+- Identify departments with higher patient volumes.
+- Understand patient movement and transfer patterns.
+- Compare department performance.
+- Monitor readmission patterns.
+- Evaluate bed and staff utilization.
+- Analyze equipment usage and status.
+- Identify areas that may require operational attention.
+
+---
+
+# Business Value
 
 The dashboard suite provides a consolidated view of hospital operations and helps management move from raw data to meaningful operational insights.
 
 It supports analysis of:
 
-Patients → Departments → Resources → Overall Hospital Performance
+**Patients → Departments → Resources → Overall Hospital Performance**
 
 This allows decision-makers to identify trends, compare operational performance, and better understand resource utilization.
 
-Important Note
+---
+
+# Important Note
 
 This project is designed for hospital operational and analytical purposes.
 
-It is intended to support operational monitoring and data analysis and is not intended for clinical diagnosis, treatment recommendations, or medical decision-making.
+It is intended to support operational monitoring and data analysis and is **not** intended for clinical diagnosis, treatment recommendations, or medical decision-making.
 
-Project Deliverables
+---
+
+# Project Deliverables
 
 The repository contains:
 
-Raw dataset
-Cleaned dataset
-Data cleaning notebooks
-Data validation notebooks
-KPI generation script
-Final dataset
-Dashboard storyboard
-Power BI dashboards
-Tableau workbooks
-Dashboard screenshots
-Dashboard testing report
-QA checklist
-KPI definitions
-Dashboard guide
-Healthcare operations methodology
-Project documentation
-Internship
+- Raw dataset
+- Cleaned dataset
+- Data cleaning notebooks
+- Data validation notebooks
+- KPI generation script
+- Final dataset
+- Dashboard storyboard
+- Power BI dashboards
+- Tableau workbooks
+- Dashboard screenshots
+- Dashboard testing report
+- QA checklist
+- KPI definitions
+- Dashboard guide
+- Healthcare operations methodology
+- Project documentation
 
-Infosys Springboard Virtual Internship 7.0
+---
+
+# Internship
+
+**Infosys Springboard Virtual Internship 7.0**
 
 Domain: Data Analysis & Visualization
 
-Conclusion
+---
+
+# Conclusion
 
 The Hospital Operations and Patient Analysis Dashboard provides an integrated analytical view of hospital operations.
 
@@ -400,6 +425,6 @@ The project follows a complete data analytics workflow from data collection and 
 
 The four dashboards work together to tell a complete story:
 
-Hospital Overview → Patient Flow → Department Analysis → Resource Utilization
+**Hospital Overview → Patient Flow → Department Analysis → Resource Utilization**
 
 This dashboard suite demonstrates the use of data analytics and visualization techniques to transform healthcare operational data into meaningful and actionable insights.

@@ -1,1 +1,124 @@
+# MedTrack_DV
+## Hospital Operations & Patient Analytics Dashboard
 
+---
+
+## Project Statement
+
+This project aims to develop a comprehensive hospital operations and patient analytics dashboard suite to analyse hospital performance, patient admissions, department efficiency, and healthcare resource utilisation.
+
+Using publicly available Hospital Datasets and Patient Admission Datasets, the project transforms healthcare operational data into actionable insights through interactive Tableau dashboards.
+
+The dashboard suite helps hospital administrators, healthcare managers, medical staff, and policymakers to:
+
+- Monitor patient flow
+- Evaluate department performance
+- Optimise hospital resources
+- Analyse hospital admissions
+- Improve operational efficiency
+- Support data-driven decision-making
+
+---
+
+## Dataset Resources
+
+### Dataset Name
+
+**Hospital HMIS Dataset for Healthcare Analytics**
+
+### Dataset Description
+
+This dataset represents a synthetic but realistic Hospital Management Information System (HMIS) designed for healthcare analytics, dashboards, and operational insights.
+
+It contains multiple interconnected tables covering:
+
+- Patient information
+- Admissions
+- Departments
+- Wards
+- Beds
+- Billing
+- Insurance
+- Staff management
+
+The dataset represents the functioning of a hospital management information system.
+
+The **Admission table acts as the central transactional table**, which can be connected with patient, department, ward, disease, and billing-related tables using common keys.
+
+### Dataset Link
+
+[Hospital HMIS Dataset for Healthcare Analytics – Kaggle](https://www.kaggle.com/datasets/shalakagangurde/hospital-hmis-dataset-for-healthcare-analytics)
+
+**Source:** Kaggle
+
+---
+
+## Tables Used in This Project
+
+The tables useful for hospital operations analysis were selected and integrated into a consolidated dataset.
+
+| Table | Purpose |
+|---|---|
+| **Patient Table** | Used for patient details and demographics. |
+| **Admission Table** | Used for admission, discharge, patient, department, ward, and disease details. |
+| **Department Table** | Used for department names and department-wise analysis. |
+| **Ward Table** | Used for ward details, ward types, and bed capacity. |
+| **Bed Table** | Used for bed information and resource utilisation. |
+| **Disease Table** | Used for disease names and disease categories. |
+| **Billing Table** | Used for billing, insurance, and patient payable amounts. |
+| **Employee Table** | Used for employee details and staff count. |
+| **Staff Assignment Table** | Used for department/ward-wise staff allocation and shifts. |
+
+---
+
+## Data Integration
+
+The selected tables were integrated using their common key fields.
+
+The **Admissions table** was used as the primary transaction table, while the Patients, Departments, Wards, Beds, Disease, Billing, Employee, and Staff Assignment tables were connected through their respective identifiers.
+
+### Main Relationships Used
+
+| Key Field | Connected Tables | Purpose |
+|---|---|---|
+| `patient_id` | Patients and Admissions | Connects patient information with admission records. |
+| `department_id` | Admissions, Departments, Wards, and Employee | Connects admission records with department and staff-related information. |
+| `ward_id` | Admissions, Wards, Beds, and Staff Assignment | Connects patients, wards, beds, and staff allocation. |
+| `bed_id` | Admissions and Beds | Connects admission records with bed information. |
+| `disease_id` | Admissions and Disease | Connects admissions with disease names and categories. |
+| `admission_id` | Admissions and Billing | Connects admission records with billing information. |
+| `employee_id` | Employee and Staff Assignment | Connects employee details with staff assignments. |
+
+---
+
+## Integrated Dataset
+
+The integrated dataset contains:
+
+- **45,000 rows**
+- **34 columns**
+
+This integrated dataset was used for further data analysis, cleaning, and transformation.
+
+---
+
+## Project Workflow
+
+```text
+Dataset Collection
+        ↓
+Data Integration
+        ↓
+Data Cleaning
+        ↓
+Data Transformation
+        ↓
+KPI Calculation
+        ↓
+Dashboard Development
+        ↓
+Dashboard Testing
+        ↓
+Documentation
+        ↓
+Final Project Delivery

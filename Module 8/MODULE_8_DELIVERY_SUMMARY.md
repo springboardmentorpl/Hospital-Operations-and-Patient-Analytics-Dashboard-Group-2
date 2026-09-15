@@ -1,6 +1,7 @@
 # Module 8 — Documentation and Project Delivery
 
-Final module of the **MedTrack_DV — Hospital Operations & Patient Analytics Dashboard** project.
+Final module of the **MedTrack_DV — Hospital Operations & Patient Analytics Dashboard** project (Group 2).  
+**Mentor:** Pathina Likhita
 
 ---
 
@@ -8,18 +9,20 @@ Final module of the **MedTrack_DV — Hospital Operations & Patient Analytics Da
 
 ### 1. Project Documentation
 
-The four documentation deliverables required for this module were prepared:
+The four documentation deliverables required for this module were prepared and **delivered as PDF** in [`Documents/`](../Documents/):
 
 | Deliverable | File |
 |---|---|
-| Dataset sources | [`DATASET_SOURCES.md`](../Documents/DATASET_SOURCES.md) |
-| KPI definitions | [`KPI_DEFINITIONS.md`](../Documents/KPI_DEFINITIONS.md) |
-| Dashboard guide | [`DASHBOARD_GUIDE.md`](../Documents/DASHBOARD_GUIDE.md) |
-| Healthcare operations methodology | [`HEALTHCARE_OPERATIONS_METHODOLOGY.md`](../Documents/HEALTHCARE_OPERATIONS_METHODOLOGY.md) |
+| Dataset sources | [`DATASET_SOURCES.pdf`](../Documents/DATASET_SOURCES.pdf) |
+| KPI definitions | [`KPI_DEFINITIONS.pdf`](../Documents/KPI_DEFINITIONS.pdf) |
+| Dashboard guide | [`DASHBOARD_GUIDE.pdf`](../Documents/DASHBOARD_GUIDE.pdf) |
+| Healthcare operations methodology | [`HEALTHCARE_OPERATIONS_METHODOLOGY.pdf`](../Documents/HEALTHCARE_OPERATIONS_METHODOLOGY.pdf) |
 
 All four documents are consolidated in the complete final documentation:
 
-[`FINAL_PROJECT_DOCUMENTATION.md`](../Documents/FINAL_PROJECT_DOCUMENTATION.md)
+[`FINAL_PROJECT_DOCUMENTATION.pdf`](../Documents/FINAL_PROJECT_DOCUMENTATION.pdf)
+
+The documentation set includes mentor attribution (Pathina Likhita), a **Future Scope** section (final documentation & methodology) and **full KPI formulas with worked calculations and computed values** (KPI definitions). Markdown sources are kept locally in `Documents/` for future editing; the versioned deliverables are the PDFs.
 
 ### 2. Project Structure
 
@@ -44,7 +47,7 @@ The repository was organized into the required structure:
 | Deliverable | Status |
 |---|---|
 | GitHub Repository | ✅ Delivered — organized repository with all module artifacts |
-| Final Documentation | ✅ Delivered — README + 5 documentation files |
+| Final Documentation | ✅ Delivered — README + 5 documentation PDFs |
 | Tableau Workbook | ✅ Delivered — `Dashboard/MedTrack_DV.twb` (4 integrated dashboards) |
 
 ---

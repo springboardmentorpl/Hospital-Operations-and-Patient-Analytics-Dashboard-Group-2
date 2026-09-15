@@ -53,7 +53,7 @@ Dashboard Integration
 Testing & Validation
           ↓
 Documentation & Delivery
-
+```text
 ## Project Structure
 
 The project is organized into multiple modules covering data collection, data cleaning, KPI development, dashboard creation, and project documentation.

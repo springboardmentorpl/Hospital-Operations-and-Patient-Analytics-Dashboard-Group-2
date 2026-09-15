@@ -35,13 +35,17 @@ The final Tableau workbook `Dashboard/MedTrack_DV.twb` contains four interconnec
 
 ## Documentation
 
+All documentation is delivered as PDF in [`Documents/`](Documents/):
+
 | Document | Contents |
 |---|---|
-| [FINAL_PROJECT_DOCUMENTATION.md](Documents/FINAL_PROJECT_DOCUMENTATION.md) | Complete Module 8 project documentation |
-| [DATASET_SOURCES.md](Documents/DATASET_SOURCES.md) | Dataset origin and field reference |
-| [KPI_DEFINITIONS.md](Documents/KPI_DEFINITIONS.md) | All KPI definitions and calculations |
-| [DASHBOARD_GUIDE.md](Documents/DASHBOARD_GUIDE.md) | Dashboard-by-dashboard user guide |
-| [HEALTHCARE_OPERATIONS_METHODOLOGY.md](Documents/HEALTHCARE_OPERATIONS_METHODOLOGY.md) | End-to-end project methodology |
+| [FINAL_PROJECT_DOCUMENTATION.pdf](Documents/FINAL_PROJECT_DOCUMENTATION.pdf) | Complete Module 8 project documentation (incl. future scope) |
+| [DATASET_SOURCES.pdf](Documents/DATASET_SOURCES.pdf) | Dataset origin and field reference |
+| [KPI_DEFINITIONS.pdf](Documents/KPI_DEFINITIONS.pdf) | All KPI definitions, formulas, worked calculations and computed values |
+| [DASHBOARD_GUIDE.pdf](Documents/DASHBOARD_GUIDE.pdf) | Dashboard-by-dashboard user guide |
+| [HEALTHCARE_OPERATIONS_METHODOLOGY.pdf](Documents/HEALTHCARE_OPERATIONS_METHODOLOGY.pdf) | End-to-end project methodology |
+
+Markdown sources are kept in the local `Documents/` folder for editing; the versioned deliverables are the PDFs.
 
 ---
 

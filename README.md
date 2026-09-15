@@ -1,5 +1,4 @@
 # Hospital Operations and Patient Analytics Dashboard(Group2)
-# MedTrack_DV (Hospital Operations & Patient Analytics Dashboard)
 
 ## Project Statement
 

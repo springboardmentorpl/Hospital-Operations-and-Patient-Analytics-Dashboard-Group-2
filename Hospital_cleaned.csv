@@ -1,0 +1,985 @@
+﻿Patient_ID,Age,Gender,Condition,Medication ,Admission_Date,Discharge_Date,Patient_State,Year_of_Admission,Length_of_Stay,Readmission,Outcome,Satisfaction,Insurance_Claimed,Total_Cost,Occupancy_Rate,Bed_Utilization_Rate,Average_Length_of_Stay,Readmission_Rate
+1,45,Female,Heart Disease,Angioplasty,2024-02-07,2024-02-12,Kerala,2024,5,No,Recovered,4,Yes,15000,24.43,24.43,37.66,26.83
+2,60,Male,Diabetes,Insulin Therapy,2023-03-11,2023-03-14,Goa,2023,3,Yes,Stable,3,No,2000,24.43,24.43,37.66,26.83
+3,32,Female,Fractured Arm,X-Ray and Splint,2025-01-02,2025-01-03,Maharastra,2025,1,No,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+4,75,Male,Stroke,CT Scan and Medication,2023-12-30,2024-01-06,Manipur,2023,7,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+5,50,Female,Cancer,Surgery and Chemotherapy,2022-05-10,2022-05-20,Mizoram,2022,10,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+6,68,Male,Hypertension,Medication and Counseling,2025-06-27,2025-06-29,Sikkim,2025,2,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+7,55,Female,Appendicitis,Appendectomy,2023-12-13,2023-12-17,Karnataka,2023,4,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+8,40,Male,Fractured Leg,Cast and Physical Therapy,2022-07-28,2022-08-03,Gujarat,2022,6,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+9,70,Female,Heart Attack,Cardiac Catheterization,2023-05-11,2023-05-19,Kerala,2023,8,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+10,25,Male,Allergic Reaction,Epinephrine Injection,2023-04-25,2023-04-26,Kerala,2023,1,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+11,48,Female,Respiratory Infection,Antibiotics and Rest,2024-03-28,2024-03-30,Delhi,2024,2,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+12,65,Male,Prostate Cancer,Radiation Therapy,2025-05-05,2025-05-14,Delhi,2025,9,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+13,30,Female,Childbirth,Delivery and Postnatal Care,2025-10-04,2025-10-07,Bihar,2025,3,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+14,52,Male,Kidney Stones,Lithotripsy,2025-09-24,2025-09-28,Delhi,2025,4,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+15,58,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-10-28,2023-11-02,Chandigarh,2023,5,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+16,55,Female,Heart Disease,Angioplasty,2022-10-27,2022-11-02,Nagaland,2022,6,Yes,Recovered,3,Yes,15000,24.43,24.43,37.66,26.83
+17,62,Male,Diabetes,Insulin Therapy,2022-07-04,2022-07-08,Goa,2022,4,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+18,35,Female,Fractured Arm,X-Ray and Splint,2025-10-25,2025-10-27,Maharastra,2025,2,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+19,78,Male,Stroke,CT Scan and Medication,2022-04-24,2022-05-02,Tripura,2022,8,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+20,53,Female,Cancer,Surgery and Chemotherapy,2024-01-29,2024-02-09,Meghalaya,2024,11,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+21,72,Male,Hypertension,Medication and Counseling,2023-07-16,2023-07-19,Goa,2023,3,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+22,60,Female,Appendicitis,Appendectomy,2022-01-17,2022-01-22,Kerala,2022,5,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+23,45,Male,Fractured Leg,Cast and Physical Therapy,2024-04-20,2024-04-27,Gujarat,2024,7,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+24,75,Female,Heart Attack,Cardiac Catheterization,2024-07-16,2024-07-25,West Bengal,2024,9,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+25,28,Male,Allergic Reaction,Epinephrine Injection,2023-09-23,2023-09-25,Kerala,2023,2,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+26,52,Female,Respiratory Infection,Antibiotics and Rest,2025-02-25,2025-02-28,Jammu & Kashmir,2025,3,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+27,67,Male,Prostate Cancer,Radiation Therapy,2023-08-09,2023-08-19,Assam,2023,10,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+28,35,Female,Childbirth,Delivery and Postnatal Care,2022-04-05,2022-04-09,Uttar Pradesh,2022,4,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+29,50,Male,Kidney Stones,Lithotripsy,2023-06-18,2023-06-23,Punjab,2023,5,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+30,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-04-29,2023-05-05,Chandigarh,2023,6,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+31,48,Female,Heart Disease,Angioplasty,2025-05-18,2025-05-25,Himachal Pradesh,2025,7,Yes,Recovered,4,Yes,15000,24.43,24.43,37.66,26.83
+32,65,Male,Diabetes,Insulin Therapy,2024-07-22,2024-07-27,Puducherry,2024,5,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+33,30,Female,Fractured Arm,X-Ray and Splint,2022-10-18,2022-10-21,Himachal Pradesh,2022,3,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+34,70,Male,Stroke,CT Scan and Medication,2025-02-07,2025-02-16,Manipur,2025,9,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+35,55,Female,Cancer,Surgery and Chemotherapy,2024-03-01,2024-03-13,Assam,2024,12,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+36,68,Male,Hypertension,Medication and Counseling,2022-08-10,2022-08-14,Punjab,2022,4,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+37,45,Female,Appendicitis,Appendectomy,2024-08-19,2024-08-25,Andhra Pradesh,2024,6,No,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+38,40,Male,Fractured Leg,Cast and Physical Therapy,2022-09-19,2022-09-27,Puducherry,2022,8,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+39,78,Female,Heart Attack,Cardiac Catheterization,2022-04-21,2022-05-01,Kerala,2022,10,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+40,25,Male,Allergic Reaction,Epinephrine Injection,2024-03-20,2024-03-23,Tamil Nadu,2024,3,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+41,52,Female,Respiratory Infection,Antibiotics and Rest,2023-11-06,2023-11-10,Meghalaya,2023,4,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+42,58,Male,Prostate Cancer,Radiation Therapy,2025-12-26,2026-01-06,Delhi,2025,11,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+43,32,Female,Childbirth,Delivery and Postnatal Care,2025-07-07,2025-07-12,Madhya Pradesh,2025,5,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+44,55,Male,Kidney Stones,Lithotripsy,2025-08-06,2025-08-12,Delhi,2025,6,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+45,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-07-25,2025-08-01,Odisha,2025,7,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+46,55,Female,Heart Disease,Angioplasty,2023-10-28,2023-11-05,Punjab,2023,8,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+47,62,Male,Diabetes,Insulin Therapy,2024-07-15,2024-07-21,Goa,2024,6,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+48,35,Female,Fractured Arm,X-Ray and Splint,2023-07-12,2023-07-16,Maharastra,2023,4,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+49,78,Male,Stroke,CT Scan and Medication,2025-10-26,2025-11-05,Assam,2025,10,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+50,53,Female,Cancer,Surgery and Chemotherapy,2025-03-05,2025-03-18,Mizoram,2025,13,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+51,72,Male,Hypertension,Medication and Counseling,2024-04-27,2024-05-02,Kerala,2024,5,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+52,60,Female,Appendicitis,Appendectomy,2025-04-11,2025-04-18,Andhra Pradesh,2025,7,Yes,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+53,45,Male,Fractured Leg,Cast and Physical Therapy,2023-08-13,2023-08-22,Punjab,2023,9,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+54,75,Female,Heart Attack,Cardiac Catheterization,2022-02-11,2022-02-22,Kerala,2022,11,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+55,28,Male,Allergic Reaction,Epinephrine Injection,2025-01-17,2025-01-21,Madhya Pradesh,2025,4,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+56,52,Female,Respiratory Infection,Antibiotics and Rest,2024-05-09,2024-05-14,Delhi,2024,5,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+57,67,Male,Prostate Cancer,Radiation Therapy,2024-02-16,2024-02-28,Maharastra,2024,12,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+58,35,Female,Childbirth,Delivery and Postnatal Care,2023-11-29,2023-12-05,Uttar Pradesh,2023,6,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+59,50,Male,Kidney Stones,Lithotripsy,2024-10-03,2024-10-10,Rajasthan,2024,7,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+60,48,Female,Heart Disease,Angioplasty,2024-08-04,2024-08-13,Kerala,2024,9,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+61,65,Male,Diabetes,Insulin Therapy,2025-02-09,2025-02-16,Puducherry,2025,7,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+62,30,Female,Fractured Arm,X-Ray and Splint,2024-01-21,2024-01-26,Maharastra,2024,5,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+63,70,Male,Stroke,CT Scan and Medication,2023-05-25,2023-06-05,Mizoram,2023,11,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+64,55,Female,Cancer,Surgery and Chemotherapy,2024-02-06,2024-02-20,Mizoram,2024,14,No,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+65,68,Male,Hypertension,Medication and Counseling,2023-10-04,2023-10-10,Kerala,2023,6,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+66,45,Female,Appendicitis,Appendectomy,2022-01-19,2022-01-27,Kerala,2022,8,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+67,40,Male,Fractured Leg,Cast and Physical Therapy,2024-04-17,2024-04-27,Puducherry,2024,10,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+68,78,Female,Heart Attack,Cardiac Catheterization,2025-12-10,2025-12-22,West Bengal,2025,12,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+69,25,Male,Allergic Reaction,Epinephrine Injection,2023-04-20,2023-04-25,Madhya Pradesh,2023,5,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+70,52,Female,Respiratory Infection,Antibiotics and Rest,2024-04-15,2024-04-21,Delhi,2024,6,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+71,58,Male,Prostate Cancer,Radiation Therapy,2023-10-24,2023-11-06,Delhi,2023,13,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+72,32,Female,Childbirth,Delivery and Postnatal Care,2024-02-12,2024-02-19,Uttar Pradesh,2024,7,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+73,55,Male,Kidney Stones,Lithotripsy,2024-07-25,2024-08-02,Gujarat,2024,8,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+74,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-09-19,2023-09-28,Odisha,2023,9,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+75,55,Female,Heart Disease,Angioplasty,2025-12-04,2025-12-14,Kerala,2025,10,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+76,62,Male,Diabetes,Insulin Therapy,2025-09-09,2025-09-17,Kerala,2025,8,No,Stable,4,Yes,2000,24.43,24.43,37.66,26.83
+77,35,Female,Fractured Arm,X-Ray and Splint,2022-02-19,2022-02-25,Himachal Pradesh,2022,6,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+78,78,Male,Stroke,CT Scan and Medication,2025-04-20,2025-05-02,Manipur,2025,12,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+79,53,Female,Cancer,Surgery and Chemotherapy,2022-05-30,2022-06-14,Meghalaya,2022,15,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+80,72,Male,Hypertension,Medication and Counseling,2022-01-07,2022-01-14,Kerala,2022,7,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+81,60,Female,Appendicitis,Appendectomy,2025-04-26,2025-05-05,Karnataka,2025,9,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+82,45,Male,Fractured Leg,Cast and Physical Therapy,2025-12-10,2025-12-21,Puducherry,2025,11,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+83,75,Female,Heart Attack,Cardiac Catheterization,2022-11-25,2022-12-08,Punjab,2022,13,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+84,28,Male,Allergic Reaction,Epinephrine Injection,2023-06-30,2023-07-06,Tamil Nadu,2023,6,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+85,52,Female,Respiratory Infection,Antibiotics and Rest,2025-05-24,2025-05-31,Meghalaya,2025,7,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+86,67,Male,Prostate Cancer,Radiation Therapy,2025-09-24,2025-10-08,Assam,2025,14,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+87,35,Female,Childbirth,Delivery and Postnatal Care,2023-10-09,2023-10-17,Bihar,2023,8,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+88,50,Male,Kidney Stones,Lithotripsy,2023-07-07,2023-07-16,Gujarat,2023,9,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+89,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-05-23,2025-06-02,Chandigarh,2025,10,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+90,48,Female,Heart Disease,Angioplasty,2024-12-12,2024-12-23,Kerala,2024,11,Yes,Recovered,4,Yes,15000,24.43,24.43,37.66,26.83
+91,65,Male,Diabetes,Insulin Therapy,2025-12-18,2025-12-27,Kerala,2025,9,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+92,30,Female,Fractured Arm,X-Ray and Splint,2023-04-22,2023-04-29,Haryana,2023,7,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+93,70,Male,Stroke,CT Scan and Medication,2022-11-19,2022-12-02,Manipur,2022,13,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+94,55,Female,Cancer,Surgery and Chemotherapy,2022-02-20,2022-03-08,Assam,2022,16,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+95,68,Male,Hypertension,Medication and Counseling,2022-10-01,2022-10-09,Punjab,2022,8,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+96,45,Female,Appendicitis,Appendectomy,2022-09-03,2022-09-13,Tamil Nadu,2022,10,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+97,40,Male,Fractured Leg,Cast and Physical Therapy,2022-09-25,2022-10-07,Gujarat,2022,12,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+98,78,Female,Heart Attack,Cardiac Catheterization,2022-11-01,2022-11-15,Punjab,2022,14,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+99,25,Male,Allergic Reaction,Epinephrine Injection,2022-11-29,2022-12-06,Kerala,2022,7,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+100,52,Female,Respiratory Infection,Antibiotics and Rest,2024-11-28,2024-12-06,Jammu & Kashmir,2024,8,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+101,58,Male,Prostate Cancer,Radiation Therapy,2023-11-19,2023-12-04,Karnataka,2023,15,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+102,32,Female,Childbirth,Delivery and Postnatal Care,2023-10-05,2023-10-14,Bihar,2023,9,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+103,55,Male,Kidney Stones,Lithotripsy,2024-09-02,2024-09-12,Delhi,2024,10,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+104,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-08-27,2024-09-07,Tamil Nadu,2024,11,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+105,55,Female,Heart Disease,Angioplasty,2025-08-07,2025-08-19,Punjab,2025,12,Yes,Recovered,3,Yes,15000,24.43,24.43,37.66,26.83
+106,62,Male,Diabetes,Insulin Therapy,2024-04-02,2024-04-12,Kerala,2024,10,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+107,35,Female,Fractured Arm,X-Ray and Splint,2024-05-19,2024-05-27,Maharastra,2024,8,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+108,78,Male,Stroke,CT Scan and Medication,2022-06-03,2022-06-17,Manipur,2022,14,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+109,53,Female,Cancer,Surgery and Chemotherapy,2023-07-21,2023-08-07,Nagaland,2023,17,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+110,72,Male,Hypertension,Medication and Counseling,2023-04-02,2023-04-11,Punjab,2023,9,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+111,60,Female,Appendicitis,Appendectomy,2024-04-28,2024-05-09,Kerala,2024,11,Yes,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+112,45,Male,Fractured Leg,Cast and Physical Therapy,2025-01-08,2025-01-21,Gujarat,2025,13,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+113,75,Female,Heart Attack,Cardiac Catheterization,2024-08-23,2024-09-07,Punjab,2024,15,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+114,28,Male,Allergic Reaction,Epinephrine Injection,2025-07-31,2025-08-08,Kerala,2025,8,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+115,52,Female,Respiratory Infection,Antibiotics and Rest,2023-05-10,2023-05-19,Puducherry,2023,9,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+116,67,Male,Prostate Cancer,Radiation Therapy,2025-11-08,2025-11-24,Assam,2025,16,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+117,35,Female,Childbirth,Delivery and Postnatal Care,2024-08-16,2024-08-26,Rajasthan,2024,10,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+118,50,Male,Kidney Stones,Lithotripsy,2024-06-06,2024-06-17,Delhi,2024,11,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+119,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-12-21,2026-01-02,Tamil Nadu,2025,12,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+120,65,Male,Diabetes,Insulin Therapy,2025-01-15,2025-01-26,Puducherry,2025,11,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+121,30,Female,Fractured Arm,X-Ray and Splint,2025-02-18,2025-02-27,Maharastra,2025,9,No,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+122,70,Male,Stroke,CT Scan and Medication,2024-03-05,2024-03-20,Mizoram,2024,15,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+123,55,Female,Cancer,Surgery and Chemotherapy,2023-06-22,2023-07-10,Kerala,2023,18,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+124,68,Male,Hypertension,Medication and Counseling,2022-01-31,2022-02-10,Goa,2022,10,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+125,45,Female,Appendicitis,Appendectomy,2025-05-10,2025-05-22,Karnataka,2025,12,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+126,40,Male,Fractured Leg,Cast and Physical Therapy,2023-11-19,2023-12-03,Puducherry,2023,14,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+127,78,Female,Heart Attack,Cardiac Catheterization,2022-11-06,2022-11-22,West Bengal,2022,16,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+128,25,Male,Allergic Reaction,Epinephrine Injection,2023-12-17,2023-12-26,Kerala,2023,9,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+129,52,Female,Respiratory Infection,Antibiotics and Rest,2022-01-01,2022-01-11,Jammu & Kashmir,2022,10,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+130,58,Male,Prostate Cancer,Radiation Therapy,2023-03-20,2023-04-06,Delhi,2023,17,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+131,32,Female,Childbirth,Delivery and Postnatal Care,2024-03-12,2024-03-23,Odisha,2024,11,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+132,55,Male,Kidney Stones,Lithotripsy,2023-09-18,2023-09-30,Delhi,2023,12,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+133,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-12-11,2022-12-24,Odisha,2022,13,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+134,55,Female,Heart Disease,Angioplasty,2024-11-28,2024-12-12,Tamil Nadu,2024,14,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+135,62,Male,Diabetes,Insulin Therapy,2024-12-25,2025-01-06,Goa,2024,12,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+136,35,Female,Fractured Arm,X-Ray and Splint,2023-08-28,2023-09-07,Himachal Pradesh,2023,10,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+137,78,Male,Stroke,CT Scan and Medication,2024-08-30,2024-09-15,Assam,2024,16,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+138,53,Female,Cancer,Surgery and Chemotherapy,2025-12-08,2025-12-27,Punjab,2025,19,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+139,72,Male,Hypertension,Medication and Counseling,2025-11-19,2025-11-30,Goa,2025,11,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+140,60,Female,Appendicitis,Appendectomy,2022-11-17,2022-11-30,Karnataka,2022,13,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+141,45,Male,Fractured Leg,Cast and Physical Therapy,2024-09-05,2024-09-20,Gujarat,2024,15,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+142,75,Female,Heart Attack,Cardiac Catheterization,2023-04-29,2023-05-16,Kerala,2023,17,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+143,28,Male,Allergic Reaction,Epinephrine Injection,2023-07-22,2023-08-01,Kerala,2023,10,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+144,52,Female,Respiratory Infection,Antibiotics and Rest,2025-09-13,2025-09-24,Delhi,2025,11,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+145,67,Male,Prostate Cancer,Radiation Therapy,2025-01-13,2025-01-31,Delhi,2025,18,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+146,35,Female,Childbirth,Delivery and Postnatal Care,2025-05-30,2025-06-11,Jharkhand,2025,12,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+147,50,Male,Kidney Stones,Lithotripsy,2022-10-09,2022-10-22,Punjab,2022,13,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+148,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-07-01,2023-07-15,Chandigarh,2023,14,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+149,48,Female,Heart Disease,Angioplasty,2025-02-08,2025-02-23,Tamil Nadu,2025,15,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+150,65,Male,Diabetes,Insulin Therapy,2024-06-07,2024-06-20,Puducherry,2024,13,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+151,30,Female,Fractured Arm,X-Ray and Splint,2023-05-07,2023-05-18,Himachal Pradesh,2023,11,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+152,70,Male,Stroke,CT Scan and Medication,2023-05-01,2023-05-18,Tripura,2023,17,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+153,55,Female,Cancer,Surgery and Chemotherapy,2023-01-25,2023-02-14,Nagaland,2023,20,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+154,68,Male,Hypertension,Medication and Counseling,2025-04-09,2025-04-21,Goa,2025,12,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+155,45,Female,Appendicitis,Appendectomy,2023-01-08,2023-01-22,Andhra Pradesh,2023,14,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+156,40,Male,Fractured Leg,Cast and Physical Therapy,2025-03-03,2025-03-19,Himachal Pradesh,2025,16,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+157,78,Female,Heart Attack,Cardiac Catheterization,2024-03-19,2024-04-06,West Bengal,2024,18,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+158,25,Male,Allergic Reaction,Epinephrine Injection,2022-08-04,2022-08-15,Madhya Pradesh,2022,11,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+159,52,Female,Respiratory Infection,Antibiotics and Rest,2025-10-15,2025-10-27,Jammu & Kashmir,2025,12,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+160,58,Male,Prostate Cancer,Radiation Therapy,2023-09-07,2023-09-26,Delhi,2023,19,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+161,32,Female,Childbirth,Delivery and Postnatal Care,2025-01-16,2025-01-29,Madhya Pradesh,2025,13,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+162,55,Male,Kidney Stones,Lithotripsy,2023-04-24,2023-05-08,Delhi,2023,14,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+163,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-10-16,2025-10-31,Chandigarh,2025,15,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+164,55,Female,Heart Disease,Angioplasty,2024-12-29,2025-01-14,Kerala,2024,16,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+165,62,Male,Diabetes,Insulin Therapy,2024-09-15,2024-09-29,Chandigarh,2024,14,No,Stable,4,Yes,2000,24.43,24.43,37.66,26.83
+166,35,Female,Fractured Arm,X-Ray and Splint,2024-12-05,2024-12-17,Himachal Pradesh,2024,12,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+167,78,Male,Stroke,CT Scan and Medication,2022-08-18,2022-09-05,Tripura,2022,18,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+168,53,Female,Cancer,Surgery and Chemotherapy,2023-10-02,2023-10-23,Nagaland,2023,21,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+169,72,Male,Hypertension,Medication and Counseling,2023-03-04,2023-03-17,Kerala,2023,13,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+170,60,Female,Appendicitis,Appendectomy,2025-08-09,2025-08-24,Kerala,2025,15,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+171,45,Male,Fractured Leg,Cast and Physical Therapy,2022-09-09,2022-09-26,Himachal Pradesh,2022,17,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+172,75,Female,Heart Attack,Cardiac Catheterization,2022-06-11,2022-06-30,Punjab,2022,19,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+173,28,Male,Allergic Reaction,Epinephrine Injection,2025-02-08,2025-02-20,Madhya Pradesh,2025,12,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+174,52,Female,Respiratory Infection,Antibiotics and Rest,2024-07-12,2024-07-25,Meghalaya,2024,13,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+175,67,Male,Prostate Cancer,Radiation Therapy,2023-05-30,2023-06-19,Assam,2023,20,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+176,35,Female,Childbirth,Delivery and Postnatal Care,2023-04-13,2023-04-27,Bihar,2023,14,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+177,50,Male,Kidney Stones,Lithotripsy,2024-05-17,2024-06-01,Gujarat,2024,15,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+178,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-07-01,2022-07-17,Odisha,2022,16,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+179,48,Female,Heart Disease,Angioplasty,2024-06-23,2024-07-10,Kerala,2024,17,Yes,Recovered,4,Yes,15000,24.43,24.43,37.66,26.83
+180,30,Female,Fractured Arm,X-Ray and Splint,2024-12-05,2024-12-18,Himachal Pradesh,2024,13,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+181,70,Male,Stroke,CT Scan and Medication,2023-10-09,2023-10-28,Tripura,2023,19,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+182,55,Female,Cancer,Surgery and Chemotherapy,2023-10-20,2023-11-11,Mizoram,2023,22,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+183,68,Male,Hypertension,Medication and Counseling,2022-02-07,2022-02-21,Kerala,2022,14,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+184,45,Female,Appendicitis,Appendectomy,2023-03-05,2023-03-21,Karnataka,2023,16,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+185,40,Male,Fractured Leg,Cast and Physical Therapy,2024-02-20,2024-03-09,Gujarat,2024,18,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+186,78,Female,Heart Attack,Cardiac Catheterization,2024-05-06,2024-05-26,Kerala,2024,20,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+187,25,Male,Allergic Reaction,Epinephrine Injection,2025-04-16,2025-04-29,Tamil Nadu,2025,13,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+188,52,Female,Respiratory Infection,Antibiotics and Rest,2022-05-11,2022-05-25,Jammu & Kashmir,2022,14,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+189,58,Male,Prostate Cancer,Radiation Therapy,2023-03-01,2023-03-22,Delhi,2023,21,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+190,32,Female,Childbirth,Delivery and Postnatal Care,2025-01-16,2025-01-31,Bihar,2025,15,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+191,55,Male,Kidney Stones,Lithotripsy,2024-10-02,2024-10-18,Delhi,2024,16,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+192,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-03-20,2024-04-06,Chandigarh,2024,17,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+193,55,Female,Heart Disease,Angioplasty,2024-03-24,2024-04-11,Tamil Nadu,2024,18,Yes,Recovered,3,Yes,15000,24.43,24.43,37.66,26.83
+194,62,Male,Diabetes,Insulin Therapy,2024-03-09,2024-03-25,Goa,2024,16,No,Stable,4,Yes,2000,24.43,24.43,37.66,26.83
+195,35,Female,Fractured Arm,X-Ray and Splint,2024-09-30,2024-10-14,Maharastra,2024,14,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+196,78,Male,Stroke,CT Scan and Medication,2025-06-29,2025-07-19,Tripura,2025,20,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+197,53,Female,Cancer,Surgery and Chemotherapy,2023-09-28,2023-10-21,Mizoram,2023,23,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+198,72,Male,Hypertension,Medication and Counseling,2024-12-12,2024-12-27,Punjab,2024,15,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+199,60,Female,Appendicitis,Appendectomy,2024-08-30,2024-09-16,Tamil Nadu,2024,17,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+200,45,Male,Fractured Leg,Cast and Physical Therapy,2025-08-15,2025-09-03,Puducherry,2025,19,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+201,75,Female,Heart Attack,Cardiac Catheterization,2023-09-09,2023-09-30,Kerala,2023,21,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+202,28,Male,Allergic Reaction,Epinephrine Injection,2022-08-09,2022-08-23,Madhya Pradesh,2022,14,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+203,52,Female,Respiratory Infection,Antibiotics and Rest,2023-06-11,2023-06-26,Delhi,2023,15,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+204,67,Male,Prostate Cancer,Radiation Therapy,2024-08-30,2024-09-21,Karnataka,2024,22,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+205,35,Female,Childbirth,Delivery and Postnatal Care,2023-05-23,2023-06-08,Bihar,2023,16,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+206,50,Male,Kidney Stones,Lithotripsy,2025-01-04,2025-01-21,Gujarat,2025,17,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+207,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-10-24,2024-11-11,Odisha,2024,18,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+208,48,Female,Heart Disease,Angioplasty,2024-09-08,2024-09-27,Kerala,2024,19,Yes,Recovered,4,Yes,15000,24.43,24.43,37.66,26.83
+209,65,Male,Diabetes,Insulin Therapy,2022-06-29,2022-07-16,Puducherry,2022,17,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+210,30,Female,Fractured Arm,X-Ray and Splint,2023-03-18,2023-04-02,Maharastra,2023,15,No,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+211,70,Male,Stroke,CT Scan and Medication,2025-12-13,2026-01-03,Tripura,2025,21,Yes,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+212,55,Female,Cancer,Surgery and Chemotherapy,2023-04-15,2023-05-09,Meghalaya,2023,24,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+213,68,Male,Hypertension,Medication and Counseling,2024-06-02,2024-06-18,Sikkim,2024,16,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+214,45,Female,Appendicitis,Appendectomy,2022-03-31,2022-04-18,Tamil Nadu,2022,18,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+215,40,Male,Fractured Leg,Cast and Physical Therapy,2024-08-28,2024-09-17,Gujarat,2024,20,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+216,78,Female,Heart Attack,Cardiac Catheterization,2024-07-20,2024-08-11,Kerala,2024,22,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+217,25,Male,Allergic Reaction,Epinephrine Injection,2022-10-18,2022-11-02,Madhya Pradesh,2022,15,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+218,52,Female,Respiratory Infection,Antibiotics and Rest,2025-01-29,2025-02-14,Delhi,2025,16,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+219,58,Male,Prostate Cancer,Radiation Therapy,2022-04-06,2022-04-29,Assam,2022,23,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+220,32,Female,Childbirth,Delivery and Postnatal Care,2024-01-12,2024-01-29,Bihar,2024,17,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+221,55,Male,Kidney Stones,Lithotripsy,2025-09-04,2025-09-22,Delhi,2025,18,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+222,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-05-14,2023-06-02,Chandigarh,2023,19,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+223,55,Female,Heart Disease,Angioplasty,2022-05-10,2022-05-30,Punjab,2022,20,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+224,62,Male,Diabetes,Insulin Therapy,2024-10-30,2024-11-17,Chandigarh,2024,18,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+225,35,Female,Fractured Arm,X-Ray and Splint,2022-07-10,2022-07-26,Maharastra,2022,16,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+226,78,Male,Stroke,CT Scan and Medication,2024-09-17,2024-10-09,Manipur,2024,22,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+227,53,Female,Cancer,Surgery and Chemotherapy,2025-04-25,2025-05-20,Punjab,2025,25,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+228,72,Male,Hypertension,Medication and Counseling,2023-03-19,2023-04-05,Sikkim,2023,17,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+229,60,Female,Appendicitis,Appendectomy,2022-06-04,2022-06-23,Tamil Nadu,2022,19,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+230,45,Male,Fractured Leg,Cast and Physical Therapy,2025-07-25,2025-08-15,Himachal Pradesh,2025,21,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+231,75,Female,Heart Attack,Cardiac Catheterization,2023-06-23,2023-07-16,Kerala,2023,23,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+232,28,Male,Allergic Reaction,Epinephrine Injection,2024-02-19,2024-03-06,Tamil Nadu,2024,16,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+233,52,Female,Respiratory Infection,Antibiotics and Rest,2023-06-22,2023-07-09,Meghalaya,2023,17,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+234,67,Male,Prostate Cancer,Radiation Therapy,2023-10-13,2023-11-06,Kerala,2023,24,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+235,35,Female,Childbirth,Delivery and Postnatal Care,2023-11-01,2023-11-19,Bihar,2023,18,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+236,50,Male,Kidney Stones,Lithotripsy,2025-11-09,2025-11-28,Delhi,2025,19,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+237,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-02-14,2025-03-06,Tamil Nadu,2025,20,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+238,48,Female,Heart Disease,Angioplasty,2024-02-18,2024-03-10,Punjab,2024,21,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+239,65,Male,Diabetes,Insulin Therapy,2024-08-10,2024-08-29,Tamil Nadu,2024,19,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+240,70,Male,Stroke,CT Scan and Medication,2023-07-10,2023-08-02,Mizoram,2023,23,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+241,55,Female,Cancer,Surgery and Chemotherapy,2023-04-12,2023-05-08,Mizoram,2023,26,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+242,68,Male,Hypertension,Medication and Counseling,2022-03-05,2022-03-23,Sikkim,2022,18,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+243,45,Female,Appendicitis,Appendectomy,2022-06-05,2022-06-25,Tamil Nadu,2022,20,No,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+244,40,Male,Fractured Leg,Cast and Physical Therapy,2023-10-09,2023-10-31,Gujarat,2023,22,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+245,78,Female,Heart Attack,Cardiac Catheterization,2023-12-29,2024-01-22,West Bengal,2023,24,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+246,25,Male,Allergic Reaction,Epinephrine Injection,2025-04-14,2025-05-01,Madhya Pradesh,2025,17,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+247,52,Female,Respiratory Infection,Antibiotics and Rest,2022-06-23,2022-07-11,Delhi,2022,18,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+248,58,Male,Prostate Cancer,Radiation Therapy,2023-06-15,2023-07-10,Assam,2023,25,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+249,32,Female,Childbirth,Delivery and Postnatal Care,2022-08-14,2022-09-02,Uttar Pradesh,2022,19,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+250,55,Male,Kidney Stones,Lithotripsy,2023-08-02,2023-08-22,Delhi,2023,20,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+251,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-06-27,2022-07-18,Tamil Nadu,2022,21,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+252,55,Female,Heart Disease,Angioplasty,2024-09-10,2024-10-02,Kerala,2024,22,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+253,62,Male,Diabetes,Insulin Therapy,2022-09-01,2022-09-21,Andhra Pradesh,2022,20,No,Stable,4,Yes,2000,24.43,24.43,37.66,26.83
+254,35,Female,Fractured Arm,X-Ray and Splint,2024-03-28,2024-04-15,Maharastra,2024,18,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+255,78,Male,Stroke,CT Scan and Medication,2025-09-03,2025-09-27,Manipur,2025,24,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+256,53,Female,Cancer,Surgery and Chemotherapy,2025-07-12,2025-08-08,Meghalaya,2025,27,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+257,72,Male,Hypertension,Medication and Counseling,2022-10-13,2022-11-01,Sikkim,2022,19,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+258,60,Female,Appendicitis,Appendectomy,2024-11-12,2024-12-03,Tamil Nadu,2024,21,Yes,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+259,45,Male,Fractured Leg,Cast and Physical Therapy,2022-05-21,2022-06-13,Himachal Pradesh,2022,23,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+260,75,Female,Heart Attack,Cardiac Catheterization,2025-07-29,2025-08-23,West Bengal,2025,25,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+261,28,Male,Allergic Reaction,Epinephrine Injection,2022-05-19,2022-06-06,Kerala,2022,18,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+262,52,Female,Respiratory Infection,Antibiotics and Rest,2023-03-14,2023-04-02,Jammu & Kashmir,2023,19,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+263,67,Male,Prostate Cancer,Radiation Therapy,2023-07-14,2023-08-09,Kerala,2023,26,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+264,35,Female,Childbirth,Delivery and Postnatal Care,2025-03-21,2025-04-10,Uttar Pradesh,2025,20,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+265,50,Male,Kidney Stones,Lithotripsy,2022-03-02,2022-03-23,Delhi,2022,21,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+266,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-05-09,2023-05-31,Chandigarh,2023,22,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+267,48,Female,Heart Disease,Angioplasty,2022-12-17,2023-01-09,Punjab,2022,23,Yes,Recovered,4,Yes,15000,24.43,24.43,37.66,26.83
+268,65,Male,Diabetes,Insulin Therapy,2023-05-22,2023-06-12,Andhra Pradesh,2023,21,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+269,30,Female,Fractured Arm,X-Ray and Splint,2022-01-08,2022-01-27,Himachal Pradesh,2022,19,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+270,70,Male,Stroke,CT Scan and Medication,2024-01-01,2024-01-26,Mizoram,2024,25,Yes,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+271,55,Female,Cancer,Surgery and Chemotherapy,2025-12-25,2026-01-22,Assam,2025,28,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+272,68,Male,Hypertension,Medication and Counseling,2024-03-10,2024-03-30,Punjab,2024,20,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+273,45,Female,Appendicitis,Appendectomy,2022-12-12,2023-01-03,Karnataka,2022,22,No,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+274,40,Male,Fractured Leg,Cast and Physical Therapy,2024-03-24,2024-04-17,Himachal Pradesh,2024,24,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+275,78,Female,Heart Attack,Cardiac Catheterization,2022-11-26,2022-12-22,Punjab,2022,26,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+276,25,Male,Allergic Reaction,Epinephrine Injection,2025-02-15,2025-03-06,Kerala,2025,19,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+277,52,Female,Respiratory Infection,Antibiotics and Rest,2022-02-24,2022-03-16,Delhi,2022,20,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+278,58,Male,Prostate Cancer,Radiation Therapy,2024-08-23,2024-09-19,Assam,2024,27,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+279,32,Female,Childbirth,Delivery and Postnatal Care,2022-10-21,2022-11-11,Rajasthan,2022,21,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+280,55,Male,Kidney Stones,Lithotripsy,2023-05-06,2023-05-28,Delhi,2023,22,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+281,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-12-17,2023-01-09,Odisha,2022,23,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+282,55,Female,Heart Disease,Angioplasty,2023-10-20,2023-11-13,Tamil Nadu,2023,24,Yes,Recovered,3,Yes,15000,24.43,24.43,37.66,26.83
+283,62,Male,Diabetes,Insulin Therapy,2022-11-17,2022-12-09,Tamil Nadu,2022,22,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+284,35,Female,Fractured Arm,X-Ray and Splint,2022-08-20,2022-09-09,Haryana,2022,20,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+285,78,Male,Stroke,CT Scan and Medication,2023-04-11,2023-05-07,Tripura,2023,26,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+286,53,Female,Cancer,Surgery and Chemotherapy,2025-12-23,2026-01-21,Assam,2025,29,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+287,72,Male,Hypertension,Medication and Counseling,2024-05-15,2024-06-05,Punjab,2024,21,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+288,60,Female,Appendicitis,Appendectomy,2024-05-20,2024-06-12,Kerala,2024,23,Yes,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+289,45,Male,Fractured Leg,Cast and Physical Therapy,2022-01-07,2022-02-01,Gujarat,2022,25,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+290,75,Female,Heart Attack,Cardiac Catheterization,2025-09-16,2025-10-13,Punjab,2025,27,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+291,52,Female,Respiratory Infection,Antibiotics and Rest,2023-11-19,2023-12-10,Delhi,2023,21,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+292,67,Male,Prostate Cancer,Radiation Therapy,2025-01-16,2025-02-13,Delhi,2025,28,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+293,35,Female,Childbirth,Delivery and Postnatal Care,2025-01-31,2025-02-22,Rajasthan,2025,22,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+294,50,Male,Kidney Stones,Lithotripsy,2025-09-30,2025-10-23,Gujarat,2025,23,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+295,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-11-04,2022-11-28,Chandigarh,2022,24,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+296,48,Female,Heart Disease,Angioplasty,2025-11-04,2025-11-29,Punjab,2025,25,Yes,Recovered,4,Yes,15000,24.43,24.43,37.66,26.83
+297,65,Male,Diabetes,Insulin Therapy,2022-03-17,2022-04-09,Goa,2022,23,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+298,30,Female,Fractured Arm,X-Ray and Splint,2025-05-10,2025-05-31,Haryana,2025,21,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+299,70,Male,Stroke,CT Scan and Medication,2025-10-19,2025-11-15,Assam,2025,27,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+300,55,Female,Cancer,Surgery and Chemotherapy,2023-01-08,2023-02-07,Assam,2023,30,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+301,68,Male,Hypertension,Medication and Counseling,2023-02-09,2023-03-03,Goa,2023,22,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+302,45,Female,Appendicitis,Appendectomy,2024-02-16,2024-03-11,Andhra Pradesh,2024,24,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+303,40,Male,Fractured Leg,Cast and Physical Therapy,2024-09-14,2024-10-10,Puducherry,2024,26,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+304,78,Female,Heart Attack,Cardiac Catheterization,2025-06-06,2025-07-04,West Bengal,2025,28,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+305,25,Male,Allergic Reaction,Epinephrine Injection,2023-09-28,2023-10-19,Madhya Pradesh,2023,21,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+306,52,Female,Respiratory Infection,Antibiotics and Rest,2023-05-05,2023-05-27,Jammu & Kashmir,2023,22,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+307,58,Male,Prostate Cancer,Radiation Therapy,2024-07-25,2024-08-23,Delhi,2024,29,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+308,32,Female,Childbirth,Delivery and Postnatal Care,2025-11-27,2025-12-20,Madhya Pradesh,2025,23,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+309,55,Male,Kidney Stones,Lithotripsy,2024-02-20,2024-03-15,Delhi,2024,24,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+310,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-07-25,2024-08-19,Tamil Nadu,2024,25,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+311,55,Female,Heart Disease,Angioplasty,2024-04-21,2024-05-17,Tamil Nadu,2024,26,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+312,62,Male,Diabetes,Insulin Therapy,2023-04-18,2023-05-12,Puducherry,2023,24,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+313,35,Female,Fractured Arm,X-Ray and Splint,2022-02-05,2022-02-27,Haryana,2022,22,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+314,78,Male,Stroke,CT Scan and Medication,2025-06-05,2025-07-03,Manipur,2025,28,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+315,53,Female,Cancer,Surgery and Chemotherapy,2023-04-07,2023-05-08,Meghalaya,2023,31,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+316,72,Male,Hypertension,Medication and Counseling,2023-09-11,2023-10-04,Sikkim,2023,23,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+317,60,Female,Appendicitis,Appendectomy,2022-05-06,2022-05-31,West Bengal,2022,25,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+318,45,Male,Fractured Leg,Cast and Physical Therapy,2022-07-04,2022-07-31,Gujarat,2022,27,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+319,75,Female,Heart Attack,Cardiac Catheterization,2022-06-12,2022-07-11,Punjab,2022,29,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+320,28,Male,Allergic Reaction,Epinephrine Injection,2025-03-16,2025-04-07,Kerala,2025,22,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+321,52,Female,Respiratory Infection,Antibiotics and Rest,2025-05-15,2025-06-07,Jammu & Kashmir,2025,23,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+322,67,Male,Prostate Cancer,Radiation Therapy,2023-12-18,2024-01-17,Assam,2023,30,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+323,35,Female,Childbirth,Delivery and Postnatal Care,2022-10-30,2022-11-23,Uttar Pradesh,2022,24,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+324,50,Male,Kidney Stones,Lithotripsy,2024-10-30,2024-11-24,Punjab,2024,25,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+325,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-01-06,2024-02-01,Chandigarh,2024,26,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+326,48,Female,Heart Disease,Angioplasty,2023-10-15,2023-11-11,Kerala,2023,27,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+327,65,Male,Diabetes,Insulin Therapy,2023-08-10,2023-09-04,Puducherry,2023,25,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+328,30,Female,Fractured Arm,X-Ray and Splint,2024-09-26,2024-10-19,Maharastra,2024,23,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+329,70,Male,Stroke,CT Scan and Medication,2023-01-24,2023-02-22,Mizoram,2023,29,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+330,55,Female,Cancer,Surgery and Chemotherapy,2022-02-22,2022-03-26,Mizoram,2022,32,No,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+331,68,Male,Hypertension,Medication and Counseling,2022-02-02,2022-02-26,Sikkim,2022,24,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+332,45,Female,Appendicitis,Appendectomy,2025-07-29,2025-08-24,West Bengal,2025,26,No,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+333,40,Male,Fractured Leg,Cast and Physical Therapy,2022-12-13,2023-01-10,Puducherry,2022,28,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+334,78,Female,Heart Attack,Cardiac Catheterization,2023-11-01,2023-12-01,West Bengal,2023,30,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+335,25,Male,Allergic Reaction,Epinephrine Injection,2024-12-27,2025-01-19,Madhya Pradesh,2024,23,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+336,52,Female,Respiratory Infection,Antibiotics and Rest,2022-07-16,2022-08-09,Jammu & Kashmir,2022,24,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+337,58,Male,Prostate Cancer,Radiation Therapy,2023-02-01,2023-03-04,Kerala,2023,31,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+338,32,Female,Childbirth,Delivery and Postnatal Care,2023-02-18,2023-03-15,Bihar,2023,25,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+339,55,Male,Kidney Stones,Lithotripsy,2023-08-06,2023-09-01,Haryana,2023,26,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+340,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-11-15,2024-12-12,Tamil Nadu,2024,27,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+341,55,Female,Heart Disease,Angioplasty,2025-01-14,2025-02-11,Kerala,2025,28,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+342,62,Male,Diabetes,Insulin Therapy,2023-07-06,2023-08-01,Goa,2023,26,No,Stable,4,Yes,2000,24.43,24.43,37.66,26.83
+343,35,Female,Fractured Arm,X-Ray and Splint,2023-12-28,2024-01-21,Himachal Pradesh,2023,24,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+344,78,Male,Stroke,CT Scan and Medication,2024-10-05,2024-11-04,Tripura,2024,30,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+345,53,Female,Cancer,Surgery and Chemotherapy,2023-09-26,2023-10-29,Nagaland,2023,33,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+346,72,Male,Hypertension,Medication and Counseling,2022-04-25,2022-05-20,Goa,2022,25,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+347,60,Female,Appendicitis,Appendectomy,2025-12-04,2025-12-31,Punjab,2025,27,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+348,45,Male,Fractured Leg,Cast and Physical Therapy,2024-11-02,2024-12-01,Gujarat,2024,29,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+349,75,Female,Heart Attack,Cardiac Catheterization,2025-08-18,2025-09-18,Punjab,2025,31,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+350,28,Male,Allergic Reaction,Epinephrine Injection,2024-03-27,2024-04-20,Kerala,2024,24,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+351,67,Male,Prostate Cancer,Radiation Therapy,2025-06-03,2025-07-05,Assam,2025,32,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+352,35,Female,Childbirth,Delivery and Postnatal Care,2024-12-17,2025-01-12,Bihar,2024,26,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+353,50,Male,Kidney Stones,Lithotripsy,2023-11-26,2023-12-23,Delhi,2023,27,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+354,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-09-13,2022-10-11,Chandigarh,2022,28,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+355,48,Female,Heart Disease,Angioplasty,2022-01-13,2022-02-11,Tamil Nadu,2022,29,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+356,65,Male,Diabetes,Insulin Therapy,2024-06-09,2024-07-06,Puducherry,2024,27,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+357,30,Female,Fractured Arm,X-Ray and Splint,2025-05-03,2025-05-28,Himachal Pradesh,2025,25,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+358,70,Male,Stroke,CT Scan and Medication,2025-01-23,2025-02-23,Tripura,2025,31,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+359,55,Female,Cancer,Surgery and Chemotherapy,2024-01-22,2024-02-25,Mizoram,2024,34,No,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+360,68,Male,Hypertension,Medication and Counseling,2022-06-02,2022-06-28,Goa,2022,26,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+361,45,Female,Appendicitis,Appendectomy,2024-05-03,2024-05-31,Karnataka,2024,28,No,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+362,40,Male,Fractured Leg,Cast and Physical Therapy,2022-08-27,2022-09-26,Himachal Pradesh,2022,30,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+363,78,Female,Heart Attack,Cardiac Catheterization,2025-07-06,2025-08-07,Punjab,2025,32,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+364,25,Male,Allergic Reaction,Epinephrine Injection,2025-06-01,2025-06-26,Kerala,2025,25,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+365,52,Female,Respiratory Infection,Antibiotics and Rest,2022-10-20,2022-11-15,Delhi,2022,26,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+366,58,Male,Prostate Cancer,Radiation Therapy,2024-02-29,2024-04-02,Kerala,2024,33,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+367,32,Female,Childbirth,Delivery and Postnatal Care,2023-04-09,2023-05-06,Uttar Pradesh,2023,27,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+368,55,Male,Kidney Stones,Lithotripsy,2022-12-20,2023-01-17,Delhi,2022,28,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+369,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-03-31,2025-04-29,Odisha,2025,29,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+370,55,Female,Heart Disease,Angioplasty,2024-08-05,2024-09-04,Tamil Nadu,2024,30,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+371,62,Male,Diabetes,Insulin Therapy,2023-10-08,2023-11-05,Goa,2023,28,No,Stable,4,Yes,2000,24.43,24.43,37.66,26.83
+372,35,Female,Fractured Arm,X-Ray and Splint,2025-05-24,2025-06-19,Maharastra,2025,26,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+373,78,Male,Stroke,CT Scan and Medication,2022-02-24,2022-03-29,Tripura,2022,33,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+374,53,Female,Cancer,Surgery and Chemotherapy,2023-08-17,2023-09-21,Meghalaya,2023,35,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+375,72,Male,Hypertension,Medication and Counseling,2025-12-27,2026-01-23,Punjab,2025,27,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+376,60,Female,Appendicitis,Appendectomy,2025-04-02,2025-05-01,Kerala,2025,29,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+377,45,Male,Fractured Leg,Cast and Physical Therapy,2023-09-16,2023-10-17,Himachal Pradesh,2023,31,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+378,75,Female,Heart Attack,Cardiac Catheterization,2024-12-15,2025-01-17,West Bengal,2024,33,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+379,28,Male,Allergic Reaction,Epinephrine Injection,2025-11-27,2025-12-23,Kerala,2025,26,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+380,52,Female,Respiratory Infection,Antibiotics and Rest,2023-04-08,2023-05-05,Delhi,2023,27,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+381,67,Male,Prostate Cancer,Radiation Therapy,2023-04-17,2023-05-21,Delhi,2023,34,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+382,35,Female,Childbirth,Delivery and Postnatal Care,2023-01-15,2023-02-12,Bihar,2023,28,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+383,50,Male,Kidney Stones,Lithotripsy,2023-04-13,2023-05-12,Haryana,2023,29,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+384,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-08-12,2024-09-11,Chandigarh,2024,30,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+385,48,Female,Heart Disease,Angioplasty,2022-09-12,2022-10-13,Kerala,2022,31,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+386,65,Male,Diabetes,Insulin Therapy,2025-09-30,2025-10-29,Kerala,2025,29,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+387,30,Female,Fractured Arm,X-Ray and Splint,2023-10-15,2023-11-11,Himachal Pradesh,2023,27,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+388,70,Male,Stroke,CT Scan and Medication,2023-11-04,2023-12-08,Manipur,2023,34,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+389,55,Female,Cancer,Surgery and Chemotherapy,2024-01-29,2024-03-05,Assam,2024,36,No,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+390,68,Male,Hypertension,Medication and Counseling,2022-10-24,2022-11-21,Sikkim,2022,28,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+391,45,Female,Appendicitis,Appendectomy,2022-09-05,2022-10-05,Andhra Pradesh,2022,30,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+392,40,Male,Fractured Leg,Cast and Physical Therapy,2022-11-08,2022-12-10,Gujarat,2022,32,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+393,78,Female,Heart Attack,Cardiac Catheterization,2023-08-10,2023-09-13,Kerala,2023,34,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+394,25,Male,Allergic Reaction,Epinephrine Injection,2025-11-01,2025-11-28,Madhya Pradesh,2025,27,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+395,52,Female,Respiratory Infection,Antibiotics and Rest,2022-12-15,2023-01-12,Meghalaya,2022,28,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+396,58,Male,Prostate Cancer,Radiation Therapy,2025-07-24,2025-08-28,Delhi,2025,35,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+397,32,Female,Childbirth,Delivery and Postnatal Care,2024-08-02,2024-08-31,Uttar Pradesh,2024,29,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+398,55,Male,Kidney Stones,Lithotripsy,2024-01-11,2024-02-10,Delhi,2024,30,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+399,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-07-10,2025-08-10,Odisha,2025,31,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+400,55,Female,Heart Disease,Angioplasty,2024-11-29,2024-12-31,Punjab,2024,32,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+401,62,Male,Diabetes,Insulin Therapy,2024-01-11,2024-02-10,Kerala,2024,30,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+402,35,Female,Fractured Arm,X-Ray and Splint,2024-03-03,2024-03-31,Maharastra,2024,28,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+403,78,Male,Stroke,CT Scan and Medication,2024-04-15,2024-05-20,Manipur,2024,35,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+404,53,Female,Cancer,Surgery and Chemotherapy,2024-02-24,2024-04-01,Mizoram,2024,37,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+405,72,Male,Hypertension,Medication and Counseling,2024-04-07,2024-05-06,Goa,2024,29,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+406,60,Female,Appendicitis,Appendectomy,2025-05-04,2025-06-04,Tamil Nadu,2025,31,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+407,45,Male,Fractured Leg,Cast and Physical Therapy,2022-01-24,2022-02-26,Puducherry,2022,33,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+408,75,Female,Heart Attack,Cardiac Catheterization,2023-11-21,2023-12-26,West Bengal,2023,35,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+409,28,Male,Allergic Reaction,Epinephrine Injection,2023-01-29,2023-02-26,Madhya Pradesh,2023,28,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+410,52,Female,Respiratory Infection,Antibiotics and Rest,2022-11-03,2022-12-02,Delhi,2022,29,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+411,35,Female,Childbirth,Delivery and Postnatal Care,2022-09-22,2022-10-22,Rajasthan,2022,30,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+412,50,Male,Kidney Stones,Lithotripsy,2024-09-19,2024-10-20,Delhi,2024,31,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+413,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-05-23,2023-06-24,Chandigarh,2023,32,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+414,48,Female,Heart Disease,Angioplasty,2023-12-02,2024-01-04,Punjab,2023,33,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+415,65,Male,Diabetes,Insulin Therapy,2024-05-03,2024-06-03,Puducherry,2024,31,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+416,30,Female,Fractured Arm,X-Ray and Splint,2024-06-21,2024-07-20,Maharastra,2024,29,No,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+417,70,Male,Stroke,CT Scan and Medication,2025-12-18,2026-01-23,Tripura,2025,36,Yes,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+418,55,Female,Cancer,Surgery and Chemotherapy,2023-05-01,2023-06-08,Assam,2023,38,No,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+419,68,Male,Hypertension,Medication and Counseling,2023-03-23,2023-04-22,Sikkim,2023,30,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+420,45,Female,Appendicitis,Appendectomy,2022-10-17,2022-11-18,Karnataka,2022,32,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+421,40,Male,Fractured Leg,Cast and Physical Therapy,2023-03-31,2023-05-04,Gujarat,2023,34,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+422,78,Female,Heart Attack,Cardiac Catheterization,2022-03-24,2022-04-29,Kerala,2022,36,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+423,25,Male,Allergic Reaction,Epinephrine Injection,2022-08-23,2022-09-21,Maharastra,2022,29,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+424,52,Female,Respiratory Infection,Antibiotics and Rest,2025-09-13,2025-10-13,Meghalaya,2025,30,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+425,58,Male,Prostate Cancer,Radiation Therapy,2023-12-09,2024-01-15,Delhi,2023,37,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+426,32,Female,Childbirth,Delivery and Postnatal Care,2025-11-12,2025-12-13,Madhya Pradesh,2025,31,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+427,55,Male,Kidney Stones,Lithotripsy,2025-02-03,2025-03-07,Gujarat,2025,32,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+428,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-02-27,2024-03-31,Tamil Nadu,2024,33,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+429,55,Female,Heart Disease,Angioplasty,2022-02-09,2022-03-15,Kerala,2022,34,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+430,62,Male,Diabetes,Insulin Therapy,2025-06-03,2025-07-05,Goa,2025,32,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+431,35,Female,Fractured Arm,X-Ray and Splint,2024-08-19,2024-09-18,Maharastra,2024,30,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+432,78,Male,Stroke,CT Scan and Medication,2024-05-08,2024-06-14,Manipur,2024,37,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+433,53,Female,Cancer,Surgery and Chemotherapy,2024-02-18,2024-03-28,Punjab,2024,39,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+434,72,Male,Hypertension,Medication and Counseling,2025-07-28,2025-08-28,Sikkim,2025,31,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+435,60,Female,Appendicitis,Appendectomy,2025-05-08,2025-06-10,Kerala,2025,33,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+436,45,Male,Fractured Leg,Cast and Physical Therapy,2024-03-17,2024-04-21,Himachal Pradesh,2024,35,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+437,75,Female,Heart Attack,Cardiac Catheterization,2025-02-10,2025-03-19,Kerala,2025,37,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+438,28,Male,Allergic Reaction,Epinephrine Injection,2023-06-14,2023-07-14,Madhya Pradesh,2023,30,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+439,52,Female,Respiratory Infection,Antibiotics and Rest,2023-04-28,2023-05-29,Meghalaya,2023,31,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+440,67,Male,Prostate Cancer,Radiation Therapy,2025-03-01,2025-04-08,Delhi,2025,38,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+441,35,Female,Childbirth,Delivery and Postnatal Care,2024-03-31,2024-05-02,Jharkhand,2024,32,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+442,50,Male,Kidney Stones,Lithotripsy,2024-08-17,2024-09-19,Haryana,2024,33,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+443,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-04-23,2022-05-27,Tamil Nadu,2022,34,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+444,48,Female,Heart Disease,Angioplasty,2022-07-20,2022-08-24,Tamil Nadu,2022,35,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+445,65,Male,Diabetes,Insulin Therapy,2022-04-17,2022-05-20,Puducherry,2022,33,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+446,30,Female,Fractured Arm,X-Ray and Splint,2022-01-14,2022-02-14,Himachal Pradesh,2022,31,No,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+447,70,Male,Stroke,CT Scan and Medication,2023-08-17,2023-09-24,Mizoram,2023,38,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+448,55,Female,Cancer,Surgery and Chemotherapy,2023-03-29,2023-05-08,Mizoram,2023,40,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+449,68,Male,Hypertension,Medication and Counseling,2022-05-25,2022-06-26,Sikkim,2022,32,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+450,45,Female,Appendicitis,Appendectomy,2022-09-12,2022-10-16,Karnataka,2022,34,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+451,40,Male,Fractured Leg,Cast and Physical Therapy,2025-11-17,2025-12-23,Puducherry,2025,36,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+452,78,Female,Heart Attack,Cardiac Catheterization,2024-10-31,2024-12-08,Kerala,2024,38,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+453,25,Male,Allergic Reaction,Epinephrine Injection,2024-11-14,2024-12-15,Kerala,2024,31,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+454,52,Female,Respiratory Infection,Antibiotics and Rest,2024-09-02,2024-10-04,Delhi,2024,32,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+455,58,Male,Prostate Cancer,Radiation Therapy,2022-07-25,2022-09-02,Kerala,2022,39,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+456,32,Female,Childbirth,Delivery and Postnatal Care,2022-12-15,2023-01-17,Odisha,2022,33,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+457,55,Male,Kidney Stones,Lithotripsy,2023-07-05,2023-08-08,Haryana,2023,34,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+458,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-08-31,2025-10-05,Tamil Nadu,2025,35,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+459,55,Female,Heart Disease,Angioplasty,2025-10-22,2025-11-27,Kerala,2025,36,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+460,62,Male,Diabetes,Insulin Therapy,2024-03-20,2024-04-23,Goa,2024,34,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+461,35,Female,Fractured Arm,X-Ray and Splint,2023-02-15,2023-03-19,Himachal Pradesh,2023,32,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+462,78,Male,Stroke,CT Scan and Medication,2023-10-06,2023-11-14,Tripura,2023,39,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+463,53,Female,Cancer,Surgery and Chemotherapy,2022-11-06,2022-12-17,Meghalaya,2022,41,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+464,72,Male,Hypertension,Medication and Counseling,2024-06-28,2024-07-31,Sikkim,2024,33,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+465,60,Female,Appendicitis,Appendectomy,2024-01-16,2024-02-20,Andhra Pradesh,2024,35,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+466,45,Male,Fractured Leg,Cast and Physical Therapy,2022-07-16,2022-08-22,Gujarat,2022,37,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+467,75,Female,Heart Attack,Cardiac Catheterization,2024-03-24,2024-05-02,West Bengal,2024,39,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+468,28,Male,Allergic Reaction,Epinephrine Injection,2025-06-03,2025-07-05,Kerala,2025,32,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+469,52,Female,Respiratory Infection,Antibiotics and Rest,2022-05-05,2022-06-07,Jammu & Kashmir,2022,33,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+470,67,Male,Prostate Cancer,Radiation Therapy,2022-10-01,2022-11-10,Assam,2022,40,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+471,50,Male,Kidney Stones,Lithotripsy,2024-04-23,2024-05-28,Rajasthan,2024,35,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+472,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-09-01,2022-10-07,Chandigarh,2022,36,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+473,48,Female,Heart Disease,Angioplasty,2023-04-30,2023-06-06,Tamil Nadu,2023,37,Yes,Recovered,4,Yes,15000,24.43,24.43,37.66,26.83
+474,65,Male,Diabetes,Insulin Therapy,2024-03-02,2024-04-06,Kerala,2024,35,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+475,30,Female,Fractured Arm,X-Ray and Splint,2025-01-27,2025-03-01,Punjab,2025,33,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+476,70,Male,Stroke,CT Scan and Medication,2024-10-14,2024-11-23,Tripura,2024,40,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+477,55,Female,Cancer,Surgery and Chemotherapy,2022-11-20,2023-01-01,Assam,2022,42,No,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+478,68,Male,Hypertension,Medication and Counseling,2022-04-18,2022-05-22,Sikkim,2022,34,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+479,45,Female,Appendicitis,Appendectomy,2023-03-02,2023-04-07,Karnataka,2023,36,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+480,40,Male,Fractured Leg,Cast and Physical Therapy,2024-08-28,2024-10-05,Himachal Pradesh,2024,38,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+481,78,Female,Heart Attack,Cardiac Catheterization,2022-02-19,2022-03-31,Kerala,2022,40,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+482,25,Male,Allergic Reaction,Epinephrine Injection,2025-01-07,2025-02-09,Madhya Pradesh,2025,33,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+483,52,Female,Respiratory Infection,Antibiotics and Rest,2022-10-28,2022-12-01,Delhi,2022,34,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+484,58,Male,Prostate Cancer,Radiation Therapy,2023-12-16,2024-01-26,Delhi,2023,41,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+485,32,Female,Childbirth,Delivery and Postnatal Care,2023-01-04,2023-02-08,Jharkhand,2023,35,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+486,55,Male,Kidney Stones,Lithotripsy,2022-12-19,2023-01-24,Gujarat,2022,36,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+487,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-02-07,2022-03-16,Tamil Nadu,2022,37,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+488,55,Female,Heart Disease,Angioplasty,2025-10-18,2025-11-25,Tamil Nadu,2025,38,Yes,Recovered,3,Yes,15000,24.43,24.43,37.66,26.83
+489,62,Male,Diabetes,Insulin Therapy,2024-10-29,2024-12-04,Chandigarh,2024,36,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+490,35,Female,Fractured Arm,X-Ray and Splint,2023-01-12,2023-02-15,Himachal Pradesh,2023,34,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+491,78,Male,Stroke,CT Scan and Medication,2025-04-08,2025-05-19,Manipur,2025,41,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+492,53,Female,Cancer,Surgery and Chemotherapy,2022-07-10,2022-08-22,Meghalaya,2022,43,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+493,72,Male,Hypertension,Medication and Counseling,2022-12-12,2023-01-16,Sikkim,2022,35,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+494,60,Female,Appendicitis,Appendectomy,2025-04-15,2025-05-22,Kerala,2025,37,Yes,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+495,45,Male,Fractured Leg,Cast and Physical Therapy,2023-09-14,2023-10-23,Gujarat ,2023,39,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+496,75,Female,Heart Attack,Cardiac Catheterization,2023-10-02,2023-11-12,Punjab,2023,41,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+497,28,Male,Allergic Reaction,Epinephrine Injection,2025-09-27,2025-10-31,Delhi,2025,34,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+498,52,Female,Respiratory Infection,Antibiotics and Rest,2022-02-06,2022-03-13,Jammu & Kashmir,2022,35,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+499,67,Male,Prostate Cancer,Radiation Therapy,2024-08-09,2024-09-20,Assam,2024,42,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+500,35,Female,Childbirth,Delivery and Postnatal Care,2024-01-07,2024-02-12,Jharkhand,2024,36,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+501,50,Male,Kidney Stones,Lithotripsy,2025-04-10,2025-05-17,Haryana,2025,37,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+502,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-08-11,2023-09-18,Chandigarh,2023,38,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+503,48,Female,Heart Disease,Angioplasty,2025-07-19,2025-08-27,Punjab,2025,39,Yes,Recovered,4,Yes,15000,24.43,24.43,37.66,26.83
+504,65,Male,Diabetes,Insulin Therapy,2024-06-30,2024-08-06,Kerala,2024,37,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+505,30,Female,Fractured Arm,X-Ray and Splint,2024-06-25,2024-07-30,Himachal Pradesh,2024,35,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+506,70,Male,Stroke,CT Scan and Medication,2023-12-27,2024-02-07,Manipur,2023,42,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+507,55,Female,Cancer,Surgery and Chemotherapy,2024-12-17,2025-01-30,Meghalaya,2024,44,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+508,68,Male,Hypertension,Medication and Counseling,2023-04-26,2023-06-01,Sikkim,2023,36,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+509,45,Female,Appendicitis,Appendectomy,2023-12-20,2024-01-27,Kerala,2023,38,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+510,40,Male,Fractured Leg,Cast and Physical Therapy,2024-06-23,2024-08-02,Gujarat,2024,40,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+511,78,Female,Heart Attack,Cardiac Catheterization,2023-08-20,2023-10-01,Punjab,2023,42,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+512,25,Male,Allergic Reaction,Epinephrine Injection,2024-08-03,2024-09-07,Madhya Pradesh,2024,35,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+513,52,Female,Respiratory Infection,Antibiotics and Rest,2024-01-29,2024-03-05,Delhi,2024,36,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+514,58,Male,Prostate Cancer,Radiation Therapy,2024-07-21,2024-09-02,Kerala,2024,43,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+515,32,Female,Childbirth,Delivery and Postnatal Care,2022-05-09,2022-06-15,Bihar,2022,37,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+516,55,Male,Kidney Stones,Lithotripsy,2022-01-24,2022-03-03,Haryana,2022,38,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+517,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-05-22,2023-06-30,Odisha,2023,39,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+518,55,Female,Heart Disease,Angioplasty,2023-03-25,2023-05-04,Punjab,2023,40,Yes,Recovered,3,Yes,15000,24.43,24.43,37.66,26.83
+519,62,Male,Diabetes,Insulin Therapy,2024-10-18,2024-11-25,Goa,2024,38,No,Stable,4,Yes,2000,24.43,24.43,37.66,26.83
+520,35,Female,Fractured Arm,X-Ray and Splint,2022-07-16,2022-08-21,Maharastra,2022,36,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+521,78,Male,Stroke,CT Scan and Medication,2025-04-29,2025-06-11,Mizoram,2025,43,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+522,53,Female,Cancer,Surgery and Chemotherapy,2022-07-12,2022-08-26,Meghalaya,2022,45,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+523,72,Male,Hypertension,Medication and Counseling,2022-03-16,2022-04-23,Sikkim,2022,38,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+524,60,Female,Appendicitis,Appendectomy,2023-08-21,2023-09-29,Andhra Pradesh,2023,39,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+525,45,Male,Fractured Leg,Cast and Physical Therapy,2023-10-30,2023-12-10,Puducherry,2023,41,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+526,75,Female,Heart Attack,Cardiac Catheterization,2023-04-29,2023-06-11,West Bengal,2023,43,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+527,28,Male,Allergic Reaction,Epinephrine Injection,2024-02-06,2024-03-13,Kerala,2024,36,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+528,52,Female,Respiratory Infection,Antibiotics and Rest,2023-12-24,2024-01-30,Jammu & Kashmir,2023,37,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+529,67,Male,Prostate Cancer,Radiation Therapy,2022-03-04,2022-04-17,Assam,2022,44,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+530,35,Female,Childbirth,Delivery and Postnatal Care,2023-01-15,2023-02-22,Uttar Pradesh,2023,38,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+531,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-03-28,2022-05-07,Tamil Nadu,2022,40,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+532,48,Female,Heart Disease,Angioplasty,2025-05-02,2025-06-12,Punjab,2025,41,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+533,65,Male,Diabetes,Insulin Therapy,2023-04-30,2023-06-08,Kerala,2023,39,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+534,30,Female,Fractured Arm,X-Ray and Splint,2022-06-30,2022-08-06,Maharastra,2022,37,No,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+535,70,Male,Stroke,CT Scan and Medication,2022-10-30,2022-12-13,Manipur,2022,44,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+536,55,Female,Cancer,Surgery and Chemotherapy,2022-03-19,2022-05-04,Assam,2022,46,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+537,68,Male,Hypertension,Medication and Counseling,2025-03-19,2025-04-28,Punjab,2025,40,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+538,45,Female,Appendicitis,Appendectomy,2023-08-21,2023-10-02,Tamil Nadu,2023,42,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+539,40,Male,Fractured Leg,Cast and Physical Therapy,2024-09-20,2024-11-01,Gujarat,2024,42,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+540,78,Female,Heart Attack,Cardiac Catheterization,2023-05-17,2023-06-30,Punjab,2023,44,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+541,25,Male,Allergic Reaction,Epinephrine Injection,2025-01-25,2025-03-03,Kerala,2025,37,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+542,52,Female,Respiratory Infection,Antibiotics and Rest,2022-12-19,2023-01-26,Meghalaya,2022,38,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+543,58,Male,Prostate Cancer,Radiation Therapy,2023-07-18,2023-09-01,Delhi,2023,45,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+544,32,Female,Childbirth,Delivery and Postnatal Care,2023-09-15,2023-10-24,Rajasthan,2023,39,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+545,55,Male,Kidney Stones,Lithotripsy,2022-10-09,2022-11-18,Haryana,2022,40,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+546,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-12-14,2023-01-24,Chandigarh,2022,41,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+547,55,Female,Heart Disease,Angioplasty,2024-12-31,2025-02-11,Tamil Nadu,2024,42,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+548,62,Male,Diabetes,Insulin Therapy,2024-04-14,2024-05-24,Kerala,2024,40,No,Stable,4,Yes,2000,24.43,24.43,37.66,26.83
+549,35,Female,Fractured Arm,X-Ray and Splint,2024-02-07,2024-03-16,Maharastra,2024,38,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+550,78,Male,Stroke,CT Scan and Medication,2024-09-06,2024-10-21,Mizoram,2024,45,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+551,53,Female,Cancer,Surgery and Chemotherapy,2025-09-10,2025-10-27,Assam,2025,47,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+552,72,Male,Hypertension,Medication and Counseling,2022-02-08,2022-03-21,Goa,2022,41,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+553,60,Female,Appendicitis,Appendectomy,2025-05-02,2025-06-14,West Bengal,2025,43,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+554,45,Male,Fractured Leg,Cast and Physical Therapy,2022-01-14,2022-02-26,Himachal Pradesh,2022,43,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+555,75,Female,Heart Attack,Cardiac Catheterization,2022-01-29,2022-03-15,West Bengal,2022,45,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+556,28,Male,Allergic Reaction,Epinephrine Injection,2024-11-21,2024-12-29,Madhya Pradesh,2024,38,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+557,52,Female,Respiratory Infection,Antibiotics and Rest,2024-01-20,2024-02-28,Puducherry,2024,39,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+558,67,Male,Prostate Cancer,Radiation Therapy,2022-08-31,2022-10-16,Delhi,2022,46,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+559,35,Female,Childbirth,Delivery and Postnatal Care,2024-03-15,2024-04-24,Madhya Pradesh,2024,40,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+560,50,Male,Kidney Stones,Lithotripsy,2022-05-24,2022-07-04,Haryana,2022,41,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+561,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-10-11,2023-11-22,Odisha,2023,42,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+562,48,Female,Heart Disease,Angioplasty,2025-02-24,2025-04-08,Kerala,2025,43,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+563,65,Male,Diabetes,Insulin Therapy,2024-07-18,2024-08-28,Goa,2024,41,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+564,30,Female,Fractured Arm,X-Ray and Splint,2023-05-23,2023-07-01,Maharastra,2023,39,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+565,70,Male,Stroke,CT Scan and Medication,2023-04-20,2023-06-05,Tripura,2023,46,Yes,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+566,55,Female,Cancer,Surgery and Chemotherapy,2023-03-29,2023-05-16,Assam,2023,48,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+567,68,Male,Hypertension,Medication and Counseling,2024-04-13,2024-05-25,Goa,2024,42,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+568,45,Female,Appendicitis,Appendectomy,2022-01-21,2022-03-06,Andhra Pradesh,2022,44,No,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+569,40,Male,Fractured Leg,Cast and Physical Therapy,2024-05-29,2024-07-12,Himachal Pradesh,2024,44,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+570,78,Female,Heart Attack,Cardiac Catheterization,2022-08-10,2022-09-25,Punjab,2022,46,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+571,25,Male,Allergic Reaction,Epinephrine Injection,2023-06-03,2023-07-12,Kerala,2023,39,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+572,52,Female,Respiratory Infection,Antibiotics and Rest,2024-01-18,2024-02-27,Puducherry,2024,40,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+573,58,Male,Prostate Cancer,Radiation Therapy,2023-01-21,2023-03-09,Maharastra,2023,47,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+574,32,Female,Childbirth,Delivery and Postnatal Care,2024-03-20,2024-04-30,Bihar,2024,41,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+575,55,Male,Kidney Stones,Lithotripsy,2025-04-20,2025-06-01,Haryana,2025,42,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+576,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-05-24,2025-07-06,Chandigarh,2025,43,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+577,55,Female,Heart Disease,Angioplasty,2024-08-21,2024-10-04,Kerala,2024,44,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+578,62,Male,Diabetes,Insulin Therapy,2023-06-03,2023-07-15,Puducherry,2023,42,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+579,35,Female,Fractured Arm,X-Ray and Splint,2022-05-22,2022-07-01,Himachal Pradesh,2022,40,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+580,78,Male,Stroke,CT Scan and Medication,2025-12-30,2026-02-15,Tripura,2025,47,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+581,53,Female,Cancer,Surgery and Chemotherapy,2025-09-18,2025-11-06,Assam,2025,49,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+582,72,Male,Hypertension,Medication and Counseling,2023-09-13,2023-10-26,Goa,2023,43,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+583,60,Female,Appendicitis,Appendectomy,2023-09-18,2023-11-02,Punjab,2023,45,Yes,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+584,45,Male,Fractured Leg,Cast and Physical Therapy,2025-01-21,2025-03-07,Gujarat,2025,45,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+585,75,Female,Heart Attack,Cardiac Catheterization,2022-08-21,2022-10-07,West Bengal,2022,47,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+586,28,Male,Allergic Reaction,Epinephrine Injection,2022-12-03,2023-01-12,Madhya Pradesh,2022,40,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+587,52,Female,Respiratory Infection,Antibiotics and Rest,2025-10-23,2025-12-03,Jammu & Kashmir,2025,41,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+588,67,Male,Prostate Cancer,Radiation Therapy,2024-11-01,2024-12-19,Karnataka,2024,48,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+589,35,Female,Childbirth,Delivery and Postnatal Care,2023-12-25,2024-02-05,Bihar,2023,42,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+590,50,Male,Kidney Stones,Lithotripsy,2024-12-05,2025-01-17,Punjab,2024,43,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+591,48,Female,Heart Disease,Angioplasty,2024-05-18,2024-07-02,Tamil Nadu,2024,45,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+592,65,Male,Diabetes,Insulin Therapy,2022-05-12,2022-06-24,Puducherry,2022,43,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+593,30,Female,Fractured Arm,X-Ray and Splint,2025-09-13,2025-10-24,Himachal Pradesh,2025,41,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+594,70,Male,Stroke,CT Scan and Medication,2025-03-31,2025-05-18,Tripura,2025,48,Yes,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+595,55,Female,Cancer,Surgery and Chemotherapy,2023-03-18,2023-05-07,Meghalaya,2023,50,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+596,68,Male,Hypertension,Medication and Counseling,2022-03-29,2022-05-12,Arunachal Pradesh,2022,44,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+597,45,Female,Appendicitis,Appendectomy,2024-09-20,2024-11-05,Andhra Pradesh,2024,46,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+598,40,Male,Fractured Leg,Cast and Physical Therapy,2024-05-26,2024-07-11,Himachal Pradesh,2024,46,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+599,78,Female,Heart Attack,Cardiac Catheterization,2024-08-08,2024-09-25,Kerala,2024,48,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+600,25,Male,Allergic Reaction,Epinephrine Injection,2023-07-14,2023-08-24,Tamil Nadu,2023,41,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+601,52,Female,Respiratory Infection,Antibiotics and Rest,2025-11-08,2025-12-20,Puducherry,2025,42,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+602,58,Male,Prostate Cancer,Radiation Therapy,2025-11-13,2026-01-01,Kerala,2025,49,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+603,32,Female,Childbirth,Delivery and Postnatal Care,2024-11-07,2024-12-20,Bihar,2024,43,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+604,55,Male,Kidney Stones,Lithotripsy,2025-04-29,2025-06-12,Gujarat,2025,44,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+605,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-02-10,2022-03-27,Odisha,2022,45,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+606,55,Female,Heart Disease,Angioplasty,2025-02-28,2025-04-15,Punjab,2025,46,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+607,62,Male,Diabetes,Insulin Therapy,2023-12-08,2024-01-21,Puducherry,2023,44,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+608,35,Female,Fractured Arm,X-Ray and Splint,2022-02-08,2022-03-22,Maharastra,2022,42,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+609,78,Male,Stroke,CT Scan and Medication,2024-01-21,2024-03-10,Mizoram,2024,49,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+610,53,Female,Cancer,Surgery and Chemotherapy,2024-10-23,2024-12-13,Mizoram,2024,51,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+611,72,Male,Hypertension,Medication and Counseling,2024-10-03,2024-11-17,Goa,2024,45,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+612,60,Female,Appendicitis,Appendectomy,2023-02-02,2023-03-21,Andhra Pradesh,2023,47,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+613,45,Male,Fractured Leg,Cast and Physical Therapy,2025-08-17,2025-10-03,Puducherry,2025,47,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+614,75,Female,Heart Attack,Cardiac Catheterization,2022-11-30,2023-01-18,Kerala,2022,49,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+615,28,Male,Allergic Reaction,Epinephrine Injection,2023-05-26,2023-07-07,Madhya Pradesh,2023,42,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+616,52,Female,Respiratory Infection,Antibiotics and Rest,2023-07-06,2023-08-18,Delhi,2023,43,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+617,67,Male,Prostate Cancer,Radiation Therapy,2024-06-16,2024-08-05,Delhi,2024,50,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+618,35,Female,Childbirth,Delivery and Postnatal Care,2023-01-09,2023-02-22,Bihar,2023,44,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+619,50,Male,Kidney Stones,Lithotripsy,2022-08-17,2022-10-01,Haryana,2022,45,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+620,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-09-28,2024-11-13,Chandigarh,2024,46,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+621,48,Female,Heart Disease,Angioplasty,2024-05-21,2024-07-07,Himachal Pradesh,2024,47,Yes,Recovered,4,Yes,15000,24.43,24.43,37.66,26.83
+622,65,Male,Diabetes,Insulin Therapy,2022-03-06,2022-04-20,Goa,2022,45,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+623,30,Female,Fractured Arm,X-Ray and Splint,2023-07-12,2023-08-24,Himachal Pradesh,2023,43,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+624,70,Male,Stroke,CT Scan and Medication,2023-05-30,2023-07-19,Manipur,2023,50,Yes,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+625,55,Female,Cancer,Surgery and Chemotherapy,2024-08-20,2024-10-11,Kerala,2024,52,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+626,68,Male,Hypertension,Medication and Counseling,2022-06-23,2022-08-08,Arunachal Pradesh,2022,46,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+627,45,Female,Appendicitis,Appendectomy,2024-03-01,2024-04-18,Karnataka,2024,48,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+628,40,Male,Fractured Leg,Cast and Physical Therapy,2024-08-20,2024-10-07,Puducherry,2024,48,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+629,78,Female,Heart Attack,Cardiac Catheterization,2025-01-24,2025-03-15,Kerala,2025,50,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+630,25,Male,Allergic Reaction,Epinephrine Injection,2023-10-17,2023-11-29,Kerala,2023,43,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+631,52,Female,Respiratory Infection,Antibiotics and Rest,2023-11-20,2024-01-03,Meghalaya,2023,44,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+632,58,Male,Prostate Cancer,Radiation Therapy,2025-03-03,2025-04-23,Assam,2025,51,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+633,32,Female,Childbirth,Delivery and Postnatal Care,2024-10-02,2024-11-16,Uttar Pradesh,2024,45,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+634,55,Male,Kidney Stones,Lithotripsy,2022-07-24,2022-09-08,Rajasthan,2022,46,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+635,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-04-11,2023-05-28,Tamil Nadu,2023,47,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+636,55,Female,Heart Disease,Angioplasty,2025-10-01,2025-11-18,Kerala,2025,48,Yes,Recovered,3,Yes,15000,24.43,24.43,37.66,26.83
+637,62,Male,Diabetes,Insulin Therapy,2024-11-23,2025-01-08,Goa,2024,46,No,Stable,4,Yes,2000,24.43,24.43,37.66,26.83
+638,35,Female,Fractured Arm,X-Ray and Splint,2024-05-12,2024-06-25,Himachal Pradesh,2024,44,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+639,78,Male,Stroke,CT Scan and Medication,2022-05-05,2022-06-25,Tripura,2022,51,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+640,53,Female,Cancer,Surgery and Chemotherapy,2024-04-22,2024-06-14,Mizoram,2024,53,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+641,72,Male,Hypertension,Medication and Counseling,2022-07-03,2022-08-19,Sikkim,2022,47,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+642,60,Female,Appendicitis,Appendectomy,2024-08-31,2024-10-19,Kerala,2024,49,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+643,45,Male,Fractured Leg,Cast and Physical Therapy,2024-05-06,2024-06-24,Gujarat,2024,49,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+644,75,Female,Heart Attack,Cardiac Catheterization,2024-02-08,2024-03-30,Kerala,2024,51,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+645,28,Male,Allergic Reaction,Epinephrine Injection,2022-04-08,2022-05-22,Kerala,2022,44,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+646,52,Female,Respiratory Infection,Antibiotics and Rest,2025-10-27,2025-12-11,Puducherry,2025,45,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+647,67,Male,Prostate Cancer,Radiation Therapy,2023-02-06,2023-03-30,Karnataka,2023,52,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+648,35,Female,Childbirth,Delivery and Postnatal Care,2024-03-28,2024-05-13,Uttar Pradesh,2024,46,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+649,50,Male,Kidney Stones,Lithotripsy,2024-10-01,2024-11-17,Haryana,2024,47,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+650,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-10-29,2025-12-16,Odisha,2025,48,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+651,65,Male,Diabetes,Insulin Therapy,2024-05-11,2024-06-27,Puducherry,2024,47,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+652,30,Female,Fractured Arm,X-Ray and Splint,2025-11-13,2025-12-28,Maharastra,2025,45,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+653,70,Male,Stroke,CT Scan and Medication,2025-11-03,2025-12-25,Manipur,2025,52,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+654,55,Female,Cancer,Surgery and Chemotherapy,2023-03-24,2023-05-17,Mizoram,2023,54,No,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+655,68,Male,Hypertension,Medication and Counseling,2025-09-08,2025-10-26,Punjab,2025,48,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+656,45,Female,Appendicitis,Appendectomy,2023-12-20,2024-02-08,Andhra Pradesh,2023,50,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+657,40,Male,Fractured Leg,Cast and Physical Therapy,2022-03-25,2022-05-14,Himachal Pradesh,2022,50,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+658,78,Female,Heart Attack,Cardiac Catheterization,2024-01-02,2024-02-23,Kerala,2024,52,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+659,25,Male,Allergic Reaction,Epinephrine Injection,2025-03-07,2025-04-21,Kerala,2025,45,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+660,52,Female,Respiratory Infection,Antibiotics and Rest,2025-03-04,2025-04-19,Delhi,2025,46,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+661,58,Male,Prostate Cancer,Radiation Therapy,2022-11-22,2023-01-14,Delhi,2022,53,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+662,32,Female,Childbirth,Delivery and Postnatal Care,2023-01-24,2023-03-12,Madhya Pradesh,2023,47,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+663,55,Male,Kidney Stones,Lithotripsy,2024-06-11,2024-07-29,Haryana,2024,48,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+664,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-12-13,2024-01-31,Chandigarh,2023,49,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+665,55,Female,Heart Disease,Angioplasty,2023-04-14,2023-06-03,Punjab,2023,50,Yes,Recovered,3,Yes,15000,24.43,24.43,37.66,26.83
+666,62,Male,Diabetes,Insulin Therapy,2022-11-07,2022-12-25,Goa,2022,48,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+667,35,Female,Fractured Arm,X-Ray and Splint,2022-05-09,2022-06-24,Maharastra,2022,46,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+668,78,Male,Stroke,CT Scan and Medication,2024-03-01,2024-04-23,Tripura,2024,53,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+669,53,Female,Cancer,Surgery and Chemotherapy,2023-11-26,2024-01-20,Mizoram,2023,55,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+670,72,Male,Hypertension,Medication and Counseling,2023-12-25,2024-02-12,Arunachal Pradesh,2023,49,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+671,60,Female,Appendicitis,Appendectomy,2023-08-24,2023-10-14,Andhra Pradesh,2023,51,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+672,45,Male,Fractured Leg,Cast and Physical Therapy,2024-05-16,2024-07-06,Himachal Pradesh,2024,51,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+673,75,Female,Heart Attack,Cardiac Catheterization,2024-04-07,2024-05-30,Kerala,2024,53,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+674,28,Male,Allergic Reaction,Epinephrine Injection,2023-04-21,2023-06-06,Madhya Pradesh,2023,46,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+675,52,Female,Respiratory Infection,Antibiotics and Rest,2025-10-29,2025-12-15,Jammu & Kashmir,2025,47,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+676,67,Male,Prostate Cancer,Radiation Therapy,2024-02-27,2024-04-21,Kerala,2024,54,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+677,35,Female,Childbirth,Delivery and Postnatal Care,2024-05-17,2024-07-04,Uttar Pradesh,2024,48,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+678,50,Male,Kidney Stones,Lithotripsy,2024-07-21,2024-09-08,Haryana,2024,49,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+679,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-12-21,2024-02-09,Chandigarh,2023,50,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+680,48,Female,Heart Disease,Angioplasty,2024-06-11,2024-08-01,Tamil Nadu,2024,51,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+681,65,Male,Diabetes,Insulin Therapy,2022-02-22,2022-04-12,Puducherry,2022,49,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+682,30,Female,Fractured Arm,X-Ray and Splint,2023-06-01,2023-07-18,Himachal Pradesh,2023,47,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+683,70,Male,Stroke,CT Scan and Medication,2025-04-27,2025-06-20,Mizoram,2025,54,Yes,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+684,55,Female,Cancer,Surgery and Chemotherapy,2022-12-13,2023-02-07,Mizoram,2022,56,No,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+685,68,Male,Hypertension,Medication and Counseling,2025-02-19,2025-04-10,Punjab,2025,50,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+686,45,Female,Appendicitis,Appendectomy,2023-07-18,2023-09-08,Tamil Nadu,2023,52,No,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+687,40,Male,Fractured Leg,Cast and Physical Therapy,2024-07-25,2024-09-15,Gujarat,2024,52,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+688,78,Female,Heart Attack,Cardiac Catheterization,2024-06-18,2024-08-11,West Bengal,2024,54,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+689,25,Male,Allergic Reaction,Epinephrine Injection,2022-09-22,2022-11-08,Madhya Pradesh,2022,47,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+690,52,Female,Respiratory Infection,Antibiotics and Rest,2025-08-23,2025-10-10,Jammu & Kashmir,2025,48,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+691,58,Male,Prostate Cancer,Radiation Therapy,2025-08-30,2025-10-24,Assam,2025,55,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+692,32,Female,Childbirth,Delivery and Postnatal Care,2025-08-03,2025-09-21,Bihar,2025,49,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+693,55,Male,Kidney Stones,Lithotripsy,2023-02-07,2023-03-29,Haryana,2023,50,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+694,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-01-13,2023-03-05,Tamil Nadu,2023,51,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+695,55,Female,Heart Disease,Angioplasty,2022-03-16,2022-05-07,Andhra Pradesh,2022,52,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+696,62,Male,Diabetes,Insulin Therapy,2022-03-31,2022-05-20,Chandigarh,2022,50,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+697,35,Female,Fractured Arm,X-Ray and Splint,2023-07-16,2023-09-02,Haryana,2023,48,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+698,78,Male,Stroke,CT Scan and Medication,2025-05-04,2025-06-28,Mizoram,2025,55,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+699,53,Female,Cancer,Surgery and Chemotherapy,2024-01-25,2024-03-22,Meghalaya,2024,57,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+700,72,Male,Hypertension,Medication and Counseling,2025-07-13,2025-09-02,Punjab,2025,51,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+701,60,Female,Appendicitis,Appendectomy,2024-01-11,2024-03-04,Tamil Nadu,2024,53,Yes,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+702,45,Male,Fractured Leg,Cast and Physical Therapy,2023-09-24,2023-11-16,Punjab,2023,53,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+703,75,Female,Heart Attack,Cardiac Catheterization,2025-02-18,2025-04-14,West Bengal,2025,55,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+704,28,Male,Allergic Reaction,Epinephrine Injection,2025-01-08,2025-02-25,Madhya Pradesh,2025,48,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+705,52,Female,Respiratory Infection,Antibiotics and Rest,2024-05-24,2024-07-12,Jammu & Kashmir,2024,49,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+706,67,Male,Prostate Cancer,Radiation Therapy,2023-08-05,2023-09-30,Kerala,2023,56,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+707,35,Female,Childbirth,Delivery and Postnatal Care,2023-11-05,2023-12-25,Uttar Pradesh,2023,50,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+708,50,Male,Kidney Stones,Lithotripsy,2025-11-09,2025-12-30,Rajasthan,2025,51,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+709,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-06-22,2022-08-13,Odisha,2022,52,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+710,48,Female,Heart Disease,Angioplasty,2022-12-25,2023-02-16,Tamil Nadu,2022,53,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+711,30,Female,Fractured Arm,X-Ray and Splint,2022-07-18,2022-09-05,Haryana,2022,49,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+712,70,Male,Stroke,CT Scan and Medication,2023-12-16,2024-02-10,Mizoram,2023,56,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+713,55,Female,Cancer,Surgery and Chemotherapy,2024-04-14,2024-06-11,Meghalaya,2024,58,No,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+714,68,Male,Hypertension,Medication and Counseling,2023-07-24,2023-09-14,Sikkim,2023,52,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+715,45,Female,Appendicitis,Appendectomy,2023-11-11,2024-01-04,Tamil Nadu,2023,54,No,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+716,40,Male,Fractured Leg,Cast and Physical Therapy,2022-09-17,2022-11-10,Maharastra,2022,54,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+717,78,Female,Heart Attack,Cardiac Catheterization,2022-12-22,2023-02-16,Kerala,2022,56,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+718,25,Male,Allergic Reaction,Epinephrine Injection,2025-02-22,2025-04-12,Kerala,2025,49,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+719,52,Female,Respiratory Infection,Antibiotics and Rest,2022-06-09,2022-07-29,Jammu & Kashmir,2022,50,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+720,58,Male,Prostate Cancer,Radiation Therapy,2022-01-02,2022-02-28,Assam,2022,57,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+721,32,Female,Childbirth,Delivery and Postnatal Care,2022-07-30,2022-09-19,Uttar Pradesh,2022,51,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+722,55,Male,Kidney Stones,Lithotripsy,2022-08-29,2022-10-20,Punjab,2022,52,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+723,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-12-28,2023-02-19,Odisha,2022,53,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+724,55,Female,Heart Disease,Angioplasty,2022-02-28,2022-04-23,Tamil Nadu,2022,54,Yes,Recovered,3,Yes,15000,24.43,24.43,37.66,26.83
+725,62,Male,Diabetes,Insulin Therapy,2022-10-11,2022-12-02,Tamil Nadu,2022,52,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+726,35,Female,Fractured Arm,X-Ray and Splint,2022-10-09,2022-11-28,Maharastra,2022,50,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+727,78,Male,Stroke,CT Scan and Medication,2023-08-09,2023-10-05,Tripura,2023,57,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+728,53,Female,Cancer,Surgery and Chemotherapy,2023-04-29,2023-06-27,Assam,2023,59,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+729,72,Male,Hypertension,Medication and Counseling,2023-07-14,2023-09-05,Sikkim,2023,53,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+730,60,Female,Appendicitis,Appendectomy,2023-10-19,2023-12-13,Karnataka,2023,55,Yes,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+731,45,Male,Fractured Leg,Cast and Physical Therapy,2025-12-18,2026-02-11,Maharastra,2025,55,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+732,75,Female,Heart Attack,Cardiac Catheterization,2025-08-15,2025-10-11,Punjab,2025,57,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+733,28,Male,Allergic Reaction,Epinephrine Injection,2025-09-06,2025-10-26,Madhya Pradesh,2025,50,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+734,52,Female,Respiratory Infection,Antibiotics and Rest,2023-10-24,2023-12-14,Delhi,2023,51,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+735,67,Male,Prostate Cancer,Radiation Therapy,2022-06-28,2022-08-25,Delhi,2022,58,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+736,35,Female,Childbirth,Delivery and Postnatal Care,2025-01-24,2025-03-17,Bihar,2025,52,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+737,50,Male,Kidney Stones,Lithotripsy,2025-04-11,2025-06-03,Gujarat,2025,53,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+738,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-05-05,2022-06-28,Odisha,2022,54,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+739,48,Female,Heart Disease,Angioplasty,2023-11-21,2024-01-15,Kerala,2023,55,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+740,65,Male,Diabetes,Insulin Therapy,2022-08-21,2022-10-13,Kerala,2022,53,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+741,30,Female,Fractured Arm,X-Ray and Splint,2022-09-16,2022-11-06,Haryana,2022,51,No,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+742,70,Male,Stroke,CT Scan and Medication,2025-03-15,2025-05-12,Tripura,2025,58,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+743,55,Female,Cancer,Surgery and Chemotherapy,2025-11-01,2025-12-31,Meghalaya,2025,60,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+744,68,Male,Hypertension,Medication and Counseling,2024-12-19,2025-02-11,Sikkim,2024,54,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+745,45,Female,Appendicitis,Appendectomy,2022-11-14,2023-01-09,Kerala,2022,56,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+746,40,Male,Fractured Leg,Cast and Physical Therapy,2023-12-08,2024-02-02,Maharastra,2023,56,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+747,78,Female,Heart Attack,Cardiac Catheterization,2025-07-03,2025-08-30,Punjab,2025,58,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+748,25,Male,Allergic Reaction,Epinephrine Injection,2023-08-29,2023-10-19,Tamil Nadu,2023,51,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+749,52,Female,Respiratory Infection,Antibiotics and Rest,2022-04-07,2022-05-29,Meghalaya,2022,52,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+750,58,Male,Prostate Cancer,Radiation Therapy,2024-11-22,2025-01-20,Assam,2024,59,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+751,32,Female,Childbirth,Delivery and Postnatal Care,2025-10-06,2025-11-28,Uttar Pradesh,2025,53,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+752,55,Male,Kidney Stones,Lithotripsy,2025-02-17,2025-04-12,Rajasthan,2025,54,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+753,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-06-12,2022-08-06,Tamil Nadu,2022,55,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+754,55,Female,Heart Disease,Angioplasty,2024-12-26,2025-02-20,Tamil Nadu,2024,56,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+755,62,Male,Diabetes,Insulin Therapy,2025-01-10,2025-03-05,Chandigarh,2025,54,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+756,35,Female,Fractured Arm,X-Ray and Splint,2025-06-29,2025-08-20,Himachal Pradesh,2025,52,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+757,78,Male,Stroke,CT Scan and Medication,2022-07-06,2022-09-03,Manipur,2022,59,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+758,53,Female,Cancer,Surgery and Chemotherapy,2025-11-20,2026-01-20,Mizoram,2025,61,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+759,72,Male,Hypertension,Medication and Counseling,2023-10-24,2023-12-18,Goa,2023,55,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+760,60,Female,Appendicitis,Appendectomy,2025-05-13,2025-07-09,Karnataka,2025,57,Yes,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+761,45,Male,Fractured Leg,Cast and Physical Therapy,2022-06-16,2022-08-12,Maharastra,2022,57,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+762,75,Female,Heart Attack,Cardiac Catheterization,2023-01-31,2023-03-31,Punjab,2023,59,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+763,28,Male,Allergic Reaction,Epinephrine Injection,2024-08-03,2024-09-24,Tamil Nadu,2024,52,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+764,52,Female,Respiratory Infection,Antibiotics and Rest,2025-05-19,2025-07-11,Delhi,2025,53,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+765,67,Male,Prostate Cancer,Radiation Therapy,2022-04-12,2022-06-11,Delhi,2022,60,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+766,35,Female,Childbirth,Delivery and Postnatal Care,2023-10-30,2023-12-23,Bihar,2023,54,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+767,50,Male,Kidney Stones,Lithotripsy,2023-06-03,2023-07-28,Haryana,2023,55,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+768,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-07-13,2022-09-07,Chandigarh,2022,56,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+769,48,Female,Heart Disease,Angioplasty,2022-03-09,2022-05-05,Kerala,2022,57,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+770,65,Male,Diabetes,Insulin Therapy,2023-07-28,2023-09-21,Tamil Nadu,2023,55,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+771,30,Female,Fractured Arm,X-Ray and Splint,2024-10-18,2024-12-10,Maharastra,2024,53,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+772,55,Female,Cancer,Surgery and Chemotherapy,2022-02-22,2022-04-25,Mizoram,2022,62,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+773,68,Male,Hypertension,Medication and Counseling,2024-08-19,2024-10-14,Arunachal Pradesh,2024,56,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+774,45,Female,Appendicitis,Appendectomy,2023-06-17,2023-08-14,Karnataka,2023,58,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+775,40,Male,Fractured Leg,Cast and Physical Therapy,2024-01-12,2024-03-10,Gujarat,2024,58,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+776,78,Female,Heart Attack,Cardiac Catheterization,2024-05-05,2024-07-04,West Bengal,2024,60,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+777,25,Male,Allergic Reaction,Epinephrine Injection,2025-05-03,2025-06-25,Madhya Pradesh,2025,53,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+778,52,Female,Respiratory Infection,Antibiotics and Rest,2025-12-25,2026-02-17,Delhi,2025,54,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+779,58,Male,Prostate Cancer,Radiation Therapy,2022-02-20,2022-04-22,Kerala,2022,61,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+780,32,Female,Childbirth,Delivery and Postnatal Care,2025-11-23,2026-01-17,Rajasthan,2025,55,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+781,55,Male,Kidney Stones,Lithotripsy,2024-02-13,2024-04-09,Haryana,2024,56,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+782,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-08-11,2023-10-07,Tamil Nadu,2023,57,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+783,55,Female,Heart Disease,Angioplasty,2023-12-31,2024-02-27,Punjab,2023,58,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+784,62,Male,Diabetes,Insulin Therapy,2022-09-11,2022-11-06,Tamil Nadu,2022,56,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+785,35,Female,Fractured Arm,X-Ray and Splint,2022-10-23,2022-12-16,Himachal Pradesh,2022,54,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+786,78,Male,Stroke,CT Scan and Medication,2025-04-06,2025-06-06,Mizoram,2025,61,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+787,53,Female,Cancer,Surgery and Chemotherapy,2022-06-22,2022-08-24,Mizoram,2022,63,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+788,72,Male,Hypertension,Medication and Counseling,2022-06-07,2022-08-03,Arunachal Pradesh,2022,57,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+789,60,Female,Appendicitis,Appendectomy,2022-08-01,2022-09-29,Kerala,2022,59,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+790,45,Male,Fractured Leg,Cast and Physical Therapy,2022-11-18,2023-01-16,Himachal Pradesh,2022,59,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+791,75,Female,Heart Attack,Cardiac Catheterization,2023-05-05,2023-07-05,Kerala,2023,61,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+792,28,Male,Allergic Reaction,Epinephrine Injection,2024-03-16,2024-05-09,Kerala,2024,54,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+793,52,Female,Respiratory Infection,Antibiotics and Rest,2022-12-06,2023-01-30,Delhi,2022,55,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+794,67,Male,Prostate Cancer,Radiation Therapy,2022-04-06,2022-06-07,Delhi,2022,62,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+795,35,Female,Childbirth,Delivery and Postnatal Care,2025-05-02,2025-06-27,Madhya Pradesh,2025,56,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+796,50,Male,Kidney Stones,Lithotripsy,2023-10-27,2023-12-23,Haryana,2023,57,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+797,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-08-20,2025-10-17,Odisha,2025,58,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+798,48,Female,Heart Disease,Angioplasty,2022-01-16,2022-03-16,Kerala,2022,59,Yes,Recovered,4,Yes,15000,24.43,24.43,37.66,26.83
+799,65,Male,Diabetes,Insulin Therapy,2025-09-21,2025-11-17,Goa,2025,57,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+800,30,Female,Fractured Arm,X-Ray and Splint,2022-03-10,2022-05-04,Maharastra,2022,55,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+801,70,Male,Stroke,CT Scan and Medication,2025-12-05,2026-02-05,Tripura,2025,62,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+802,55,Female,Cancer,Surgery and Chemotherapy,2022-06-03,2022-08-06,Meghalaya,2022,64,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+803,68,Male,Hypertension,Medication and Counseling,2025-12-22,2026-02-18,Sikkim,2025,58,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+804,45,Female,Appendicitis,Appendectomy,2023-01-25,2023-03-26,Karnataka,2023,60,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+805,40,Male,Fractured Leg,Cast and Physical Therapy,2022-02-28,2022-04-29,Himachal Pradesh,2022,60,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+806,78,Female,Heart Attack,Cardiac Catheterization,2025-07-19,2025-09-19,Punjab,2025,62,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+807,25,Male,Allergic Reaction,Epinephrine Injection,2025-05-22,2025-07-16,Madhya Pradesh,2025,55,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+808,52,Female,Respiratory Infection,Antibiotics and Rest,2022-06-29,2022-08-24,Jammu & Kashmir,2022,56,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+809,58,Male,Prostate Cancer,Radiation Therapy,2023-12-07,2024-02-08,Kerala,2023,63,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+810,32,Female,Childbirth,Delivery and Postnatal Care,2023-05-25,2023-07-21,Jharkhand,2023,57,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+811,55,Male,Kidney Stones,Lithotripsy,2025-12-20,2026-02-16,Haryana,2025,58,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+812,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-07-22,2025-09-19,Odisha,2025,59,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+813,55,Female,Heart Disease,Angioplasty,2024-10-16,2024-12-15,Punjab,2024,60,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+814,62,Male,Diabetes,Insulin Therapy,2023-05-23,2023-07-20,Puducherry,2023,58,No,Stable,4,Yes,2000,24.43,24.43,37.66,26.83
+815,35,Female,Fractured Arm,X-Ray and Splint,2025-05-26,2025-07-21,Himachal Pradesh,2025,56,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+816,78,Male,Stroke,CT Scan and Medication,2023-06-23,2023-08-25,Tripura,2023,63,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+817,53,Female,Cancer,Surgery and Chemotherapy,2022-02-09,2022-04-15,Assam,2022,65,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+818,72,Male,Hypertension,Medication and Counseling,2022-04-29,2022-06-27,Sikkim,2022,59,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+819,60,Female,Appendicitis,Appendectomy,2024-09-23,2024-11-23,Kerala,2024,61,Yes,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+820,45,Male,Fractured Leg,Cast and Physical Therapy,2023-03-26,2023-05-26,Gujarat,2023,61,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+821,75,Female,Heart Attack,Cardiac Catheterization,2023-04-30,2023-07-02,Kerala,2023,63,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+822,28,Male,Allergic Reaction,Epinephrine Injection,2023-09-03,2023-10-29,Kerala,2023,56,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+823,52,Female,Respiratory Infection,Antibiotics and Rest,2025-05-02,2025-06-28,Delhi,2025,57,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+824,67,Male,Prostate Cancer,Radiation Therapy,2025-03-07,2025-05-10,Delhi,2025,64,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+825,35,Female,Childbirth,Delivery and Postnatal Care,2022-07-27,2022-09-23,Jharkhand,2022,58,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+826,50,Male,Kidney Stones,Lithotripsy,2022-06-01,2022-07-30,Rajasthan,2022,59,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+827,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-01-11,2025-03-12,Tamil Nadu,2025,60,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+828,48,Female,Heart Disease,Angioplasty,2022-05-19,2022-07-19,Punjab,2022,61,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+829,65,Male,Diabetes,Insulin Therapy,2022-08-05,2022-10-03,Puducherry,2022,59,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+830,30,Female,Fractured Arm,X-Ray and Splint,2022-08-16,2022-10-12,Maharastra,2022,57,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+831,70,Male,Stroke,CT Scan and Medication,2023-09-09,2023-11-12,Manipur,2023,64,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+832,68,Male,Hypertension,Medication and Counseling,2022-03-02,2022-05-01,Punjab,2022,60,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+833,45,Female,Appendicitis,Appendectomy,2023-06-05,2023-08-06,Tamil Nadu,2023,62,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+834,40,Male,Fractured Leg,Cast and Physical Therapy,2024-10-22,2024-12-23,Himachal Pradesh,2024,62,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+835,78,Female,Heart Attack,Cardiac Catheterization,2025-04-29,2025-07-02,West Bengal,2025,64,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+836,25,Male,Allergic Reaction,Epinephrine Injection,2025-05-03,2025-06-29,Karnataka,2025,57,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+837,52,Female,Respiratory Infection,Antibiotics and Rest,2023-10-20,2023-12-17,Meghalaya,2023,58,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+838,58,Male,Prostate Cancer,Radiation Therapy,2024-12-01,2025-02-04,Karnataka,2024,65,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+839,32,Female,Childbirth,Delivery and Postnatal Care,2025-03-24,2025-05-22,Jharkhand,2025,59,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+840,55,Male,Kidney Stones,Lithotripsy,2025-03-16,2025-05-15,Gujarat,2025,60,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+841,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-12-25,2025-02-24,Odisha,2024,61,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+842,55,Female,Heart Disease,Angioplasty,2022-04-23,2022-06-24,Kerala,2022,62,Yes,Recovered,3,Yes,15000,24.43,24.43,37.66,26.83
+843,62,Male,Diabetes,Insulin Therapy,2022-02-16,2022-04-17,Puducherry,2022,60,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+844,35,Female,Fractured Arm,X-Ray and Splint,2025-10-01,2025-11-28,Haryana,2025,58,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+845,78,Male,Stroke,CT Scan and Medication,2023-11-10,2024-01-14,Tripura,2023,65,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+846,53,Female,Cancer,Surgery and Chemotherapy,2025-04-15,2025-06-21,Assam,2025,67,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+847,72,Male,Hypertension,Medication and Counseling,2023-06-01,2023-08-01,Goa,2023,61,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+848,60,Female,Appendicitis,Appendectomy,2022-06-01,2022-08-03,Andhra Pradesh,2022,63,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+849,45,Male,Fractured Leg,Cast and Physical Therapy,2025-08-08,2025-10-10,Puducherry,2025,63,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+850,75,Female,Heart Attack,Cardiac Catheterization,2024-02-03,2024-04-08,Kerala,2024,65,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+851,28,Male,Allergic Reaction,Epinephrine Injection,2023-02-13,2023-04-12,Karnataka,2023,58,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+852,52,Female,Respiratory Infection,Antibiotics and Rest,2022-12-25,2023-02-22,Puducherry,2022,59,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+853,67,Male,Prostate Cancer,Radiation Therapy,2024-04-22,2024-06-27,Maharastra,2024,66,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+854,35,Female,Childbirth,Delivery and Postnatal Care,2024-01-28,2024-03-28,Jharkhand,2024,60,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+855,50,Male,Kidney Stones,Lithotripsy,2023-08-19,2023-10-19,Gujarat,2023,61,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+856,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-03-09,2023-05-10,Tamil Nadu,2023,62,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+857,48,Female,Heart Disease,Angioplasty,2023-04-08,2023-06-10,Punjab,2023,63,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+858,65,Male,Diabetes,Insulin Therapy,2022-06-04,2022-08-04,Puducherry,2022,61,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+859,30,Female,Fractured Arm,X-Ray and Splint,2022-08-27,2022-10-25,Haryana,2022,59,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+860,70,Male,Stroke,CT Scan and Medication,2023-03-04,2023-05-09,Manipur,2023,66,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+861,55,Female,Cancer,Surgery and Chemotherapy,2025-09-09,2025-11-16,Meghalaya,2025,68,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+862,68,Male,Hypertension,Medication and Counseling,2023-05-18,2023-07-19,Arunachal Pradesh,2023,62,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+863,45,Female,Appendicitis,Appendectomy,2025-07-27,2025-09-29,Andhra Pradesh,2025,64,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+864,40,Male,Fractured Leg,Cast and Physical Therapy,2023-02-20,2023-04-25,Puducherry,2023,64,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+865,78,Female,Heart Attack,Cardiac Catheterization,2025-06-12,2025-08-17,West Bengal,2025,66,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+866,25,Male,Allergic Reaction,Epinephrine Injection,2022-01-26,2022-03-26,Karnataka,2022,59,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+867,52,Female,Respiratory Infection,Antibiotics and Rest,2023-07-27,2023-09-25,Jammu & Kashmir,2023,60,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+868,58,Male,Prostate Cancer,Radiation Therapy,2023-11-15,2024-01-21,Kerala,2023,67,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+869,32,Female,Childbirth,Delivery and Postnatal Care,2022-06-01,2022-08-01,Odisha,2022,61,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+870,55,Male,Kidney Stones,Lithotripsy,2022-08-25,2022-10-26,Punjab,2022,62,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+871,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-11-24,2023-01-26,Odisha,2022,63,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+872,55,Female,Heart Disease,Angioplasty,2022-12-02,2023-02-04,Kerala,2022,64,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+873,62,Male,Diabetes,Insulin Therapy,2025-05-12,2025-07-13,Puducherry,2025,62,No,Stable,4,Yes,2000,24.43,24.43,37.66,26.83
+874,35,Female,Fractured Arm,X-Ray and Splint,2022-10-08,2022-12-07,Maharastra,2022,60,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+875,78,Male,Stroke,CT Scan and Medication,2023-08-24,2023-10-30,Mizoram,2023,67,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+876,53,Female,Cancer,Surgery and Chemotherapy,2025-10-12,2025-12-20,Mizoram,2025,69,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+877,72,Male,Hypertension,Medication and Counseling,2025-06-22,2025-08-24,Arunachal Pradesh,2025,63,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+878,60,Female,Appendicitis,Appendectomy,2023-01-10,2023-03-16,Andhra Pradesh,2023,65,Yes,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+879,45,Male,Fractured Leg,Cast and Physical Therapy,2025-06-13,2025-08-17,Puducherry,2025,65,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+880,75,Female,Heart Attack,Cardiac Catheterization,2023-01-22,2023-03-30,Jammu & Kashmir,2023,67,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+881,28,Male,Allergic Reaction,Epinephrine Injection,2022-02-12,2022-04-13,Karnataka,2022,60,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+882,52,Female,Respiratory Infection,Antibiotics and Rest,2023-07-13,2023-09-12,Delhi,2023,61,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+883,67,Male,Prostate Cancer,Radiation Therapy,2024-09-28,2024-12-05,Delhi,2024,68,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+884,35,Female,Childbirth,Delivery and Postnatal Care,2025-02-08,2025-04-11,Jharkhand,2025,62,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+885,50,Male,Kidney Stones,Lithotripsy,2024-08-04,2024-10-06,Rajasthan,2024,63,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+886,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-09-22,2023-11-25,Tamil Nadu,2023,64,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+887,48,Female,Heart Disease,Angioplasty,2024-05-25,2024-07-29,Tamil Nadu,2024,65,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+888,65,Male,Diabetes,Insulin Therapy,2025-09-14,2025-11-16,Goa,2025,63,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+889,30,Female,Fractured Arm,X-Ray and Splint,2025-03-24,2025-05-24,Himachal Pradesh,2025,61,No,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+890,70,Male,Stroke,CT Scan and Medication,2024-03-28,2024-06-04,Tripura,2024,68,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+891,55,Female,Cancer,Surgery and Chemotherapy,2023-11-26,2024-02-04,Meghalaya,2023,70,No,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+892,45,Female,Appendicitis,Appendectomy,2025-10-26,2025-12-31,Andhra Pradesh,2025,66,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+893,40,Male,Fractured Leg,Cast and Physical Therapy,2022-05-03,2022-07-08,Puducherry,2022,66,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+894,78,Female,Heart Attack,Cardiac Catheterization,2023-01-28,2023-04-06,Kerala,2023,68,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+895,25,Male,Allergic Reaction,Epinephrine Injection,2022-04-29,2022-06-29,Karnataka,2022,61,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+896,52,Female,Respiratory Infection,Antibiotics and Rest,2025-08-18,2025-10-19,Delhi,2025,62,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+897,58,Male,Prostate Cancer,Radiation Therapy,2024-02-16,2024-04-25,Delhi,2024,69,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+898,32,Female,Childbirth,Delivery and Postnatal Care,2023-04-05,2023-06-07,Uttar Pradesh,2023,63,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+899,55,Male,Kidney Stones,Lithotripsy,2023-04-13,2023-06-16,Gujarat,2023,64,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+900,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-05-04,2025-07-08,Chandigarh,2025,65,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+901,55,Female,Heart Disease,Angioplasty,2025-06-08,2025-08-13,Tamil Nadu,2025,66,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+902,62,Male,Diabetes,Insulin Therapy,2023-06-19,2023-08-22,Goa,2023,64,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+903,35,Female,Fractured Arm,X-Ray and Splint,2024-11-30,2025-01-31,Maharastra,2024,62,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+904,78,Male,Stroke,CT Scan and Medication,2022-10-17,2022-12-25,Tripura,2022,69,No,Stable,2,Yes,10000,24.43,24.43,37.66,26.83
+905,53,Female,Cancer,Surgery and Chemotherapy,2023-10-15,2023-12-25,Meghalaya,2023,71,Yes,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+906,72,Male,Hypertension,Medication and Counseling,2025-09-08,2025-11-12,Arunachal Pradesh,2025,65,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+907,60,Female,Appendicitis,Appendectomy,2024-12-06,2025-02-11,Kerala,2024,67,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+908,45,Male,Fractured Leg,Cast and Physical Therapy,2025-06-25,2025-08-31,Puducherry,2025,67,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+909,75,Female,Heart Attack,Cardiac Catheterization,2022-08-27,2022-11-04,West Bengal,2022,69,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+910,28,Male,Allergic Reaction,Epinephrine Injection,2022-01-29,2022-04-01,Karnataka,2022,62,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+911,52,Female,Respiratory Infection,Antibiotics and Rest,2025-11-16,2026-01-18,Jammu & Kashmir,2025,63,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+912,67,Male,Prostate Cancer,Radiation Therapy,2023-02-26,2023-05-07,Delhi,2023,70,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+913,35,Female,Childbirth,Delivery and Postnatal Care,2023-12-26,2024-02-28,Bihar,2023,64,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+914,50,Male,Kidney Stones,Lithotripsy,2025-05-03,2025-07-07,Haryana,2025,65,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+915,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-05-19,2025-07-24,Chandigarh,2025,66,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+916,48,Female,Heart Disease,Angioplasty,2023-04-23,2023-06-29,Kerala,2023,67,Yes,Recovered,4,Yes,15000,24.43,24.43,37.66,26.83
+917,65,Male,Diabetes,Insulin Therapy,2022-03-15,2022-05-19,Goa,2022,65,No,Stable,3,Yes,2000,24.43,24.43,37.66,26.83
+918,30,Female,Fractured Arm,X-Ray and Splint,2024-03-25,2024-05-27,Himachal Pradesh,2024,63,No,Recovered,5,No,500,24.43,24.43,37.66,26.83
+919,70,Male,Stroke,CT Scan and Medication,2023-09-13,2023-11-22,Mizoram,2023,70,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+920,55,Female,Cancer,Surgery and Chemotherapy,2022-02-08,2022-04-21,Assam,2022,72,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+921,68,Male,Hypertension,Medication and Counseling,2024-10-16,2024-12-21,Goa,2024,66,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+922,45,Female,Appendicitis,Appendectomy,2022-12-15,2023-02-21,Karnataka,2022,68,No,Recovered,3,Yes,8000,24.43,24.43,37.66,26.83
+923,40,Male,Fractured Leg,Cast and Physical Therapy,2022-06-10,2022-08-17,Gujarat,2022,68,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+924,78,Female,Heart Attack,Cardiac Catheterization,2025-03-13,2025-05-22,Kerala,2025,70,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+925,25,Male,Allergic Reaction,Epinephrine Injection,2024-06-30,2024-09-01,Karnataka,2024,63,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+926,52,Female,Respiratory Infection,Antibiotics and Rest,2024-11-07,2025-01-10,Delhi,2024,64,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+927,58,Male,Prostate Cancer,Radiation Therapy,2023-03-07,2023-05-17,Delhi,2023,71,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+928,32,Female,Childbirth,Delivery and Postnatal Care,2024-05-17,2024-07-21,Rajasthan,2024,65,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+929,55,Male,Kidney Stones,Lithotripsy,2023-11-21,2024-01-26,Haryana,2023,66,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+930,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-02-19,2023-04-27,Odisha,2023,67,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+931,55,Female,Heart Disease,Angioplasty,2024-12-15,2025-02-21,Tamil Nadu,2024,68,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+932,62,Male,Diabetes,Insulin Therapy,2025-12-21,2026-02-25,Tamil Nadu,2025,66,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+933,35,Female,Fractured Arm,X-Ray and Splint,2024-08-05,2024-10-08,Himachal Pradesh,2024,64,Yes,Recovered,5,No,500,24.43,24.43,37.66,26.83
+934,78,Male,Stroke,CT Scan and Medication,2023-02-04,2023-04-16,Mizoram,2023,71,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+935,53,Female,Cancer,Surgery and Chemotherapy,2022-12-14,2023-02-25,Meghalaya,2022,73,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+936,72,Male,Hypertension,Medication and Counseling,2024-04-07,2024-06-13,Punjab,2024,67,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+937,60,Female,Appendicitis,Appendectomy,2023-07-06,2023-09-13,Karnataka,2023,69,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+938,45,Male,Fractured Leg,Cast and Physical Therapy,2022-01-01,2022-03-11,Gujarat,2022,69,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+939,75,Female,Heart Attack,Cardiac Catheterization,2023-01-05,2023-03-17,West Bengal,2023,71,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+940,28,Male,Allergic Reaction,Epinephrine Injection,2022-01-07,2022-03-12,Madhya Pradesh,2022,64,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+941,52,Female,Respiratory Infection,Antibiotics and Rest,2024-01-12,2024-03-17,Jammu & Kashmir,2024,65,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+942,67,Male,Prostate Cancer,Radiation Therapy,2024-11-10,2025-01-21,Kerala,2024,72,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+943,35,Female,Childbirth,Delivery and Postnatal Care,2023-11-17,2024-01-22,Bihar,2023,66,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+944,50,Male,Kidney Stones,Lithotripsy,2025-12-04,2026-02-09,Gujarat,2025,67,No,Recovered,3,Yes,6000,24.43,24.43,37.66,26.83
+945,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-04-09,2025-06-16,Chandigarh,2025,68,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+946,48,Female,Heart Disease,Angioplasty,2022-05-20,2022-07-28,Kerala,2022,69,Yes,Recovered,4,Yes,15000,24.43,24.43,37.66,26.83
+947,65,Male,Diabetes,Insulin Therapy,2024-05-26,2024-08-01,Kerala,2024,67,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+948,30,Female,Fractured Arm,X-Ray and Splint,2022-05-13,2022-07-17,Maharastra,2022,65,No,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+949,70,Male,Stroke,CT Scan and Medication,2024-04-11,2024-06-22,Manipur,2024,72,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+950,55,Female,Cancer,Surgery and Chemotherapy,2023-01-06,2023-03-21,Meghalaya,2023,74,No,Recovered,4,No,25000,24.43,24.43,37.66,26.83
+951,68,Male,Hypertension,Medication and Counseling,2022-05-05,2022-07-12,Sikkim,2022,68,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+952,40,Male,Fractured Leg,Cast and Physical Therapy,2022-08-10,2022-10-19,Gujarat,2022,70,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+953,78,Female,Heart Attack,Cardiac Catheterization,2022-10-17,2022-12-28,Punjab,2022,72,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+954,25,Male,Allergic Reaction,Epinephrine Injection,2022-10-29,2023-01-02,Karnataka,2022,65,No,Recovered,5,Yes,100,24.43,24.43,37.66,26.83
+955,52,Female,Respiratory Infection,Antibiotics and Rest,2022-04-22,2022-06-27,Jammu & Kashmir,2022,66,No,Stable,4,No,800,24.43,24.43,37.66,26.83
+956,58,Male,Prostate Cancer,Radiation Therapy,2025-04-24,2025-07-06,Kerala,2025,73,No,Recovered,3,Yes,20000,24.43,24.43,37.66,26.83
+957,32,Female,Childbirth,Delivery and Postnatal Care,2024-05-12,2024-07-18,Bihar,2024,67,No,Recovered,4,No,12000,24.43,24.43,37.66,26.83
+958,55,Male,Kidney Stones,Lithotripsy,2022-06-05,2022-08-12,Haryana,2022,68,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+959,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-10-09,2024-12-17,Chandigarh,2024,69,No,Stable,4,No,4000,24.43,24.43,37.66,26.83
+960,55,Female,Heart Disease,Angioplasty,2023-11-21,2024-01-30,Tamil Nadu,2023,70,Yes,Recovered,3,No,15000,24.43,24.43,37.66,26.83
+961,62,Male,Diabetes,Insulin Therapy,2024-07-22,2024-09-28,Kerala,2024,68,No,Stable,4,No,2000,24.43,24.43,37.66,26.83
+962,35,Female,Fractured Arm,X-Ray and Splint,2024-12-25,2025-03-01,Maharastra,2024,66,Yes,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+963,78,Male,Stroke,CT Scan and Medication,2023-08-30,2023-11-11,Manipur,2023,73,No,Stable,2,No,10000,24.43,24.43,37.66,26.83
+964,53,Female,Cancer,Surgery and Chemotherapy,2025-03-05,2025-05-19,Meghalaya,2025,75,Yes,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+965,72,Male,Hypertension,Medication and Counseling,2023-02-20,2023-04-30,Arunachal Pradesh,2023,69,No,Stable,4,No,1000,24.43,24.43,37.66,26.83
+966,60,Female,Appendicitis,Appendectomy,2024-02-09,2024-04-20,Karnataka,2024,71,Yes,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+967,45,Male,Fractured Leg,Cast and Physical Therapy,2025-04-16,2025-06-26,Puducherry,2025,71,No,Recovered,4,Yes,3000,24.43,24.43,37.66,26.83
+968,75,Female,Heart Attack,Cardiac Catheterization,2023-02-25,2023-05-09,West Bengal,2023,73,Yes,Stable,2,No,18000,24.43,24.43,37.66,26.83
+969,28,Male,Allergic Reaction,Epinephrine Injection,2024-05-10,2024-07-16,Karnataka,2024,67,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
+970,52,Female,Respiratory Infection,Antibiotics and Rest,2024-03-13,2024-05-20,Jammu & Kashmir,2024,68,No,Stable,4,Yes,800,24.43,24.43,37.66,26.83
+971,67,Male,Prostate Cancer,Radiation Therapy,2022-09-23,2022-12-06,Delhi,2022,74,No,Recovered,3,No,20000,24.43,24.43,37.66,26.83
+972,35,Female,Childbirth,Delivery and Postnatal Care,2025-07-10,2025-09-16,Bihar,2025,68,No,Recovered,4,Yes,12000,24.43,24.43,37.66,26.83
+973,50,Male,Kidney Stones,Lithotripsy,2022-05-01,2022-07-09,Rajasthan,2022,69,No,Recovered,3,No,6000,24.43,24.43,37.66,26.83
+974,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-03-27,2024-06-05,Chandigarh,2024,70,No,Stable,4,Yes,4000,24.43,24.43,37.66,26.83
+975,48,Female,Heart Disease,Angioplasty,2022-02-21,2022-05-03,Punjab,2022,71,Yes,Recovered,4,No,15000,24.43,24.43,37.66,26.83
+976,65,Male,Diabetes,Insulin Therapy,2024-10-22,2024-12-30,Kerala,2024,69,No,Stable,3,No,2000,24.43,24.43,37.66,26.83
+977,30,Female,Fractured Arm,X-Ray and Splint,2022-04-14,2022-06-20,Himachal Pradesh,2022,67,No,Recovered,5,Yes,500,24.43,24.43,37.66,26.83
+978,70,Male,Stroke,CT Scan and Medication,2023-06-03,2023-08-16,Mizoram,2023,74,Yes,Stable,2,No,10000,24.43,24.43,37.66,26.83
+979,55,Female,Cancer,Surgery and Chemotherapy,2022-08-23,2022-11-07,Assam,2022,76,No,Recovered,4,Yes,25000,24.43,24.43,37.66,26.83
+980,68,Male,Hypertension,Medication and Counseling,2023-02-28,2023-05-09,Sikkim,2023,70,No,Stable,4,Yes,1000,24.43,24.43,37.66,26.83
+981,45,Female,Appendicitis,Appendectomy,2024-02-28,2024-05-10,Andhra Pradesh,2024,72,No,Recovered,3,No,8000,24.43,24.43,37.66,26.83
+982,40,Male,Fractured Leg,Cast and Physical Therapy,2025-02-20,2025-05-03,Puducherry,2025,72,No,Recovered,4,No,3000,24.43,24.43,37.66,26.83
+983,78,Female,Heart Attack,Cardiac Catheterization,2024-09-07,2024-11-20,Punjab,2024,74,Yes,Stable,2,Yes,18000,24.43,24.43,37.66,26.83
+984,25,Male,Allergic Reaction,Epinephrine Injection,2022-11-30,2023-02-06,Kerala,2022,68,No,Recovered,5,No,100,24.43,24.43,37.66,26.83
